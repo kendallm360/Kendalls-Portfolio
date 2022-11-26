@@ -1,10 +1,12 @@
-// import "./styles.scss";
+import logo from "../../images/logoKendall.png";
 import "./styles.scss";
 const NavBar = () => {
   return (
-    <>
-      <h1> Kendall</h1>
-    </>
+    <div className="NavBar">
+      {/* materialUI speed dial */}
+      <img className="Logo" src={logo} alt="Kendall's custom logo" />
+      <button>Contact me</button>
+    </div>
   );
 };
 
