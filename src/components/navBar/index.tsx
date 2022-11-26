@@ -1,3 +1,5 @@
+// import "./styles.scss";
+import "./styles.scss";
 const NavBar = () => {
   return (
     <>
