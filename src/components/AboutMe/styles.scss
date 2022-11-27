@@ -1,8 +1,6 @@
-.AboutMe {
-  color: black;
-}
+@use '/src/containers/app/base' as base;
 
-.graphic {
+.Graphic {
   position: relative;
   display: flex;
   justify-content: center;
@@ -29,4 +27,18 @@
 
 .KendallImage:hover {
   border-radius: 61% 39% 84% 16% / 42% 53% 47% 58%;
+}
+
+.Title {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.Name {
+  font-weight: 900;
+}
+
+.Summary {
+  font-size: 18px;
+  font-weight: 300;
 }

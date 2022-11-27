@@ -1,0 +1,12 @@
+$text-color: black;
+$accent-color: #fe5b02;
+$font-stack: 'Montserrat', sans-serif;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  width: 100%;
+  color: $text-color;
+  font-family: $font-stack;
+}
