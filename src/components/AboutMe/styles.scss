@@ -4,9 +4,9 @@
 
 .graphic {
   position: relative;
-  animation: floating 6s ease-in-out infinite;
   display: flex;
   justify-content: center;
+  animation: floating 6s ease-in-out infinite;
   @keyframes floating {
     0% {
       transform: translate(0, 0px);
@@ -21,10 +21,10 @@
 }
 
 .KendallImage {
-  border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
-  width: 80%;
   background-color: orange;
+  border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
   transition: border-radius 500ms ease-in-out;
+  width: 80%;
 }
 
 .KendallImage:hover {
