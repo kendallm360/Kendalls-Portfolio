@@ -1,0 +1,32 @@
+.AboutMe {
+  color: black;
+}
+
+.graphic {
+  position: relative;
+  animation: floating 6s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 15px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+}
+
+.KendallImage {
+  border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
+  width: 80%;
+  background-color: orange;
+  transition: border-radius 500ms ease-in-out;
+}
+
+.KendallImage:hover {
+  border-radius: 61% 39% 84% 16% / 42% 53% 47% 58%;
+}

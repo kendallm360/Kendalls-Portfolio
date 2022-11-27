@@ -1,12 +1,12 @@
-import mePatio from "../../images/kendall_patio.png";
-
+import "../AboutMe/styles.scss";
+import fairPicture from "../../images/orangefair.png";
 const AboutMe = () => {
   return (
-    <div className="AboutMe">
+    <section className="AboutMe">
       <div className="graphic">
         <img
           className="KendallImage"
-          src={mePatio}
+          src={fairPicture}
           alt="Kendall McGree (creator)"
         />
       </div>
@@ -17,7 +17,7 @@ const AboutMe = () => {
         I am a Navy veteran turned front end software engineer. I have 10 years
         of experience working with diverse teams on time-sensitive projects.
       </h3>
-    </div>
+    </section>
   );
 };
 
