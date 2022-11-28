@@ -1,5 +1,5 @@
 import AboutMe from "../../components/AboutMe";
-import NavBar from "../../components/navBar";
+import NavBar from "../../components/NavBar";
 import "./_base.scss";
 
 function App() {
