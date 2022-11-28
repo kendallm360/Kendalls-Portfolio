@@ -1,140 +1,164 @@
+import css3 from "../images/skill_logos/css-3.png";
+import chai from "../images/skill_logos/chai.png";
+import circle from "../images/skill_logos/circleci.png";
+import cypress from "../images/skill_logos/cypress.jpeg";
+import dribbble from "../images/skill_logos/dribbble.png";
+import eslint from "../images/skill_logos/eslint.png";
+import figma from "../images/skill_logos/figma.png";
+import git from "../images/skill_logos/git.png";
+import github from "../images/skill_logos/github.png";
+import heroku from "../images/skill_logos/heroku.png";
+import html5 from "../images/skill_logos/html-5.png";
+import jest from "../images/skill_logos/jest.png";
+import js from "../images/skill_logos/js.png";
+import markdown from "../images/skill_logos/markdown.png";
+import mocha from "../images/skill_logos/mocha.png";
+import next from "../images/skill_logos/next-js.png";
+import npm from "../images/skill_logos/npm.png";
+import react from "../images/skill_logos/physics.png";
+import postman from "../images/skill_logos/postman.png";
+import router from "../images/skill_logos/react-router.png";
+import sass from "../images/skill_logos/sass.png";
+import styledComponents from "../images/skill_logos/styled-components.png";
+import typescript from "../images/skill_logos/typescript.png";
+
 export const mySkills = [
   {
     id: 1,
     name: "TypeScript",
     alt: "logo",
-    logo: "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
+    logo: typescript,
   },
   {
     id: 2,
     name: "React",
     alt: "logo",
-    logo: "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+    logo: react,
   },
   {
     id: 3,
     name: "JavaScript",
     alt: "logo",
-    logo: "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    logo: js,
   },
   {
     id: 4,
     name: "HTML5",
     alt: "logo",
-    logo: "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+    logo: html5,
   },
   {
     id: 5,
     name: "CSS3",
     alt: "logo",
-    logo: "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    logo: css3,
   },
   {
     id: 6,
     name: "SASS",
     alt: "logo",
-    logo: "https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white",
+    logo: sass,
   },
   {
     id: 7,
     name: "Cypress",
     alt: "logo",
-    logo: "https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e",
+    logo: cypress,
   },
   {
     id: 8,
     name: "Mocha",
     alt: "logo",
-    logo: "https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white",
+    logo: mocha,
   },
   {
     id: 9,
     name: "Chai",
     alt: "logo",
-    logo: "https://img.shields.io/badge/Chai-A30701?style=for-the-badge&logo=chai&logoColor=white",
+    logo: chai,
   },
   {
     id: 10,
     name: "Jest",
     alt: "logo",
-    logo: "https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white",
+    logo: jest,
   },
   {
     id: 11,
     name: "Next.js",
     alt: "logo",
-    logo: "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+    logo: next,
   },
   {
     id: 12,
     name: "Markdown",
     alt: "logo",
-    logo: "https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white",
+    logo: markdown,
   },
   {
     id: 13,
     name: "React Router",
     alt: "logo",
-    logo: "https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white",
+    logo: router,
   },
   {
     id: 14,
     name: "Styled Components",
     alt: "logo",
-    logo: "https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white",
+    logo: styledComponents,
   },
   {
     id: 15,
     name: "Circle Ci",
     alt: "logo",
-    logo: "https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white",
+    logo: circle,
   },
   {
     id: 16,
     name: "Github",
     alt: "logo",
-    logo: "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white",
+    logo: github,
   },
   {
     id: 17,
     name: "Git",
     alt: "logo",
-    logo: "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+    logo: git,
   },
   {
     id: 18,
     name: "ESLint",
     alt: "logo",
-    logo: "https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white",
+    logo: eslint,
   },
   {
     id: 19,
     name: "Heroku",
     alt: "logo",
-    logo: "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white",
+    logo: heroku,
   },
   {
     id: 20,
     name: "Dribbble",
     alt: "logo",
-    logo: "https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white",
+    logo: dribbble,
   },
   {
     id: 21,
     name: "Figma",
     alt: "logo",
-    logo: "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white",
+    logo: figma,
   },
   {
     id: 22,
     name: "Postman",
     alt: "logo",
-    logo: "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white",
+    logo: postman,
   },
   {
     id: 23,
     name: "NPM",
     alt: "logo",
-    logo: "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white",
+    logo: npm,
   },
 ];
