@@ -1,6 +1,6 @@
 import AboutMe from "../../components/AboutMe";
 import NavBar from "../../components/navBar";
-import "./styles.scss";
+import "./_base.scss";
 
 function App() {
   return (
