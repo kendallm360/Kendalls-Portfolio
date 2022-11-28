@@ -1,0 +1,72 @@
+@use "/src/containers/app/base" as base;
+
+.Graphic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  animation: floating 6s ease-in-out infinite;
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 15px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+}
+
+.KendallImage {
+  background-color: orange;
+  border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
+  transition: border-radius 500ms ease-in-out;
+  width: 80%;
+}
+
+.KendallImage:hover {
+  border-radius: 61% 39% 84% 16% / 42% 53% 47% 58%;
+}
+
+.Title {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.Name {
+  font-weight: 900;
+}
+
+.Summary {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.MySkills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.Skill {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px black;
+  background: linear-gradient(45deg, white, base.$accent-color);
+  box-shadow: rgb(202, 200, 200) 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  margin: 0.3rem;
+}
+
+.SkillLogo {
+  border-radius: 0.2rem;
+
+  height: 2rem;
+  width: 2rem;
+}
+
+.SkillTitle {
+  font-size: 0.8rem;
+}
