@@ -1,8 +1,16 @@
 import "../AboutMe/styles.scss";
 import { mySkills } from "../../utils/MockData";
 import fairPicture from "../../images/orangefair.png";
+
+type TSkill = {
+  id: number;
+  name: string;
+  logo: string;
+  alt: string;
+};
+
 const AboutMe = () => {
-  const skills = mySkills.map((skill: any) => {
+  const skills = mySkills.map((skill: TSkill) => {
     return (
       <div key={skill.id} className="Skill">
         <img
