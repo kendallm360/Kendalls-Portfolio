@@ -1,4 +1,5 @@
 import { mySkills } from "../../utils/MockData";
+import "../Skills/styles.scss";
 
 type TSkill = {
   id: number;
@@ -23,8 +24,8 @@ const Skills = () => {
   });
   return (
     <section className="Skills">
-      <h2>
-        <span className="SectionHeader">02.</span> Skills & Tools
+      <h2 className="SectionHeader">
+        <span className="SectionNumbers">02.</span> Skills & Tools
       </h2>
       <div className="MySkills">{skills}</div>
     </section>
