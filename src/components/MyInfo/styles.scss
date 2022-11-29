@@ -1,5 +1,52 @@
 @use "/src/containers/app/base" as base;
 
+.Intro {
+  text-align: start;
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.Name {
+  font-weight: 900;
+}
+
+.Summary {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.KeyWord {
+  color: base.$accent-color;
+  font-weight: 500;
+}
+
+// .MySkills {
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   width: 100%;
+// }
+
+// .Skill {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   border: solid 1px black;
+//   background: linear-gradient(45deg, white, base.$accent-color);
+//   box-shadow: rgb(202, 200, 200) 0.2rem 0.2rem;
+//   border-radius: 0.8rem;
+//   margin: 0.3rem;
+// }
+
+// .SkillLogo {
+//   border-radius: 0.2rem;
+//   height: 2rem;
+//   width: 2rem;
+// }
+
+// .SkillTitle {
+//   font-size: 0.8rem;
+// }
+
 .Graphic {
   position: relative;
   display: flex;
@@ -19,54 +66,14 @@
 }
 
 .KendallImage {
-  background-color: orange;
+  background-color: base.$accent-color;
+  border: solid 1px base.$accent-color;
   border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
   transition: border-radius 500ms ease-in-out;
   width: 80%;
 }
 
 .KendallImage:hover {
+  background-color: white;
   border-radius: 61% 39% 84% 16% / 42% 53% 47% 58%;
-}
-
-.Title {
-  font-size: 48px;
-  font-weight: 300;
-}
-
-.Name {
-  font-weight: 900;
-}
-
-.Summary {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.MySkills {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-}
-
-.Skill {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: solid 1px black;
-  background: linear-gradient(45deg, white, base.$accent-color);
-  box-shadow: rgb(202, 200, 200) 0.2rem 0.2rem;
-  border-radius: 0.8rem;
-  margin: 0.3rem;
-}
-
-.SkillLogo {
-  border-radius: 0.2rem;
-
-  height: 2rem;
-  width: 2rem;
-}
-
-.SkillTitle {
-  font-size: 0.8rem;
 }
