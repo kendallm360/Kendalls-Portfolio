@@ -1,5 +1,5 @@
 import smartTechLogo from "../../images/smartTechLogo.jpg";
-
+import "../Project/styles.scss";
 const Project = () => {
   const showInfo = () => {
     console.log("working");
@@ -19,7 +19,8 @@ const Project = () => {
       />
       <div className="ProjectInfo">
         <h3>Smart Tech</h3>
-        <h4>React | TypeScript</h4>
+        <p className="ProjectType"> E-Commerce Website</p>
+        <p className="TopTechnologies">React | TypeScript</p>
         <button>More Info</button>
       </div>
     </section>

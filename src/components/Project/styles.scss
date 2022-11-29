@@ -1,0 +1,23 @@
+@use "../../containers/App/base" as base;
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 3px base.$accent-color;
+  border-radius: 1rem;
+  padding-bottom: 2.5%;
+}
+
+.ProjectLogo {
+  height: 10rem;
+  width: 10rem;
+}
+
+.ProjectInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
