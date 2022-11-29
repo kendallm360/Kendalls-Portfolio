@@ -8,24 +8,23 @@
   border: solid 1px base.$accent-color;
   border-radius: 1rem;
   margin-bottom: 2.5%;
-  padding-bottom: 2.5%;
+  padding: 2.5%;
 }
 
-.ProjectLogo {
-  height: 10rem;
-  width: 10rem;
-}
+// .ProjectLogo {
+//   height: 10rem;
+//   width: 10rem;
+// }
 
 .ProjectInfo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   align-content: center;
 }
 
-.MoreInfoButton {
-  background-color: base.$accent-color;
-  border: solid base.$accent-color;
-  border-radius: 0.2rem;
+.ProjectLinkIcon {
   cursor: pointer;
+  height: 2rem;
+  width: 2rem;
 }

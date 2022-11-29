@@ -7,8 +7,10 @@ const Projects = () => {
         key={project.id}
         name={project.name}
         logo={project.logo}
-        type={project.type}
+        description={project.description}
         topTechnologies={project.topTechnologies}
+        deployedLink={project.deployedLink}
+        repoLink={project.repoLink}
       />
     );
   });

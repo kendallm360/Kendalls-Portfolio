@@ -50,22 +50,34 @@ export const mySkills = [
     logo: html5,
   },
   {
-    id: 5,
-    name: "CSS3",
-    alt: "logo",
-    logo: css3,
-  },
-  {
     id: 6,
     name: "SASS",
     alt: "logo",
     logo: sass,
   },
   {
+    id: 5,
+    name: "CSS3",
+    alt: "logo",
+    logo: css3,
+  },
+  {
+    id: 14,
+    name: "Styled Components",
+    alt: "logo",
+    logo: styledComponents,
+  },
+  {
     id: 7,
     name: "Cypress",
     alt: "logo",
     logo: cypress,
+  },
+  {
+    id: 10,
+    name: "Jest",
+    alt: "logo",
+    logo: jest,
   },
   {
     id: 8,
@@ -80,40 +92,10 @@ export const mySkills = [
     logo: chai,
   },
   {
-    id: 10,
-    name: "Jest",
-    alt: "logo",
-    logo: jest,
-  },
-  {
-    id: 11,
-    name: "Next.js",
-    alt: "logo",
-    logo: next,
-  },
-  {
-    id: 12,
-    name: "Markdown",
-    alt: "logo",
-    logo: markdown,
-  },
-  {
     id: 13,
     name: "React Router",
     alt: "logo",
     logo: router,
-  },
-  {
-    id: 14,
-    name: "Styled Components",
-    alt: "logo",
-    logo: styledComponents,
-  },
-  {
-    id: 15,
-    name: "Circle Ci",
-    alt: "logo",
-    logo: circle,
   },
   {
     id: 16,
@@ -122,10 +104,16 @@ export const mySkills = [
     logo: github,
   },
   {
-    id: 17,
-    name: "Git",
+    id: 15,
+    name: "Circle Ci",
     alt: "logo",
-    logo: git,
+    logo: circle,
+  },
+  {
+    id: 11,
+    name: "Next.js",
+    alt: "logo",
+    logo: next,
   },
   {
     id: 18,
@@ -134,10 +122,10 @@ export const mySkills = [
     logo: eslint,
   },
   {
-    id: 19,
-    name: "Heroku",
+    id: 17,
+    name: "Git",
     alt: "logo",
-    logo: heroku,
+    logo: git,
   },
   {
     id: 20,
@@ -163,6 +151,18 @@ export const mySkills = [
     alt: "logo",
     logo: npm,
   },
+  {
+    id: 12,
+    name: "Markdown",
+    alt: "logo",
+    logo: markdown,
+  },
+  {
+    id: 19,
+    name: "Heroku",
+    alt: "logo",
+    logo: heroku,
+  },
 ];
 
 export const latestProjects = [
@@ -170,14 +170,21 @@ export const latestProjects = [
     id: 1,
     name: "Smart Tech",
     logo: smartTechLogo,
-    type: "E-commerce",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat, massa accumsan convallis consequat, libero ipsum dapibus sem, vitae imperdiet odio ipsum in sem. Praesent consequat blandit tortor, in imperdiet tellus viverra ac. ",
     topTechnologies: "React | TypeScript",
+    repoLink: "https://github.com/kendallm360/smart-tech",
+    deployedLink: "https://smart-tech-c9yjukahg-kendallm360.vercel.app/",
   },
+
   {
     id: 2,
     name: "This Application",
     logo: logoKendall,
-    type: "Portfolio",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat, massa accumsan convallis consequat, libero ipsum dapibus sem, vitae imperdiet odio ipsum in sem. Praesent consequat blandit tortor, in imperdiet tellus viverra ac. ",
     topTechnologies: "React | SASS ",
+    repoLink: "https://github.com/kendallm360/Kendalls-Portfolio",
+    deployedLink: "",
   },
 ];
