@@ -1,0 +1,31 @@
+@use "../../containers/App/base" as base;
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px base.$accent-color;
+  border-radius: 1rem;
+  margin-bottom: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.ProjectLogo {
+  height: 10rem;
+  width: 10rem;
+}
+
+.ProjectInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.MoreInfoButton {
+  background-color: base.$accent-color;
+  border: solid base.$accent-color;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
