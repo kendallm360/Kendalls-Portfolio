@@ -1,4 +1,4 @@
-import "../AboutMe/styles.scss";
+import "./styles.scss";
 import { mySkills } from "../../utils/MockData";
 import fairPicture from "../../images/orangefair.png";
 

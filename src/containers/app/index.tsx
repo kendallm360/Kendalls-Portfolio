@@ -1,4 +1,4 @@
-import AboutMe from "../../components/AboutMe";
+import AboutMe from "../../components/MyInfo";
 import NavBar from "../../components/NavBar";
 import Projects from "../Projects";
 import "./_base.scss";
