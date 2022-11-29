@@ -1,7 +1,10 @@
+import "../AboutMe/styles.scss";
 const AboutMe = () => {
   return (
     <section className="AboutMe">
-      <h2 className="SectionHeader">About Me</h2>
+      <h2 className="SectionHeader">
+        <span className="SectionNumbers">01.</span> About Me
+      </h2>
       <h3 className="Overview">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat,
         massa accumsan convallis consequat, libero ipsum dapibus sem, vitae

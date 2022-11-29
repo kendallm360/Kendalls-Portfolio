@@ -1,0 +1,15 @@
+@use "../../containers/App/base" as base;
+
+.SectionHeader {
+  font-size: 28px;
+}
+
+.SectionNumbers {
+  color: base.$accent-color;
+  font-weight: 300;
+}
+
+.Overview {
+  font-size: 18px;
+  font-weight: 400;
+}
