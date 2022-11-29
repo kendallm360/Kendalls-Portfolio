@@ -1,6 +1,14 @@
-import smartTechLogo from "../../images/smartTechLogo.jpg";
 import "../Project/styles.scss";
-const Project = () => {
+
+type TProject = {
+  name: string;
+  logo: any;
+  type: string;
+  key: number;
+  topTechnologies: string;
+};
+
+const Project = ({ name, logo, type, topTechnologies, key }: TProject) => {
   const showInfo = () => {
     console.log("working");
     return (
@@ -13,14 +21,14 @@ const Project = () => {
     <section className="Projects">
       <img
         className="ProjectLogo"
-        src={smartTechLogo}
+        src={logo}
         alt="broken"
         onMouseOver={showInfo}
       />
       <div className="ProjectInfo">
-        <h3>Smart Tech</h3>
-        <p className="ProjectType"> E-Commerce Website</p>
-        <p className="TopTechnologies">React | TypeScript</p>
+        <h3>{name}</h3>
+        <p className="ProjectType">{type} Website</p>
+        <p className="TopTechnologies">{topTechnologies}</p>
         <button>More Info</button>
       </div>
     </section>
