@@ -1,26 +1,57 @@
 @use "../../containers/App/base" as base;
 
 .Projects {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   border: solid 1px base.$accent-color;
   border-radius: 1rem;
-  margin-bottom: 2.5%;
+  margin-bottom: 5%;
   padding: 2.5%;
 }
 
-// .ProjectLogo {
-//   height: 10rem;
-//   width: 10rem;
-// }
+.ProjectLogo {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
 
 .ProjectInfo {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: start;
   align-content: center;
+}
+
+.ProjectTitle {
+  color: base.$accent-color;
+  font-size: 22px;
+}
+
+// .ProjectDescription {
+// }
+
+.TopTechnologies {
+  color: base.$accent-color;
+  font-size: 18px;
+}
+
+.Divider {
+  color: black;
+}
+
+.ProjectLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25%;
 }
 
 .ProjectLinkIcon {

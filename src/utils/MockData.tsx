@@ -172,7 +172,7 @@ export const latestProjects = [
     logo: smartTechLogo,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat, massa accumsan convallis consequat, libero ipsum dapibus sem, vitae imperdiet odio ipsum in sem. Praesent consequat blandit tortor, in imperdiet tellus viverra ac. ",
-    topTechnologies: "React | TypeScript",
+    topTechnologies: ["React", "TypeScript"],
     repoLink: "https://github.com/kendallm360/smart-tech",
     deployedLink: "https://smart-tech-c9yjukahg-kendallm360.vercel.app/",
   },
@@ -183,7 +183,7 @@ export const latestProjects = [
     logo: logoKendall,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat, massa accumsan convallis consequat, libero ipsum dapibus sem, vitae imperdiet odio ipsum in sem. Praesent consequat blandit tortor, in imperdiet tellus viverra ac. ",
-    topTechnologies: "React | SASS ",
+    topTechnologies: ["React", "SASS"],
     repoLink: "https://github.com/kendallm360/Kendalls-Portfolio",
     deployedLink: "",
   },
