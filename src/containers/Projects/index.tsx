@@ -15,9 +15,11 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className="Title">Latest Projects</h2>
+      <h2 className="Title" style={{ marginBottom: "3%" }}>
+        Latest Projects
+      </h2>
       {latestProjectsMapped}
-      <h4>All projects</h4>
+      <a href="https://github.com/kendallm360?tab=repositories">All Projects</a>
     </>
   );
 };

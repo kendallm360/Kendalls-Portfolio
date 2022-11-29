@@ -2,7 +2,7 @@ import "../Project/styles.scss";
 
 type TProject = {
   name: string;
-  logo: any;
+  logo: string;
   type: string;
   key: number;
   topTechnologies: string;
@@ -29,7 +29,7 @@ const Project = ({ name, logo, type, topTechnologies, key }: TProject) => {
         <h3>{name}</h3>
         <p className="ProjectType">{type} Website</p>
         <p className="TopTechnologies">{topTechnologies}</p>
-        <button>More Info</button>
+        <button className="MoreInfoButton">More Info</button>
       </div>
     </section>
   );
