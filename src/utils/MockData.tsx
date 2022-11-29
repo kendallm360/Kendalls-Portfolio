@@ -19,6 +19,8 @@ import react from "../images/skill_logos/physics.png";
 import postman from "../images/skill_logos/postman2.png";
 import router from "../images/skill_logos/react-router.png";
 import sass from "../images/skill_logos/sass.png";
+import smartTechLogo from "../images/smartTechLogo.jpg";
+import logoKendall from "../images/logoKendall.png";
 import styledComponents from "../images/skill_logos/styled-components.png";
 import typescript from "../images/skill_logos/typescript.png";
 
@@ -160,5 +162,22 @@ export const mySkills = [
     name: "NPM",
     alt: "logo",
     logo: npm,
+  },
+];
+
+export const latestProjects = [
+  {
+    id: 1,
+    name: "Smart Tech",
+    logo: smartTechLogo,
+    type: "E-commerce",
+    topTechnologies: "React | TypeScript",
+  },
+  {
+    id: 2,
+    name: "This Application",
+    logo: logoKendall,
+    type: "Portfolio",
+    topTechnologies: "React | SASS ",
   },
 ];
