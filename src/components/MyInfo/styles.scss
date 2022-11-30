@@ -1,15 +1,15 @@
 @use "/src/containers/app/base" as base;
 
 .MyInfo {
-  margin-top: 5vh;
   height: 85vh;
+  margin-top: 5vh;
 }
 
 .Intro {
-  text-align: start;
   font-size: 40px;
   font-weight: 300;
   margin-left: 2vw;
+  text-align: start;
 }
 
 .Name {
@@ -46,10 +46,10 @@
 }
 
 .KendallImage {
+  transition: border-radius 500ms ease-in-out;
   background-color: base.$accent-color;
   border: solid 1px base.$accent-color;
   border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
-  transition: border-radius 500ms ease-in-out;
   height: 40vh;
   width: 80%;
 }
