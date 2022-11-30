@@ -1,26 +1,30 @@
 @use "../../containers/App/base" as base;
 
+.Skills {
+  margin-bottom: 10vh;
+}
+
 .MySkills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-}
 
-.Skill {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: solid 1px base.$accent-color;
-  border-radius: 0.8rem;
-  margin: 0.3rem;
-}
+  .Skill {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px base.$accent-color;
+    border-radius: 0.8rem;
+    margin: 0.3rem;
+  }
 
-.SkillLogo {
-  border-radius: 0.2rem;
-  height: 2rem;
-  width: 2rem;
-}
+  .SkillLogo {
+    border-radius: 0.2rem;
+    height: 2rem;
+    width: 2rem;
+  }
 
-.SkillTitle {
-  font-size: 0.8rem;
+  .SkillTitle {
+    font-size: 0.8rem;
+  }
 }

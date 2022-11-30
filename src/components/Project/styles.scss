@@ -29,24 +29,24 @@
   flex-direction: column;
   align-content: center;
   align-items: start;
-}
 
-.ProjectTitle {
-  color: base.$accent-color;
-  font-size: 22px;
-}
+  .ProjectTitle {
+    color: base.$accent-color;
+    font-size: 22px;
+  }
 
-.ProjectDescription {
-  font-weight: 700;
-}
+  .ProjectDescription {
+    font-weight: 700;
+  }
 
-.TopTechnologies {
-  color: base.$accent-color;
-  font-size: 18px;
-}
+  .TopTechnologies {
+    color: base.$accent-color;
+    font-size: 18px;
+  }
 
-.Divider {
-  color: base.$text-color;
+  .Divider {
+    color: base.$text-color;
+  }
 }
 
 .ProjectLinks {
@@ -54,10 +54,10 @@
   flex-direction: row;
   justify-content: space-between;
   width: 25%;
-}
 
-.ProjectLinkIcon {
-  cursor: pointer;
-  height: 2rem;
-  width: 2rem;
+  .ProjectLinkIcon {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+  }
 }

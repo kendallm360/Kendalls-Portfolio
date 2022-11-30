@@ -3,6 +3,7 @@
 .MyInfo {
   height: 85vh;
   margin-top: 5vh;
+  margin-bottom: 10vh;
 }
 
 .Intro {
@@ -10,21 +11,21 @@
   font-weight: 300;
   margin-left: 2vw;
   text-align: start;
-}
 
-.Name {
-  font-weight: 900;
+  .Name {
+    font-weight: 900;
+  }
 }
 
 .Summary {
   font-size: 24px;
   font-weight: 300;
   margin-left: 2vw;
-}
 
-.KeyWord {
-  color: base.$accent-color;
-  font-weight: 500;
+  .KeyWord {
+    color: base.$accent-color;
+    font-weight: 500;
+  }
 }
 
 .Graphic {
@@ -43,18 +44,18 @@
       transform: translate(0, -0px);
     }
   }
-}
 
-.KendallImage {
-  transition: border-radius 500ms ease-in-out;
-  background-color: base.$accent-color;
-  border: solid 1px base.$accent-color;
-  border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
-  height: 40vh;
-  width: 80%;
-}
+  .KendallImage {
+    transition: border-radius 500ms ease-in-out;
+    background-color: base.$accent-color;
+    border: solid 1px base.$accent-color;
+    border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
+    height: 40vh;
+    width: 80%;
+  }
 
-.KendallImage:hover {
-  background-color: white;
-  border-radius: 61% 39% 84% 16% / 42% 53% 47% 58%;
+  .KendallImage:hover {
+    background-color: white;
+    border-radius: 61% 39% 84% 16% / 42% 53% 47% 58%;
+  }
 }

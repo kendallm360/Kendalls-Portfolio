@@ -171,7 +171,7 @@ export const latestProjects = [
     name: "Smart Tech",
     logo: smartTechLogo,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat, massa accumsan convallis consequat, libero ipsum dapibus sem, vitae imperdiet odio ipsum in sem. Praesent consequat blandit tortor, in imperdiet tellus viverra ac. ",
+      "An e-commerce website that I built to showcase all of the skills that I have learned while studying frontend engineering. Users have the ability to add/remove items from a shopping cart, sort items by multiple criteria, view items by category etc. The website is responsive, E2E tested, fully accessible, continuously integrated, and includes user error handling.",
     topTechnologies: ["React", "TypeScript"],
     repoLink: "https://github.com/kendallm360/smart-tech",
     deployedLink: "https://smart-tech-c9yjukahg-kendallm360.vercel.app/",
@@ -179,10 +179,10 @@ export const latestProjects = [
 
   {
     id: 2,
-    name: "This Application",
+    name: "My Portfolio (this site)",
     logo: logoKendall,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat, massa accumsan convallis consequat, libero ipsum dapibus sem, vitae imperdiet odio ipsum in sem. Praesent consequat blandit tortor, in imperdiet tellus viverra ac. ",
+      "A portfolio application because everyone needs one of those. In my earliest projects styling was something I never spent much time on. Now that I have become more comfortable with the code I have fallen in love with CSS. I used this project to both learn Sass and showcase some of my styling abilities when I have time to properly plan and design",
     topTechnologies: ["React", "SASS"],
     repoLink: "https://github.com/kendallm360/Kendalls-Portfolio",
     deployedLink: "",

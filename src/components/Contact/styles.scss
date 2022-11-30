@@ -1,0 +1,40 @@
+@use "../../containers/App/base" as base;
+
+.ContactHeader {
+  border-bottom: 1px solid base.$accent-color;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.1rem;
+  text-align: center;
+
+  .ContactWrapper {
+    background: #fff;
+    padding: 1rem;
+  }
+}
+
+.Beg {
+  color: base.$accent-color;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.ActionItem {
+  font-size: 16px;
+}
+
+.ButtonWrapper {
+  display: flex;
+  justify-content: center;
+
+  .EmailMe {
+    background-color: #fff;
+    border: solid 1px base.$accent-color;
+    border-radius: 0.2rem;
+    color: base.$accent-color;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 6rem;
+  }
+}

@@ -25,7 +25,9 @@ const Skills = () => {
   return (
     <section className="Skills">
       <h2 className="SectionHeader">
-        <span className="SectionNumbers">02.</span> Skills & Tools
+        <span className="TextWrapper">
+          <span className="SectionNumbers">02.</span> Skills & Tools
+        </span>
       </h2>
       <div className="MySkills">{skills}</div>
     </section>

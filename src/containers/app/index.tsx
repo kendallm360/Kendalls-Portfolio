@@ -1,4 +1,6 @@
 import AboutMe from "../../components/AboutMe";
+import Contact from "../../components/Contact";
+import Footer from "../../components/Footer";
 import MyInfo from "../../components/MyInfo";
 import NavBar from "../../components/NavBar";
 import Skills from "../../components/Skills";
@@ -13,6 +15,8 @@ function App() {
       <AboutMe />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
