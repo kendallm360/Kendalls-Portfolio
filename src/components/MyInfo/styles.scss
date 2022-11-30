@@ -1,9 +1,15 @@
 @use "/src/containers/app/base" as base;
 
+.MyInfo {
+  margin-top: 5vh;
+  height: 85vh;
+}
+
 .Intro {
   text-align: start;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 300;
+  margin-left: 2vw;
 }
 
 .Name {
@@ -11,8 +17,9 @@
 }
 
 .Summary {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 300;
+  margin-left: 2vw;
 }
 
 .KeyWord {
@@ -43,6 +50,7 @@
   border: solid 1px base.$accent-color;
   border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
   transition: border-radius 500ms ease-in-out;
+  height: 40vh;
   width: 80%;
 }
 
