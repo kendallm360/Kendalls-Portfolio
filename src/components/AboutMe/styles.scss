@@ -1,5 +1,9 @@
 @use "../../containers/App/base" as base;
 
+.AboutMe {
+  margin-bottom: 10vh;
+}
+
 .SectionHeader {
   border-bottom: 1px solid base.$accent-color;
   font-size: 28px;

@@ -16,7 +16,10 @@ const Projects = () => {
   });
 
   return (
-    <>
+    <section
+      // className="Projects"
+      style={{ marginBottom: "10vh" }}
+    >
       <h2 className="SectionHeader">
         <span className="TextWrapper">
           <span className="SectionNumbers">03.</span> Latest Projects
@@ -30,7 +33,7 @@ const Projects = () => {
       >
         All Projects
       </a>
-    </>
+    </section>
   );
 };
 export default Projects;

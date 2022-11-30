@@ -1,5 +1,9 @@
 @use "../../containers/App/base" as base;
 
+.Skills {
+  margin-bottom: 10vh;
+}
+
 .MySkills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
