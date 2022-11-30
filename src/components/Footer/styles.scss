@@ -1,0 +1,21 @@
+@use "../../containers/App/base" as base;
+
+.Footer {
+  margin-top: 10%;
+}
+.SocialLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.FooterIcons {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.Credits {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 1%;
+}

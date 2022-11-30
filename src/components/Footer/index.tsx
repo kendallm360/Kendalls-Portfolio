@@ -1,16 +1,25 @@
 import githubIcon from "../../images/githubIcon.png";
 import linkedinIcon from "../../images/linkedin.png";
 import youtubeIcon from "../../images/youtube.png";
-
+import "../Footer/styles.scss";
 const Footer = () => {
   return (
     <footer className="Footer">
       <div className="SocialLinks">
-        <img className="FooterIcons" src={githubIcon} alt="Github Icon" />
-        <img className="FooterIcons" src={linkedinIcon} alt="Linkedin Icon" />
-        <img className="FooterIcons" src={youtubeIcon} alt="Youtube Icon" />
+        <a href="https://github.com/kendallm360">
+          <img className="FooterIcons" src={githubIcon} alt="Github Icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/kendall-mcgree/">
+          <img className="FooterIcons" src={linkedinIcon} alt="Linkedin Icon" />
+        </a>
+        <a
+          title="I sincerely apologize about this 😂"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        >
+          <img className="FooterIcons" src={youtubeIcon} alt="Youtube Icon" />
+        </a>
       </div>
-      <h4>Designed & Built by Kendall McGree(He/Him)</h4>
+      <h4 className="Credits">Designed & Built by Kendall McGree</h4>
     </footer>
   );
 };
