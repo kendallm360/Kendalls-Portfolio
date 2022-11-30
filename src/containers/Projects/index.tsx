@@ -7,19 +7,27 @@ const Projects = () => {
         key={project.id}
         name={project.name}
         logo={project.logo}
-        type={project.type}
+        description={project.description}
         topTechnologies={project.topTechnologies}
+        deployedLink={project.deployedLink}
+        repoLink={project.repoLink}
       />
     );
   });
 
   return (
     <>
-      <h2 className="Title" style={{ marginBottom: "3%" }}>
-        Latest Projects
+      <h2 className="SectionHeader" style={{ marginBottom: "3%" }}>
+        <span className="SectionNumbers">03.</span> Latest Projects
       </h2>
       {latestProjectsMapped}
-      <a href="https://github.com/kendallm360?tab=repositories">All Projects</a>
+      <a
+        className="KeyWord"
+        href="https://github.com/kendallm360?tab=repositories"
+        style={{ color: "black" }}
+      >
+        All Projects
+      </a>
     </>
   );
 };
