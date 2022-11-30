@@ -1,8 +1,10 @@
+import "../Contact/styles.scss";
+
 const Contact = () => {
   return (
     <section className="Contact">
-      <h2 className="SectionHeader">
-        <span className="TextWrapper">
+      <h2 className="ContactHeader">
+        <span className="ContactWrapper">
           <span className="SectionNumbers">04.</span> What's Next?
         </span>
       </h2>
@@ -14,7 +16,11 @@ const Contact = () => {
         Either way I am available for employment so feel free to reach out to me
         here.
       </p>
-      <a href="mailto:mcgreekendall@gmail.com">Say Hello</a>
+      <div className="ButtonWrapper">
+        <a href="mailto:mcgreekendall@gmail.com">
+          <button className="EmailMe">Say Hello</button>
+        </a>
+      </div>
     </section>
   );
 };
