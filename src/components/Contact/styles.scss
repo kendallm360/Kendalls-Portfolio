@@ -6,11 +6,11 @@
   font-weight: 500;
   line-height: 0.1rem;
   text-align: center;
-}
 
-.ContactWrapper {
-  background: #fff;
-  padding: 1rem;
+  .ContactWrapper {
+    background: #fff;
+    padding: 1rem;
+  }
 }
 
 .Beg {
@@ -24,17 +24,17 @@
   font-size: 16px;
 }
 
-.EmailMe {
-  background-color: #fff;
-  border: solid 1px base.$accent-color;
-  border-radius: 0.2rem;
-  color: base.$accent-color;
-  cursor: pointer;
-  height: 1.5rem;
-  width: 6rem;
-}
-
 .ButtonWrapper {
   display: flex;
   justify-content: center;
+
+  .EmailMe {
+    background-color: #fff;
+    border: solid 1px base.$accent-color;
+    border-radius: 0.2rem;
+    color: base.$accent-color;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 6rem;
+  }
 }
