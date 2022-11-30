@@ -1,7 +1,14 @@
 @use "../../containers/App/base" as base;
 
 .SectionHeader {
+  border-bottom: 1px solid base.$accent-color;
   font-size: 28px;
+  line-height: 0.1rem;
+}
+
+.TextWrapper {
+  background: #fff;
+  padding-right: 1rem;
 }
 
 .SectionNumbers {
