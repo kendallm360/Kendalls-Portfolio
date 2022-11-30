@@ -17,8 +17,10 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className="SectionHeader" style={{ marginBottom: "3%" }}>
-        <span className="SectionNumbers">03.</span> Latest Projects
+      <h2 className="SectionHeader">
+        <span className="TextWrapper">
+          <span className="SectionNumbers">03.</span> Latest Projects
+        </span>
       </h2>
       {latestProjectsMapped}
       <a
