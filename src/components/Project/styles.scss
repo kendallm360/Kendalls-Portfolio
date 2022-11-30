@@ -20,6 +20,7 @@
   width: 100%;
   height: 100%;
   opacity: 0.1;
+  border-radius: 1rem;
 }
 
 .ProjectInfo {
@@ -35,8 +36,9 @@
   font-size: 22px;
 }
 
-// .ProjectDescription {
-// }
+.ProjectDescription {
+  font-weight: 700;
+}
 
 .TopTechnologies {
   color: base.$accent-color;
