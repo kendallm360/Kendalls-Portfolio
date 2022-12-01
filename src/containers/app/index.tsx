@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import AboutMe from "../../components/AboutMe";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
@@ -11,11 +12,28 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <MyInfo />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <Contact />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <MyInfo />
+              <AboutMe />
+              <Skills />
+              <Projects />
+              <Contact />
+            </>
+          }
+        />
+
+        <Route path="/home" element={<MyInfo />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
       <Footer />
     </div>
   );

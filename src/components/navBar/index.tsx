@@ -15,6 +15,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 import logo from "../../images/logoKendall.png";
 import "./styles.scss";
+import { useNavigate } from "react-router-dom";
 
 type Anchor = "left";
 
@@ -22,6 +23,7 @@ const NavBar = () => {
   const [state, setState] = React.useState({
     left: false,
   });
+  let navigate = useNavigate();
 
   const toggleDrawer =
     (anchor: Anchor, open: boolean) =>
@@ -37,6 +39,34 @@ const NavBar = () => {
       setState({ ...state, [anchor]: open });
     };
 
+  const itemsList = [
+    {
+      text: "Intro",
+      icon: <EmojiPeopleIcon />,
+      onClick: () => navigate("/home"),
+    },
+    {
+      text: "About Me",
+      icon: <InfoIcon />,
+      onClick: () => navigate("/about"),
+    },
+    {
+      text: "Skills",
+      icon: <HandymanIcon />,
+      onClick: () => navigate("/skills"),
+    },
+    {
+      text: "Projects",
+      icon: <OpenInBrowserIcon />,
+      onClick: () => navigate("/projects"),
+    },
+    {
+      text: "Contact",
+      icon: <EmailIcon />,
+      onClick: () => navigate("/contact"),
+    },
+  ];
+
   //could be moved:
   const list = (anchor: Anchor) => (
     <Box
@@ -45,22 +75,14 @@ const NavBar = () => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["Intro", "About Me", "Skills", "Projects", "Contact"].map(
-          (text, index) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  {index === 0 && <EmojiPeopleIcon />}
-                  {index === 1 && <InfoIcon />}
-                  {index === 2 && <HandymanIcon />}
-                  {index === 3 && <OpenInBrowserIcon />}
-                  {index === 4 && <EmailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
-          )
-        )}
+        {itemsList.map((item) => (
+          <ListItem key={item.text} disablePadding>
+            <ListItemButton onClick={item.onClick}>
+              <ListItemIcon>{item.icon}</ListItemIcon>
+              <ListItemText primary={item.text} />
+            </ListItemButton>
+          </ListItem>
+        ))}
       </List>
     </Box>
   );
