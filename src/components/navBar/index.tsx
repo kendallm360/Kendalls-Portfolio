@@ -3,12 +3,16 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
 import List from "@mui/material/List";
+import ListIcon from "../../images/list.png";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
+import EmailIcon from "@mui/icons-material/Email";
+import HandymanIcon from "@mui/icons-material/Handyman";
+import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
+import InfoIcon from "@mui/icons-material/Info";
+import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 import logo from "../../images/logoKendall.png";
 import "./styles.scss";
 
@@ -41,16 +45,22 @@ const NavBar = () => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        {["Intro", "About Me", "Skills", "Projects", "Contact"].map(
+          (text, index) => (
+            <ListItem key={text} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  {index === 0 && <EmojiPeopleIcon />}
+                  {index === 1 && <InfoIcon />}
+                  {index === 2 && <HandymanIcon />}
+                  {index === 3 && <OpenInBrowserIcon />}
+                  {index === 4 && <EmailIcon />}
+                </ListItemIcon>
+                <ListItemText primary={text} />
+              </ListItemButton>
+            </ListItem>
+          )
+        )}
       </List>
     </Box>
   );
@@ -58,10 +68,12 @@ const NavBar = () => {
   return (
     <div className="NavBar">
       <img className="Logo" src={logo} alt="Kendall's custom logo" />
-      <section>
+      <aside>
         {(["left"] as const).map((anchor) => (
           <React.Fragment key={anchor}>
-            <Button onClick={toggleDrawer(anchor, true)}>Image</Button>
+            <Button onClick={toggleDrawer(anchor, true)}>
+              <img className="NavigationMenu" src={ListIcon} alt="Menu Icon" />
+            </Button>
             <Drawer
               anchor={anchor}
               open={state[anchor]}
@@ -71,7 +83,7 @@ const NavBar = () => {
             </Drawer>
           </React.Fragment>
         ))}
-      </section>
+      </aside>
     </div>
   );
 };
