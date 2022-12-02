@@ -13,17 +13,17 @@ function App() {
     <div className="App">
       <NavBar />
 
-      <Routes>
+      {/* <Routes>
         <Route
           path="/"
           element={
-            <>
-              <MyInfo />
-              <AboutMe />
-              <Skills />
-              <Projects />
-              <Contact />
-            </>
+            <> */}
+      <MyInfo />
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
+      {/* </>
           }
         />
 
@@ -32,7 +32,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
 
       <Footer />
     </div>
