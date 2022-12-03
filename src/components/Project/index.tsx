@@ -21,7 +21,7 @@ const Project = ({
   deployedLink,
 }: TProject) => {
   return (
-    <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight">
+    <ScrollAnimation animateOnce animateIn="fadeInLeft">
       <section className="Projects">
         <img className="ProjectLogo" src={logo} alt="broken" />
         <div className="ProjectInfo">

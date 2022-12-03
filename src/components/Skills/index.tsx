@@ -30,7 +30,7 @@ const Skills = () => {
           <span className="SectionNumbers">02.</span> Skills & Tools
         </span>
       </h2>
-      <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight">
+      <ScrollAnimation animateOnce animateIn="fadeInLeft">
         <div className="MySkills">{skills}</div>
       </ScrollAnimation>
     </section>

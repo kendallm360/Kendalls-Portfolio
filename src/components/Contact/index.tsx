@@ -9,7 +9,7 @@ const Contact = () => {
           <span className="SectionNumbers">04.</span> What's Next?
         </span>
       </h2>
-      <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
+      <ScrollAnimation animateOnce animateIn="zoomIn">
         <h3 className="Beg">Get In Touch</h3>
         <p className="ActionItem">
           If you have made it this far I would like to think you are impressed.

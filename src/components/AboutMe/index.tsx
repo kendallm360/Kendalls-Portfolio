@@ -8,7 +8,7 @@ const AboutMe = () => {
           <span className="SectionNumbers">01.</span> About Me
         </span>
       </h2>
-      <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight">
+      <ScrollAnimation animateOnce animateIn="fadeInLeft">
         <ul className="Qualities">
           {" "}
           Notable Qualities:
