@@ -1,6 +1,6 @@
-import githubIcon from "../../images/githubIcon.png";
-import linkedinIcon from "../../images/linkedin.png";
-import youtubeIcon from "../../images/youtube.png";
+import githubIcon from "../../images/githubO.png";
+import linkedinIcon from "../../images/linkedinO.png";
+import youtubeIcon from "../../images/youtubeO.png";
 import "../Footer/styles.scss";
 const Footer = () => {
   return (

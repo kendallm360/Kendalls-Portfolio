@@ -32,7 +32,7 @@ const Projects = () => {
       <a
         className="KeyWord"
         href="https://github.com/kendallm360?tab=repositories"
-        style={{ color: "black" }}
+        style={{ color: "white" }}
       >
         All Projects
       </a>

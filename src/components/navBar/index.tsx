@@ -1,4 +1,4 @@
-import logo from "../../images/logoKendall.png";
+import logo from "../../images/k.png";
 import "./styles.scss";
 const NavBar = () => {
   return (
