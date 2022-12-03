@@ -1,3 +1,4 @@
+import ScrollAnimation from "react-animate-on-scroll";
 import Project from "../../components/Project";
 import { latestProjects } from "../../utils/MockData";
 const Projects = () => {
@@ -25,7 +26,9 @@ const Projects = () => {
           <span className="SectionNumbers">03.</span> Latest Projects
         </span>
       </h2>
-      {latestProjectsMapped}
+      <ScrollAnimation animateOnce animateIn="fadeInLeft">
+        {latestProjectsMapped}
+      </ScrollAnimation>
       <a
         className="KeyWord"
         href="https://github.com/kendallm360?tab=repositories"
