@@ -10,13 +10,17 @@
   line-height: 0.1rem;
 
   .TextWrapper {
-    background: #fff;
     padding-right: 1rem;
   }
 
   .SectionNumbers {
+    background-color: base.$background-color;
     color: base.$accent-color;
     font-weight: 300;
+  }
+
+  span {
+    background-color: base.$background-color;
   }
 }
 

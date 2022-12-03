@@ -4,8 +4,8 @@ import "../Contact/styles.scss";
 const Contact = () => {
   return (
     <section className="Contact">
-      <h2 className="ContactHeader">
-        <span className="ContactWrapper">
+      <h2 className="SectionHeader">
+        <span className="TextWrapper">
           <span className="SectionNumbers">04.</span> What's Next?
         </span>
       </h2>
