@@ -1,4 +1,4 @@
-import logo from "../../images/k.png";
+import logo from "../../images/letter-k.png";
 import "./styles.scss";
 const NavBar = () => {
   return (
