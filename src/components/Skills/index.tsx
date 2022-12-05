@@ -30,7 +30,7 @@ const Skills = () => {
           <span className="SectionNumbers">02.</span> What Does He Know?
         </span>
       </h2>
-      <ScrollAnimation animateOnce animateIn="fadeInLeft">
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1.5}>
         <div className="MySkills">{skills}</div>
       </ScrollAnimation>
     </section>

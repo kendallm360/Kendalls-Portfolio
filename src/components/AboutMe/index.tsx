@@ -8,7 +8,7 @@ const AboutMe = () => {
           <span className="SectionNumbers">01.</span> About Me
         </span>
       </h2>
-      <ScrollAnimation animateOnce animateIn="fadeInLeft">
+      <ScrollAnimation animateOnce animateIn="fadeInUp">
         <ul className="Qualities" style={{ listStyleType: "square" }}>
           {" "}
           <span className="Keyword">Notable Qualities:</span>
