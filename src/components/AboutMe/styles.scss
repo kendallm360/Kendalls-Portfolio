@@ -8,21 +8,27 @@
   border-bottom: 1px solid base.$accent-color;
   font-size: 28px;
   line-height: 0.1rem;
+  margin: 0 3vw 4vh;
 
   .TextWrapper {
-    background: #fff;
     padding-right: 1rem;
   }
 
   .SectionNumbers {
+    background-color: base.$background-color;
     color: base.$accent-color;
     font-weight: 300;
+  }
+
+  span {
+    background-color: base.$background-color;
   }
 }
 
 .Overview {
   font-size: 18px;
   font-weight: 400;
+  margin: 0 5vw;
 }
 
 .Qualities {

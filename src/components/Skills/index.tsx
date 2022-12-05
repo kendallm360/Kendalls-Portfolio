@@ -1,5 +1,6 @@
 import { mySkills } from "../../utils/MockData";
 import "../Skills/styles.scss";
+import ScrollAnimation from "react-animate-on-scroll";
 
 type TSkill = {
   id: number;
@@ -29,7 +30,9 @@ const Skills = () => {
           <span className="SectionNumbers">02.</span> Skills & Tools
         </span>
       </h2>
-      <div className="MySkills">{skills}</div>
+      <ScrollAnimation animateOnce animateIn="fadeInLeft">
+        <div className="MySkills">{skills}</div>
+      </ScrollAnimation>
     </section>
   );
 };

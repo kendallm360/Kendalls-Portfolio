@@ -1,18 +1,5 @@
 @use "../../containers/App/base" as base;
 
-.ContactHeader {
-  border-bottom: 1px solid base.$accent-color;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 0.1rem;
-  text-align: center;
-
-  .ContactWrapper {
-    background: #fff;
-    padding: 1rem;
-  }
-}
-
 .Beg {
   color: base.$accent-color;
   text-align: center;
@@ -22,6 +9,7 @@
 
 .ActionItem {
   font-size: 16px;
+  margin: 0 3vw 5%;
 }
 
 .ButtonWrapper {
@@ -29,7 +17,7 @@
   justify-content: center;
 
   .EmailMe {
-    background-color: #fff;
+    background-color: base.$background-color;
     border: solid 1px base.$accent-color;
     border-radius: 0.2rem;
     color: base.$accent-color;

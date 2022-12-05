@@ -9,7 +9,7 @@
 .Intro {
   font-size: 40px;
   font-weight: 300;
-  margin-left: 2vw;
+  margin: 0 3vw;
   text-align: start;
 
   .Name {
@@ -20,7 +20,7 @@
 .Summary {
   font-size: 24px;
   font-weight: 300;
-  margin-left: 2vw;
+  margin-left: 3vw;
 
   .KeyWord {
     color: base.$accent-color;

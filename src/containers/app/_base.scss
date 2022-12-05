@@ -1,11 +1,12 @@
-$text-color: black;
 $accent-color: #fe5b02;
+$background-color: #0a192f;
+$text-color: white;
 $font-stack: "Montserrat", sans-serif;
 
 .App {
+  background-color: $background-color;
   display: flex;
   flex-direction: column;
-  width: 100%;
   color: $text-color;
   font-family: $font-stack;
 }
