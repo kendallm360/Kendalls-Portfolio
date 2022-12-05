@@ -7,8 +7,6 @@
 .MySkills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-
   .Skill {
     display: flex;
     justify-content: space-around;
