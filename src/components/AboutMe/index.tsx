@@ -9,7 +9,7 @@ const AboutMe = () => {
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInLeft">
-        <ul className="Qualities">
+        <ul className="Qualities" style={{ listStyleType: "square" }}>
           {" "}
           <span className="Keyword">Notable Qualities:</span>
           <li className="Quality">
@@ -35,18 +35,22 @@ const AboutMe = () => {
           previous industries.
         </p>
         <p className="Overview">
-          During my career at the NSA being extremely organized and meticulous
+          During my career at the NSA being{" "}
+          <span className="Keyword">extremely organized and meticulous </span>
           was imperative in order to be successful. All of my achievements as an
-          Intelligence Analyst stemmed from these qualities and a genuine love
-          for learning.{" "}
+          Intelligence Analyst stemmed from these qualities and a genuine{" "}
+          <span className="Keyword">love for learning</span>
         </p>
         <p className="Overview">
           My time in the Navy as an Arabic Linguist highlighted the importance
-          of being a good team player and having strong social skills.
-          Consistently being flexible, positive, and willing to adapt to changes
-          made coworkers/superiors love working with me. I am both easy to coach
-          and a natural leader so I feel like I am a good culture fit for many
-          companies.
+          of being a <span className="Keyword">great team player </span>and
+          having strong social skills. Consistently being{" "}
+          <span className="Keyword">flexible, positive</span>, and willing to
+          adapt to changes made coworkers/superiors love working with me. I am{" "}
+          <span className="Keyword">
+            both easy to coach and a natural leader
+          </span>{" "}
+          so I feel like I am a good culture fit for many companies.
         </p>
       </ScrollAnimation>
     </section>

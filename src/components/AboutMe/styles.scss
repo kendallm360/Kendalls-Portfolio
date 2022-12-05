@@ -29,11 +29,16 @@
   font-size: 18px;
   font-weight: 400;
   margin: 0 5vw 2vh;
+
+  .Keyword {
+    color: base.$accent-color;
+  }
 }
 
 .Qualities {
-  // list-style-image: url("../../images/star.png");
+  // list-style-image: url("../../images/githubO.png");
   font-size: 20px;
+  // list-style-position: inside;
 
   .Quality {
     font-size: 18px;
