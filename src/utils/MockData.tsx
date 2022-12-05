@@ -20,9 +20,9 @@ import postman from "../images/skill_logos/postman2.png";
 import router from "../images/skill_logos/react-router.png";
 import sass from "../images/skill_logos/sass.png";
 import smartTechLogo from "../images/smartTechSS.png";
-import logoKendall from "../images/logoKendall.png";
 import styledComponents from "../images/skill_logos/styled-components.png";
 import typescript from "../images/skill_logos/typescript.png";
+import logoKendall from "../images/logoKendall.png";
 
 export const mySkills = [
   {
