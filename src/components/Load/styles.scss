@@ -1,0 +1,14 @@
+@use "../../containers/App/base" as base;
+
+.Load {
+  height: 100vh;
+  width: 100vw;
+  background-color: base.$background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.KendallScootin {
+  //   margin-top: 50%;
+}

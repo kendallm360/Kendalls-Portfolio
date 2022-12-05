@@ -1,8 +1,14 @@
+import scootin from "../../images/ScootingKendall.gif";
+import "../Load/styles.scss";
 const Load = () => {
   return (
-    <>
-      <h1>load</h1>
-    </>
+    <div className="Load">
+      <img
+        className="KendallScootin"
+        src={scootin}
+        alt="Kendall Scooting through Denver"
+      />
+    </div>
   );
 };
 export default Load;
