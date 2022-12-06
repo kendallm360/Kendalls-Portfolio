@@ -17,15 +17,16 @@ const AboutMe = () => {
             ethic
           </li>
           <li className="Quality">
-            Ability to boost morale and confidence in large and small group
-            settings
+            Ability to <span className="Keyword">boost morale</span> and
+            confidence in large and small group settings
           </li>
           <li className="Quality">
             Appreciation for consistent feedback that helps support my{" "}
             <span className="Keyword">growth mindset</span>
           </li>
           <li className="Quality">
-            Proven ability to develop and maintain professional relationships
+            Proven ability to develop and maintain{" "}
+            <span className="Keyword">professional</span> relationships
           </li>
         </ul>
         <p className="Overview">
@@ -38,7 +39,7 @@ const AboutMe = () => {
           <span className="Keyword">extremely organized and meticulous </span>
           was imperative in order to be successful. All of my achievements as an
           Intelligence Analyst stemmed from these qualities and a genuine{" "}
-          <span className="Keyword">love for learning</span>
+          <span className="Keyword">love for learning</span>.
         </p>
         <p className="Overview">
           My time in the Navy as an Arabic Linguist highlighted the importance
@@ -49,7 +50,7 @@ const AboutMe = () => {
           <span className="Keyword">
             both easy to coach and a natural leader
           </span>{" "}
-          so I feel like I am a good culture fit for many companies.
+          so I am a good culture fit for many companies.
         </p>
       </ScrollAnimation>
     </section>

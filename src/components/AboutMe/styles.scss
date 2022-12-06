@@ -6,9 +6,13 @@
 
 .SectionHeader {
   border-bottom: 1px solid base.$accent-color;
-  font-size: 26px;
   line-height: 0.1rem;
   margin: 0 3vw 4vh;
+
+  //Mobile
+  @media screen and (max-width: 768px) {
+    font-size: 26px;
+  }
 
   .TextWrapper {
     padding-right: 1rem;
@@ -26,9 +30,13 @@
 }
 
 .Overview {
-  font-size: 18px;
   font-weight: 400;
   margin: 0 5vw 2vh;
+
+  //Mobile
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 
   .Keyword {
     color: base.$accent-color;
@@ -36,13 +44,17 @@
 }
 
 .Qualities {
-  // list-style-image: url("../../images/githubO.png");
-  font-size: 20px;
-  // list-style-position: inside;
+  //Mobile
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 
   .Quality {
-    font-size: 18px;
     margin-top: 1rem;
+    //Mobile
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   .Keyword {
