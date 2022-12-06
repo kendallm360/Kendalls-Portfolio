@@ -6,7 +6,7 @@
 
 .SectionHeader {
   border-bottom: 1px solid base.$accent-color;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 0.1rem;
   margin: 0 3vw 4vh;
 
@@ -28,15 +28,24 @@
 .Overview {
   font-size: 18px;
   font-weight: 400;
-  margin: 0 5vw;
+  margin: 0 5vw 2vh;
+
+  .Keyword {
+    color: base.$accent-color;
+  }
 }
 
 .Qualities {
-  // border: solid 3px red;
-  // list-style-image: url("../../images/star.png");
-  font-size: 18px;
+  // list-style-image: url("../../images/githubO.png");
+  font-size: 20px;
+  // list-style-position: inside;
 
   .Quality {
-    font-size: 16px;
+    font-size: 18px;
+    margin-top: 1rem;
+  }
+
+  .Keyword {
+    color: base.$accent-color;
   }
 }

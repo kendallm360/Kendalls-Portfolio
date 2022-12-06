@@ -7,13 +7,15 @@
 }
 
 .Intro {
+  color: base.$accent-color;
   font-size: 40px;
   font-weight: 300;
   margin: 0 3vw;
   text-align: start;
 
   .Name {
-    font-weight: 900;
+    color: white;
+    font-weight: 600;
   }
 }
 
@@ -49,13 +51,13 @@
     transition: border-radius 500ms ease-in-out;
     background-color: base.$accent-color;
     border: solid 1px base.$accent-color;
-    border-radius: 77% 23% 76% 24% / 27% 61% 39% 73%;
+    border-radius: 39% 61% 44% 56% / 100% 0% 100% 0%;
     height: 40vh;
     width: 80%;
   }
 
   .KendallImage:hover {
     background-color: white;
-    border-radius: 61% 39% 84% 16% / 42% 53% 47% 58%;
+    border-radius: 64% 36% 53% 47% / 0% 100% 0% 100%;
   }
 }

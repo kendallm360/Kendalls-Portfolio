@@ -23,10 +23,10 @@ const Projects = () => {
     >
       <h2 className="SectionHeader">
         <span className="TextWrapper">
-          <span className="SectionNumbers">03.</span> Latest Projects
+          <span className="SectionNumbers">03.</span> What Has He built?
         </span>
       </h2>
-      <ScrollAnimation animateOnce animateIn="fadeInLeft">
+      <ScrollAnimation animateOnce animateIn="fadeInUp">
         {latestProjectsMapped}
       </ScrollAnimation>
       <a
