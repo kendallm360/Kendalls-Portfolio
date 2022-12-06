@@ -6,53 +6,34 @@
 
 .MySkills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0 2vw;
+  //Mobile
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 2vw;
+  }
 
   .Skill {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid 1px transparent;
+    border: solid 1px base.$accent-color;
     border-radius: 0.8rem;
     margin: 0.3rem;
-    border: solid 1px transparent;
-    animation: Skill 1s forwards ease-in;
-    animation-delay: 2.2s;
-
-    @-webkit-keyframes Skill {
-      from,
-      to {
-        border-color: transparent;
-      }
-      50% {
-        border-color: base.$accent-color;
-      }
-      100% {
-        border-color: base.$accent-color;
-      }
-    }
-    @keyframes Skill {
-      from,
-      to {
-        border-color: transparent;
-      }
-      50% {
-        border-color: base.$accent-color;
-      }
-      100% {
-        border-color: base.$accent-color;
-      }
-    }
   }
 
   .SkillLogo {
     border-radius: 0.2rem;
-    height: 2rem;
-    width: 2rem;
+    //Mobile
+    @media screen and (max-width: 768px) {
+      height: 2rem;
+      width: 2rem;
+    }
   }
 
   .SkillTitle {
-    font-size: 0.8rem;
+    //Mobile
+    @media screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
   }
 }
