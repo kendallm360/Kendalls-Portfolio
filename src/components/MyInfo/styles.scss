@@ -8,10 +8,14 @@
 
 .Intro {
   color: base.$accent-color;
-  font-size: 40px;
   font-weight: 300;
   margin: 0 3vw;
   text-align: start;
+
+  //Mobile
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 
   .Name {
     color: white;
@@ -20,9 +24,12 @@
 }
 
 .Summary {
-  font-size: 24px;
   font-weight: 300;
   margin-left: 3vw;
+  //Mobile
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
 
   .KeyWord {
     color: base.$accent-color;
@@ -52,8 +59,12 @@
     background-color: base.$accent-color;
     border: solid 1px base.$accent-color;
     border-radius: 39% 61% 44% 56% / 100% 0% 100% 0%;
-    height: 40vh;
-    width: 80%;
+
+    //Mobile
+    @media screen and (max-width: 768px) {
+      height: 40vh;
+      width: 80%;
+    }
   }
 
   .KendallImage:hover {
