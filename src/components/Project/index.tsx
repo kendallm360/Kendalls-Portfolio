@@ -24,7 +24,7 @@ const Project = ({
       <img className="ProjectLogo" src={logo} alt="broken" />
       <div className="ProjectInfo">
         <h3 className="ProjectTitle">{name}</h3>
-        <p className="ProjectDescription">{description} Website</p>
+        <p className="ProjectDescription">{description}</p>
         <p className="TopTechnologies">
           {topTechnologies[0]}
           <span className="Divider"> | </span>

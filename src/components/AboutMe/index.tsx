@@ -29,9 +29,8 @@ const AboutMe = () => {
           </li>
         </ul>
         <p className="Overview">
-          I never aim to be the smartest person in a room but I always want to
-          be considered one of the hardest working. Although, I am transitioning
-          into this industry I come with a multitude of transferable skills from
+          Although, I am transitioning into software engineering I come with a{" "}
+          <span className="Keyword">multitude of transferable skills</span> from
           previous industries.
         </p>
         <p className="Overview">
