@@ -12,8 +12,12 @@
   margin: 0 3vw;
   text-align: start;
 
+  //Tablet
+  @media screen and (min-width: 768px) {
+    font-size: 46px;
+  }
   //Mobile
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     font-size: 40px;
   }
 
@@ -26,8 +30,12 @@
 .Summary {
   font-weight: 300;
   margin-left: 3vw;
+  //Tablet
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+  }
   //Mobile
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     font-size: 24px;
   }
 
@@ -60,8 +68,14 @@
     border: solid 1px base.$accent-color;
     border-radius: 39% 61% 44% 56% / 100% 0% 100% 0%;
 
+    //Tablet
+    @media screen and (min-width: 768px) {
+      height: 45vh;
+      width: 70%;
+      margin-top: 10%;
+    }
     //Mobile
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       height: 40vh;
       width: 80%;
     }
