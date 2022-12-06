@@ -1,0 +1,10 @@
+@use "../../containers/App/base" as base;
+
+.ProjectWrapper {
+  margin-bottom: 10vh;
+}
+
+.KeyWord {
+  color: base.$text-color;
+  margin-left: 3.5vw;
+}
