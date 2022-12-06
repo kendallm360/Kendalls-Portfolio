@@ -2,14 +2,21 @@
 
 .Beg {
   color: base.$accent-color;
-  text-align: center;
-  font-size: 25px;
   font-weight: 800;
+  text-align: center;
+
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 25px;
+  }
 }
 
 .ActionItem {
-  font-size: 16px;
   margin: 0 3vw 5%;
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
 }
 
 .ButtonWrapper {
@@ -22,7 +29,10 @@
     border-radius: 0.2rem;
     color: base.$accent-color;
     cursor: pointer;
-    height: 1.5rem;
-    width: 6rem;
+    //Mobile
+    @media screen and (max-width: 767px) {
+      height: 1.5rem;
+      width: 6rem;
+    }
   }
 }
