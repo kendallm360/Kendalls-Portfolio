@@ -11,7 +11,7 @@ const AboutMe = () => {
       <ScrollAnimation animateOnce animateIn="fadeInUp">
         <ul className="Qualities" style={{ listStyleType: "square" }}>
           {" "}
-          <span className="Keyword">Notable Qualities:</span>
+          <span className="SubHeader">Notable Qualities:</span>
           <li className="Quality">
             <span className="Keyword">Self-Starter</span> with a strong work
             ethic
