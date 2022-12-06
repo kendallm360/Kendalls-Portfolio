@@ -3,6 +3,18 @@ import "../Load/styles.scss";
 const Load = () => {
   return (
     <div className="Load">
+      <div className="WaveAnimation">
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+      </div>
       <img
         className="KendallScootin"
         src={scootin}
