@@ -11,14 +11,16 @@ const MyInfo = () => {
       duration={1.5}
     >
       <section className="MyInfo">
-        <h2 className="Intro">
-          Hi, my name is <span className="Name">Kendall</span>
-        </h2>
-        <h3 className="Summary">
-          I am a Navy veteran turned front end software engineer with 10 years
-          of experience working with diverse teams on{" "}
-          <span className="KeyWord">time-sensitive projects</span>.
-        </h3>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <h2 className="Intro">
+            Hi, my name is <span className="Name">Kendall</span>
+          </h2>
+          <h3 className="Summary">
+            I am a Navy veteran turned front end software engineer with 10 years
+            of experience working with diverse teams on{" "}
+            <span className="KeyWord">time-sensitive projects</span>.
+          </h3>
+        </div>
         <div className="Graphic">
           <img
             className="KendallImage"
