@@ -5,6 +5,7 @@ import "../Footer/styles.scss";
 const Footer = () => {
   return (
     <footer className="Footer">
+      <h4 className="Credits">Designed & Built by Kendall McGree</h4>
       <div className="SocialLinks">
         <a href="https://github.com/kendallm360">
           <img className="FooterIcons" src={githubIcon} alt="Github Icon" />
@@ -19,7 +20,6 @@ const Footer = () => {
           <img className="FooterIcons" src={youtubeIcon} alt="Youtube Icon" />
         </a>
       </div>
-      <h4 className="Credits">Designed & Built by Kendall McGree</h4>
     </footer>
   );
 };
