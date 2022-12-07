@@ -28,11 +28,28 @@
     font-size: 22px;
   }
 }
+
 .FactGraphic {
   border-radius: 1rem;
   height: 25em;
-  width: 50em;
   margin-bottom: 5%;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    width: 60em;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    width: 55em;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    width: 40em;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    width: 20em;
+  }
 }
 
 .NewFact {
