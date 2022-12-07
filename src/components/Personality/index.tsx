@@ -26,7 +26,7 @@ const Personality = () => {
   };
 
   return (
-    <ScrollAnimation initiallyVisible animateIn="fadeInLeft">
+    <ScrollAnimation initiallyVisible animateOnce animateIn="fadeInDown">
       <div className="PersonalityContent">
         <h2 className="Fact">{fact.fact}</h2>
         <img className="FactGraphic" src={fact.image} alt={fact.imageAlt} />
