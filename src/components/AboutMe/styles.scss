@@ -9,6 +9,10 @@
   line-height: 0.1rem;
   margin: 0 3vw 4vh;
 
+  //Laptop
+  @media screen and (max-width: 1400px) {
+    font-size: 38px;
+  }
   //Tablet
   @media screen and (max-width: 950px) {
     font-size: 32px;
@@ -37,6 +41,10 @@
   font-weight: 400;
   margin: 0 5vw 2vh;
 
+  //Laptop
+  @media screen and (max-width: 1400px) {
+    font-size: 22px;
+  }
   //Tablet
   @media screen and (max-width: 950px) {
     font-size: 20px;
@@ -54,6 +62,9 @@
 .Qualities {
   margin-bottom: 5vh;
 
+  //Laptop
+  @media screen and (max-width: 1400px) {
+  }
   //Tablet
   @media screen and (max-width: 950px) {
   }
@@ -63,6 +74,10 @@
   }
 
   .SubHeader {
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      font-size: 26px;
+    }
     //Tablet
     color: base.$accent-color;
     @media screen and (max-width: 950px) {
@@ -77,10 +92,15 @@
   .Quality {
     margin-top: 1rem;
 
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      font-size: 22px;
+      margin-left: 5%;
+    }
     //Tablet
     @media screen and (max-width: 950px) {
-      margin-left: 5%;
       font-size: 21px;
+      margin-left: 5%;
     }
     //Mobile
     @media screen and (max-width: 767px) {

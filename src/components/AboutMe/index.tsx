@@ -35,8 +35,8 @@ const AboutMe = () => {
           previous industries.
         </p>
         <p className="Overview">
-          During my career at the NSA being{" "}
-          <span className="Keyword">extremely organized and meticulous </span>
+          During my career at the NSA being extremely{" "}
+          <span className="Keyword">organized and meticulous </span>
           was imperative in order to be successful. All of my achievements as an
           Intelligence Analyst stemmed from these qualities and a genuine{" "}
           <span className="Keyword">love for learning</span>.
