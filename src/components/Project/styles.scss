@@ -34,7 +34,7 @@
     color: base.$accent-color;
 
     //Laptop
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1350px) {
       font-size: 28px;
     }
     //Tablet
@@ -51,7 +51,7 @@
     font-weight: 700;
 
     //Laptop
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1350px) {
       font-size: 20px;
     }
     //Tablet
@@ -68,7 +68,7 @@
     color: base.$accent-color;
 
     //Laptop
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1350px) {
       font-size: 22px;
     }
     //Tablet
@@ -92,7 +92,7 @@
   justify-content: space-between;
 
   //Laptop
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1350px) {
     width: 25%;
   }
   //Tablet
@@ -108,7 +108,7 @@
     cursor: pointer;
 
     //Laptop
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1350px) {
       height: 2.5rem;
       width: 2.5rem;
     }

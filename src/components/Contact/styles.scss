@@ -6,7 +6,7 @@
   text-align: center;
 
   //Laptop
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1350px) {
     font-size: 36px;
   }
   //Tablet
@@ -21,9 +21,10 @@
 
 .ActionItem {
   margin: 0 3vw 5%;
+  text-align: center;
 
   //Laptop
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1350px) {
     font-size: 26px;
   }
   //Tablet
@@ -48,7 +49,7 @@
     cursor: pointer;
 
     //Laptop
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1350px) {
       height: 3rem;
       font-size: 20px;
       width: 10rem;
