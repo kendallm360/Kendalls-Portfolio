@@ -7,7 +7,7 @@
 .MySkills {
   display: grid;
   //Tablet
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 950px) {
     grid-template-columns: repeat(3, 1fr);
     margin: 0 2vw;
   }
@@ -29,7 +29,7 @@
   .SkillLogo {
     border-radius: 0.2rem;
     //Tablet
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 950px) {
       height: 90%;
       width: 16%;
     }
@@ -42,7 +42,7 @@
 
   .SkillTitle {
     //Tablet
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 950px) {
       font-size: 1rem;
     }
     //Mobile

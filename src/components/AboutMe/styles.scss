@@ -10,7 +10,7 @@
   margin: 0 3vw 4vh;
 
   //Tablet
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 950px) {
     font-size: 32px;
   }
   //Mobile
@@ -38,7 +38,7 @@
   margin: 0 5vw 2vh;
 
   //Tablet
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 950px) {
     font-size: 20px;
   }
   //Mobile
@@ -55,7 +55,7 @@
   margin-bottom: 5vh;
 
   //Tablet
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 950px) {
   }
   //Mobile
   @media screen and (max-width: 767px) {
@@ -65,7 +65,7 @@
   .SubHeader {
     //Tablet
     color: base.$accent-color;
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 950px) {
       font-size: 24px;
     }
     //Mobile
@@ -78,7 +78,7 @@
     margin-top: 1rem;
 
     //Tablet
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 950px) {
       margin-left: 5%;
       font-size: 21px;
     }

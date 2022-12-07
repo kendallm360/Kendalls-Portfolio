@@ -6,7 +6,7 @@
   text-align: center;
 
   //Tablet
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 950px) {
     font-size: 30px;
   }
   //Mobile
@@ -19,7 +19,7 @@
   margin: 0 3vw 5%;
 
   //Tablet
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 950px) {
     font-size: 20px;
   }
   //Mobile
@@ -40,7 +40,7 @@
     cursor: pointer;
 
     //Tablet
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 950px) {
       height: 2.5rem;
       font-size: 16px;
       width: 8rem;
