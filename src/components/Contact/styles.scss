@@ -5,6 +5,10 @@
   font-weight: 800;
   text-align: center;
 
+  //Laptop
+  @media screen and (max-width: 1400px) {
+    font-size: 36px;
+  }
   //Tablet
   @media screen and (max-width: 950px) {
     font-size: 30px;
@@ -18,6 +22,10 @@
 .ActionItem {
   margin: 0 3vw 5%;
 
+  //Laptop
+  @media screen and (max-width: 1400px) {
+    font-size: 26px;
+  }
   //Tablet
   @media screen and (max-width: 950px) {
     font-size: 20px;
@@ -39,6 +47,12 @@
     color: base.$accent-color;
     cursor: pointer;
 
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      height: 3rem;
+      font-size: 20px;
+      width: 10rem;
+    }
     //Tablet
     @media screen and (max-width: 950px) {
       height: 2.5rem;
