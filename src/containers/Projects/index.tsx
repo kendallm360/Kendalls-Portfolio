@@ -1,7 +1,7 @@
 import ScrollAnimation from "react-animate-on-scroll";
 import Project from "../../components/Project";
 import { latestProjects } from "../../utils/MockData";
-// import "../Projects/styles.scss";
+import "../Projects/styles.scss";
 const Projects = () => {
   const latestProjectsMapped = latestProjects.map((project) => {
     return (
@@ -18,7 +18,10 @@ const Projects = () => {
   });
 
   return (
-    <section className="ProjectWrapper" style={{ marginBottom: "10vh" }}>
+    <section
+      className="ProjectWrapper"
+      // style={{ marginBottom: "10vh" }}
+    >
       <h2 className="SectionHeader">
         <span className="TextWrapper">
           <span className="SectionNumbers">03.</span> What Has He built?
@@ -30,7 +33,7 @@ const Projects = () => {
       <a
         className="KeyWord"
         href="https://github.com/kendallm360?tab=repositories"
-        style={{ color: "white", marginLeft: "3.5vw" }}
+        // style={{ color: "white", marginLeft: "3.5vw" }}
       >
         All Projects
       </a>
