@@ -192,7 +192,7 @@ export const latestProjects = [
 export const funFacts = [
   {
     id: 0,
-    fact: "I've never won a single game of Super Smash Bros",
+    fact: "I suck at Super Smash Bros",
     image: "https://media.giphy.com/media/28hH1I85TCZosy5zus/giphy.gif",
     imageAlt: "Mario vs Pikachu Super Smash Brothers",
   },
@@ -204,33 +204,33 @@ export const funFacts = [
   },
   {
     id: 2,
-    fact: "I hate bullying",
-    image:
-      "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
-    imageAlt: "Bullies suck",
-  },
-  {
-    id: 3,
     fact: "I'm super duper friendly",
     image: "https://media.giphy.com/media/uVOlHikaWeY1OC0a7L/giphy.gif",
     imageAlt: "Friendly Patrick Mahomes",
   },
   {
-    id: 4,
+    id: 3,
     fact: "I never run out of cranberry juice",
-    image: "https://media.giphy.com/media/Wmzln7Ujnc29PSGSec/giphy.gif",
-    imageAlt: "Cartoon of viral tiktoker who also loves cranberry juice",
+    image: "https://media.giphy.com/media/1ZZ8M9SCBP0s6HNweK/giphy.gif",
+    imageAlt: "A semi-literal ocean spray of cranberry juice",
   },
   {
-    id: 5,
+    id: 4,
     fact: "I want the best for you",
     image: "https://media.giphy.com/media/1iTX9tGRTTTVZb7q/giphy.gif",
     imageAlt: "Passionately cheering (America's Got Talent clip)",
   },
   {
-    id: 6,
+    id: 5,
     fact: "Cupcakes are not safe around me",
-    image: "https://media.giphy.com/media/1rVkMA5F0HLz2/giphy.gif",
-    imageAlt: "Eminem professing his love for cupcakes",
+    image: "https://media.giphy.com/media/QmEUZ8J1MRghVq1GRs/giphy.gif",
+    imageAlt: "A Chad bro loving cupcakes",
+  },
+  {
+    id: 6,
+    fact: "I hate bullying",
+    image:
+      "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
+    imageAlt: "Bullies suck",
   },
 ];
