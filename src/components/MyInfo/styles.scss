@@ -30,6 +30,7 @@
 .Summary {
   font-weight: 300;
   margin-left: 3vw;
+
   //Tablet
   @media screen and (min-width: 768px) {
     font-size: 26px;
@@ -38,10 +39,19 @@
   @media screen and (max-width: 767px) {
     font-size: 24px;
   }
-
   .KeyWord {
     color: base.$accent-color;
     font-weight: 500;
+    margin-left: 0;
+
+    //Tablet
+    @media screen and (min-width: 768px) {
+      font-size: 26px;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      font-size: 24px;
+    }
   }
 }
 
