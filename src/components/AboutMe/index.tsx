@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import "../AboutMe/styles.scss";
+import Personality from "../Personality";
 const AboutMe = () => {
   const [checked, setChecked] = useState(false);
 
@@ -26,7 +27,7 @@ const AboutMe = () => {
         </div>
       </ScrollAnimation>
       {checked ? (
-        <h1>Personality</h1>
+        <Personality />
       ) : (
         <div>
           <ul className="Qualities" style={{ listStyleType: "square" }}>
