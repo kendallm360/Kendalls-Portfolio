@@ -8,6 +8,14 @@ const AboutMe = () => {
           <span className="SectionNumbers">01.</span> About Me
         </span>
       </h2>
+      <div className="ViewSwitch">
+        <h2 className="Professional">Professional</h2>
+        <label className="Switch">
+          <input type="Checkbox" />
+          <span className="Slider Round"></span>
+        </label>
+        <h2 className="Personality">Personality</h2>
+      </div>
       <ScrollAnimation animateOnce animateIn="fadeInUp">
         <ul className="Qualities" style={{ listStyleType: "square" }}>
           {" "}
