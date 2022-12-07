@@ -6,6 +6,12 @@
 
 .MySkills {
   display: grid;
+
+  //Laptop
+  @media screen and (max-width: 1400px) {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 2vw;
+  }
   //Tablet
   @media screen and (max-width: 950px) {
     grid-template-columns: repeat(3, 1fr);
@@ -28,9 +34,15 @@
 
   .SkillLogo {
     border-radius: 0.2rem;
+
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      height: 80%;
+      width: 20%;
+    }
     //Tablet
     @media screen and (max-width: 950px) {
-      height: 90%;
+      height: 80%;
       width: 16%;
     }
     //Mobile
@@ -41,6 +53,10 @@
   }
 
   .SkillTitle {
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      font-size: 1.2rem;
+    }
     //Tablet
     @media screen and (max-width: 950px) {
       font-size: 1rem;
