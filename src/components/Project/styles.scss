@@ -33,6 +33,10 @@
   .ProjectTitle {
     color: base.$accent-color;
 
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      font-size: 32px;
+    }
     //Laptop
     @media screen and (max-width: 1350px) {
       font-size: 28px;
@@ -50,6 +54,10 @@
   .ProjectDescription {
     font-weight: 700;
 
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      font-size: 24px;
+    }
     //Laptop
     @media screen and (max-width: 1350px) {
       font-size: 20px;
@@ -67,6 +75,10 @@
   .TopTechnologies {
     color: base.$accent-color;
 
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      font-size: 26px;
+    }
     //Laptop
     @media screen and (max-width: 1350px) {
       font-size: 22px;
@@ -91,6 +103,10 @@
   flex-direction: row;
   justify-content: space-between;
 
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    width: 20%;
+  }
   //Laptop
   @media screen and (max-width: 1350px) {
     width: 25%;
@@ -107,6 +123,11 @@
   .ProjectLinkIcon {
     cursor: pointer;
 
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      height: 3rem;
+      width: 3rem;
+    }
     //Laptop
     @media screen and (max-width: 1350px) {
       height: 2.5rem;

@@ -16,6 +16,10 @@
 .AppsLink {
   color: base.$text-color;
   margin-left: 3.5vw;
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 26px;
+  }
   //Laptop
   @media screen and (max-width: 1350px) {
     font-size: 22px;
