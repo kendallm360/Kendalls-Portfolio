@@ -1,7 +1,7 @@
 @use "../../containers/App/base" as base;
 
 .Footer {
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .SocialLinks {
@@ -11,6 +11,11 @@
   .FooterIcons {
     opacity: 0.6;
 
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      height: 2.4rem;
+      width: 2.4rem;
+    }
     //Laptop
     @media screen and (max-width: 1350px) {
       height: 2.2rem;
@@ -36,6 +41,10 @@
   opacity: 0.6;
   text-align: center;
 
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 24px;
+  }
   //Laptop
   @media screen and (max-width: 1350px) {
     font-size: 20px;
