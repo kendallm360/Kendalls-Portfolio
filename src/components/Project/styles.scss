@@ -1,6 +1,6 @@
 @use "../../containers/App/base" as base;
 
-.Projects {
+.Project {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -33,6 +33,10 @@
   .ProjectTitle {
     color: base.$accent-color;
 
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      font-size: 28px;
+    }
     //Tablet
     @media screen and (max-width: 950px) {
       font-size: 24px;
@@ -46,6 +50,10 @@
   .ProjectDescription {
     font-weight: 700;
 
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      font-size: 20px;
+    }
     //Tablet
     @media screen and (max-width: 950px) {
       font-size: 18px;
@@ -59,6 +67,10 @@
   .TopTechnologies {
     color: base.$accent-color;
 
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      font-size: 22px;
+    }
     //Tablet
     @media screen and (max-width: 950px) {
       font-size: 20px;
@@ -79,6 +91,10 @@
   flex-direction: row;
   justify-content: space-between;
 
+  //Laptop
+  @media screen and (max-width: 1400px) {
+    width: 25%;
+  }
   //Tablet
   @media screen and (max-width: 950px) {
     width: 15%;
@@ -91,6 +107,11 @@
   .ProjectLinkIcon {
     cursor: pointer;
 
+    //Laptop
+    @media screen and (max-width: 1400px) {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
     //Tablet
     @media screen and (max-width: 950px) {
       height: 2rem;

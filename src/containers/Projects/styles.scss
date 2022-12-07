@@ -4,9 +4,22 @@
   margin-bottom: 10vh;
 }
 
-.KeyWord {
+.Projects {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 951px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.AppsLink {
   color: base.$text-color;
   margin-left: 3.5vw;
+  //Laptop
+  @media screen and (max-width: 1400px) {
+    font-size: 22px;
+  }
   //Tablet
   @media screen and (max-width: 950px) {
     font-size: 20px;

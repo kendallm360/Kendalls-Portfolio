@@ -20,7 +20,7 @@ const Project = ({
   deployedLink,
 }: TProject) => {
   return (
-    <section className="Projects">
+    <section className="Project">
       <img className="ProjectLogo" src={logo} alt="broken" />
       <div className="ProjectInfo">
         <h3 className="ProjectTitle">{name}</h3>

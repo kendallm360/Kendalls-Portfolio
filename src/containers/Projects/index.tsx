@@ -28,10 +28,10 @@ const Projects = () => {
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp">
-        {latestProjectsMapped}
+        <div className="Projects">{latestProjectsMapped}</div>
       </ScrollAnimation>
       <a
-        className="KeyWord"
+        className="AppsLink"
         href="https://github.com/kendallm360?tab=repositories"
         // style={{ color: "white", marginLeft: "3.5vw" }}
       >
