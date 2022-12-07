@@ -1,0 +1,35 @@
+@use "../../containers/App/base" as base;
+
+.ProjectWrapper {
+  margin-bottom: 10vh;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 951px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.AppsLink {
+  color: base.$text-color;
+  margin-left: 3.5vw;
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 26px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 22px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 20px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}

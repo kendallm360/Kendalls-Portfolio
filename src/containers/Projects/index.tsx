@@ -1,6 +1,7 @@
 import ScrollAnimation from "react-animate-on-scroll";
 import Project from "../../components/Project";
 import { latestProjects } from "../../utils/MockData";
+import "../Projects/styles.scss";
 const Projects = () => {
   const latestProjectsMapped = latestProjects.map((project) => {
     return (
@@ -18,8 +19,8 @@ const Projects = () => {
 
   return (
     <section
-      // className="Projects"
-      style={{ marginBottom: "10vh" }}
+      className="ProjectWrapper"
+      // style={{ marginBottom: "10vh" }}
     >
       <h2 className="SectionHeader">
         <span className="TextWrapper">
@@ -27,12 +28,12 @@ const Projects = () => {
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp">
-        {latestProjectsMapped}
+        <div className="Projects">{latestProjectsMapped}</div>
       </ScrollAnimation>
       <a
-        className="KeyWord"
+        className="AppsLink"
         href="https://github.com/kendallm360?tab=repositories"
-        style={{ color: "white", marginLeft: "3.5vw" }}
+        // style={{ color: "white", marginLeft: "3.5vw" }}
       >
         All Projects
       </a>

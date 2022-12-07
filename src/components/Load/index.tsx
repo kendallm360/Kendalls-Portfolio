@@ -20,6 +20,18 @@ const Load = () => {
         src={scootin}
         alt="Kendall Scooting through Denver"
       />
+      <div className="WaveAnimation">
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+        <div className="Wave"></div>
+      </div>
     </div>
   );
 };

@@ -6,53 +6,78 @@
 
 .MySkills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0 2vw;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 2vw;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 2vw;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 2vw;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 2vw;
+  }
 
   .Skill {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid 1px transparent;
+    border: solid 1px base.$accent-color;
     border-radius: 0.8rem;
     margin: 0.3rem;
-    border: solid 1px transparent;
-    animation: Skill 1s forwards ease-in;
-    animation-delay: 2.2s;
-
-    @-webkit-keyframes Skill {
-      from,
-      to {
-        border-color: transparent;
-      }
-      50% {
-        border-color: base.$accent-color;
-      }
-      100% {
-        border-color: base.$accent-color;
-      }
-    }
-    @keyframes Skill {
-      from,
-      to {
-        border-color: transparent;
-      }
-      50% {
-        border-color: base.$accent-color;
-      }
-      100% {
-        border-color: base.$accent-color;
-      }
-    }
   }
 
   .SkillLogo {
     border-radius: 0.2rem;
-    height: 2rem;
-    width: 2rem;
+
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      height: 80%;
+      width: 14%;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      height: 80%;
+      width: 20%;
+    }
+    //Tablet
+    @media screen and (max-width: 950px) {
+      height: 80%;
+      width: 16%;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      height: 2rem;
+      width: 2rem;
+    }
   }
 
   .SkillTitle {
-    font-size: 0.8rem;
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      font-size: 1.3rem;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      font-size: 1.2rem;
+    }
+    //Tablet
+    @media screen and (max-width: 950px) {
+      font-size: 1rem;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      font-size: 0.7rem;
+    }
   }
 }

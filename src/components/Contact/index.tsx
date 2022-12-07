@@ -14,12 +14,8 @@ const Contact = () => {
         <p className="ActionItem">
           Are you looking to hire new talent? Well lucky for you I am still
           available for employment. Feel free to contact me below about
-          opportunities.
-        </p>
-
-        <p className="ActionItem">
-          I am actively honing my skills in the meantime so I am also available
-          for collaboration. Let's build together, first coffee is on me.
+          opportunities. I also welcome anyone who would like to build with me
+          to reach out as well 🧡
         </p>
         <div className="ButtonWrapper">
           <a href="mailto:mcgreekendall@gmail.com">

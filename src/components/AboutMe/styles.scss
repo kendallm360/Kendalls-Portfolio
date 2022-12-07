@@ -6,9 +6,25 @@
 
 .SectionHeader {
   border-bottom: 1px solid base.$accent-color;
-  font-size: 26px;
   line-height: 0.1rem;
   margin: 0 3vw 4vh;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 42px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 38px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 32px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 26px;
+  }
 
   .TextWrapper {
     padding-right: 1rem;
@@ -26,9 +42,25 @@
 }
 
 .Overview {
-  font-size: 18px;
   font-weight: 400;
   margin: 0 5vw 2vh;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 26px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 23px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 20px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
 
   .Keyword {
     color: base.$accent-color;
@@ -36,13 +68,51 @@
 }
 
 .Qualities {
-  // list-style-image: url("../../images/githubO.png");
-  font-size: 20px;
-  // list-style-position: inside;
+  margin-bottom: 5vh;
+
+  .SubHeader {
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      margin-left: 3%;
+      font-size: 30px;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      font-size: 26px;
+    }
+    //Tablet
+    color: base.$accent-color;
+    @media screen and (max-width: 950px) {
+      font-size: 24px;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      font-size: 22px;
+    }
+  }
 
   .Quality {
-    font-size: 18px;
     margin-top: 1rem;
+
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      font-size: 27px;
+      margin-left: 5%;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      font-size: 24px;
+      margin-left: 5%;
+    }
+    //Tablet
+    @media screen and (max-width: 950px) {
+      font-size: 21px;
+      margin-left: 5%;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      font-size: 19px;
+    }
   }
 
   .Keyword {
