@@ -1,3 +1,4 @@
+import "../MyBuilds/styles.scss";
 import { myBuilds } from "../../utils/MockData";
 
 const MyBuilds = () => {
