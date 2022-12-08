@@ -1,0 +1,86 @@
+@use "../../containers/App/base" as base;
+
+.PersonalityContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.Fact {
+  color: base.$text-color;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 32px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 28px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 24px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 22px;
+  }
+}
+
+.FactGraphic {
+  border-radius: 1rem;
+  height: 25em;
+  margin-bottom: 2%;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    width: 60em;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    width: 55em;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    width: 40em;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    width: 20em;
+  }
+}
+
+.NewFact {
+  background-color: base.$background-color;
+  border: solid 1px base.$accent-color;
+  border-radius: 0.2rem;
+  color: base.$accent-color;
+  cursor: pointer;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    height: 3.5rem;
+    font-size: 24px;
+    width: 12rem;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    height: 3rem;
+    font-size: 20px;
+    width: 10rem;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    height: 2.5rem;
+    font-size: 16px;
+    width: 8rem;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    height: 1.5rem;
+    font-size: 12px;
+    width: 6rem;
+  }
+}

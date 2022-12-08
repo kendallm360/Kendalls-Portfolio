@@ -41,6 +41,166 @@
   }
 }
 
+.ViewSwitch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vh;
+  //Larger
+  @media screen and (min-width: 1561px) {
+    margin-left: 70vw;
+    width: 22vw;
+  }
+  //Desktop
+  @media screen and (max-width: 1560px) {
+    margin-left: 65vw;
+    width: 25vw;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    margin-left: 65vw;
+    width: 30vw;
+  }
+  //Custom
+  @media screen and (max-width: 1080px) {
+    margin-bottom: 3vh;
+    margin-left: 60vw;
+    width: 35vw;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    margin-left: 50vw;
+    width: 43vw;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    margin-left: 5%;
+    width: 45vw;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+.Switch {
+  position: relative;
+  display: inline-block;
+  // custom breakpoints
+  @media screen and (min-width: 1160px) {
+    width: 60px;
+    height: 34px;
+  }
+  @media screen and (max-width: 1159px) {
+    width: 50px;
+    height: 28px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 46px;
+    height: 21px;
+  }
+}
+
+.Switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.Slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: base.$accent-color;
+  // border-radius: 0.2rem;
+  // -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.Slider:before {
+  position: absolute;
+  content: "";
+  background-color: base.$text-color;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  //custom breakpoint
+  @media screen and (min-width: 1160px) {
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+  }
+  @media screen and (max-width: 1159px) {
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 4px;
+  }
+  @media screen and (max-width: 767px) {
+    height: 18px;
+    width: 16px;
+    left: 1px;
+    bottom: 1.5px;
+  }
+}
+
+input:checked + .Slider {
+  background-color: base.$text-color;
+}
+
+// input:focus + .Slider {
+//   box-shadow: 0 0 1px #2196f3;
+// }
+
+input:checked + .Slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-color: base.$accent-color;
+}
+
+.Slider.Round {
+  border-radius: 34px;
+}
+
+.Slider.Round:before {
+  border-radius: 50%;
+}
+
+.Personality,
+.Professional {
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 20px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.Professional {
+  //Mobile
+  @media screen and (max-width: 767px) {
+    margin-bottom: 0%;
+    margin-left: -45%;
+    // text-align: end;
+  }
+}
+
+.Personality {
+  color: base.$accent-color;
+  //Mobile
+  @media screen and (max-width: 767px) {
+    margin-left: 50%;
+    margin-top: 0%;
+
+    // text-align: end;
+  }
+}
+
 .Overview {
   font-weight: 400;
   margin: 0 5vw 2vh;
