@@ -24,6 +24,8 @@ import styledComponents from "../images/skill_logos/styled-components.png";
 import typescript from "../images/skill_logos/typescript.png";
 import logoKendall from "../images/logoKendall.png";
 import bjj from "../images/bjj.jpg";
+import firstHome from "../images/firstHome.jpg";
+import towerBuild from "../images/tower.jpg";
 
 export const mySkills = [
   {
@@ -279,4 +281,21 @@ export const alternateSkills = [
   //   image: "",
   //   imageAlt: "",
   // }
+];
+
+export const myBuilds = [
+  {
+    id: 0,
+    description:
+      "I supervised the build of this 350 ft. cell phone tower in Oneonta, New York. Unfortuanately I helped build many more towers in extremely cold places....despite being from Texas 😭",
+    image: towerBuild,
+    imageAlt: "350 foot tower that Kendall helped build",
+  },
+  {
+    id: 1,
+    description:
+      "I am helpling build a better future for my family. This build will never be complete as it will always be under construction 💪🏾",
+    image: firstHome,
+    imageAlt: "Kendall buying my first home",
+  },
 ];
