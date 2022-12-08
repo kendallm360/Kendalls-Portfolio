@@ -31,6 +31,10 @@
   width: 100%;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  //Mobile
+  @media screen and (max-width: 767px) {
+    opacity: 0.2;
+  }
 }
 
 .ProjectInfo {
@@ -41,6 +45,11 @@
   align-items: start;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+
+  //Mobile
+  @media screen and (max-width: 767px) {
+    opacity: 1;
+  }
 
   .ProjectTitle {
     color: base.$accent-color;
