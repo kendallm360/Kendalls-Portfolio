@@ -1,6 +1,8 @@
 import { mySkills } from "../../utils/MockData";
 import "../Skills/styles.scss";
 import ScrollAnimation from "react-animate-on-scroll";
+import { useState } from "react";
+import Talents from "../Talents";
 
 type TSkill = {
   id: number;
@@ -10,6 +12,12 @@ type TSkill = {
 };
 
 const Skills = () => {
+  const [checked, setChecked] = useState(false);
+
+  const handleChange = () => {
+    setChecked(!checked);
+  };
+
   const skills = mySkills.map((skill: TSkill) => {
     return (
       <div key={skill.id} className="Skill">
@@ -23,6 +31,7 @@ const Skills = () => {
       </div>
     );
   });
+
   return (
     <section className="Skills">
       <h2 className="SectionHeader">
@@ -30,9 +39,17 @@ const Skills = () => {
           <span className="SectionNumbers">02.</span> What Does He Know?
         </span>
       </h2>
-      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1.5}>
-        <div className="MySkills">{skills}</div>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={800}>
+        <div className="ViewSwitch">
+          <h2 className="Professional">Professional</h2>
+          <label className="Switch">
+            <input type="Checkbox" onChange={handleChange} />
+            <span className="Slider Round"></span>
+          </label>
+          <h2 className="Personality">Personality</h2>
+        </div>
       </ScrollAnimation>
+      {checked ? <Talents /> : <div className="MySkills">{skills}</div>}
     </section>
   );
 };

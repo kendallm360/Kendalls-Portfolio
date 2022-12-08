@@ -23,6 +23,7 @@ import smartTechLogo from "../images/smartTechSS.png";
 import styledComponents from "../images/skill_logos/styled-components.png";
 import typescript from "../images/skill_logos/typescript.png";
 import logoKendall from "../images/logoKendall.png";
+import bjj from "../images/bjj.jpg";
 
 export const mySkills = [
   {
@@ -233,4 +234,49 @@ export const funFacts = [
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
   },
+];
+
+export const alternateSkills = [
+  {
+    id: 0,
+    title: "Chess ♟️",
+    image: "https://media.giphy.com/media/3o7ZetM6sGM1402sg0/giphy.gif",
+    imageAlt: "Happily taking a chess piece midmatch",
+  },
+  {
+    id: 1,
+    title: "Movie Trivia 🎥",
+    image: "https://media.giphy.com/media/dXFSYoJMQntb3Pe6CV/giphy.gif",
+    imageAlt: "Snooty movie buff claiming to enjoy cinema",
+  },
+  {
+    id: 2,
+    title: "Brazilian Jiu-Jitsu 🥋",
+    image: bjj,
+    imageAlt: "Me winning a jiu-jitsu match",
+  },
+  {
+    id: 3,
+    title: "Investing in Innovation 🚀",
+    image: "https://media.giphy.com/media/OSdMzlfJL4lPc33vKt/giphy.gif",
+    imageAlt: "Someone begging you to buy the dip",
+  },
+  {
+    id: 4,
+    title: "Basketball (defense only)",
+    image: "https://media.giphy.com/media/vzE7csLWN3uRW/giphy.gif",
+    imageAlt: "Mean man blocking a child's layup",
+  },
+  {
+    id: 5,
+    title: "Cooking",
+    image: "https://media.giphy.com/media/LRrHCZYvcKukTi3ayH/giphy.gif",
+    imageAlt: "Ed seasoning the food from the movie Good Burger",
+  },
+  // {
+  //   id: 6,
+  //   title: "",
+  //   image: "",
+  //   imageAlt: "",
+  // }
 ];
