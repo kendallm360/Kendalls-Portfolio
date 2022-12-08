@@ -2,6 +2,7 @@ import { mySkills } from "../../utils/MockData";
 import "../Skills/styles.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 import { useState } from "react";
+import Talents from "../Talents";
 
 type TSkill = {
   id: number;
@@ -48,7 +49,7 @@ const Skills = () => {
           <h2 className="Personality">Personality</h2>
         </div>
       </ScrollAnimation>
-      {checked ? <h1>Test</h1> : <div className="MySkills">{skills}</div>}
+      {checked ? <Talents /> : <div className="MySkills">{skills}</div>}
     </section>
   );
 };
