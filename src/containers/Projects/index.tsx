@@ -1,8 +1,15 @@
+import { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Project from "../../components/Project";
 import { latestProjects } from "../../utils/MockData";
 import "../Projects/styles.scss";
 const Projects = () => {
+  const [checked, setChecked] = useState(false);
+
+  const handleChange = () => {
+    setChecked(!checked);
+  };
+
   const latestProjectsMapped = latestProjects.map((project) => {
     return (
       <Project
@@ -28,18 +35,17 @@ const Projects = () => {
         <div className="ViewSwitch">
           <h2 className="Professional">Professional</h2>
           <label className="Switch">
-            <input
-              type="Checkbox"
-              // onChange={handleChange}
-            />
+            <input type="Checkbox" onChange={handleChange} />
             <span className="Slider Round"></span>
           </label>
           <h2 className="Personality">Personality</h2>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation animateOnce animateIn="fadeInUp">
+      {checked ? (
+        <h1>test</h1>
+      ) : (
         <div className="Projects">{latestProjectsMapped}</div>
-      </ScrollAnimation>
+      )}
       <a
         className="AppsLink"
         href="https://github.com/kendallm360?tab=repositories"
