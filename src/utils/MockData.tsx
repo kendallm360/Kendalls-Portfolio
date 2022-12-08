@@ -261,10 +261,22 @@ export const alternateSkills = [
     image: "https://media.giphy.com/media/OSdMzlfJL4lPc33vKt/giphy.gif",
     imageAlt: "Someone begging you to buy the dip",
   },
+  {
+    id: 4,
+    title: "Basketball (defense only)",
+    image: "https://media.giphy.com/media/vzE7csLWN3uRW/giphy.gif",
+    imageAlt: "Mean man blocking a child's layup",
+  },
+  {
+    id: 5,
+    title: "Cooking",
+    image: "https://media.giphy.com/media/LRrHCZYvcKukTi3ayH/giphy.gif",
+    imageAlt: "Ed seasoning the food from the movie Good Burger",
+  },
   // {
-  //   id: 4,
+  //   id: 6,
   //   title: "",
   //   image: "",
   //   imageAlt: "",
-  // },
+  // }
 ];

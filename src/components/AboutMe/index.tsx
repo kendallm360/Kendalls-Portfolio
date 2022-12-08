@@ -16,7 +16,7 @@ const AboutMe = () => {
           <span className="SectionNumbers">01.</span> About Me
         </span>
       </h2>
-      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={1000}>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={800}>
         <div className="ViewSwitch">
           <h2 className="Professional">Professional</h2>
           <label className="Switch">
