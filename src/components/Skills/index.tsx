@@ -30,6 +30,19 @@ const Skills = () => {
           <span className="SectionNumbers">02.</span> What Does He Know?
         </span>
       </h2>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={1000}>
+        <div className="ViewSwitch">
+          <h2 className="Professional">Professional</h2>
+          <label className="Switch">
+            <input
+              type="Checkbox"
+              // onChange={handleChange}
+            />
+            <span className="Slider Round"></span>
+          </label>
+          <h2 className="Personality">Personality</h2>
+        </div>
+      </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1.5}>
         <div className="MySkills">{skills}</div>
       </ScrollAnimation>
