@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import MyBuilds from "../../components/MyBuilds";
 import Project from "../../components/Project";
 import { latestProjects } from "../../utils/MockData";
 import "../Projects/styles.scss";
@@ -42,17 +43,19 @@ const Projects = () => {
         </div>
       </ScrollAnimation>
       {checked ? (
-        <h1>test</h1>
+        <MyBuilds />
       ) : (
-        <div className="Projects">{latestProjectsMapped}</div>
+        <>
+          <div className="Projects">{latestProjectsMapped}</div>
+          <a
+            className="AppsLink"
+            href="https://github.com/kendallm360?tab=repositories"
+            // style={{ color: "white", marginLeft: "3.5vw" }}
+          >
+            All Projects
+          </a>
+        </>
       )}
-      <a
-        className="AppsLink"
-        href="https://github.com/kendallm360?tab=repositories"
-        // style={{ color: "white", marginLeft: "3.5vw" }}
-      >
-        All Projects
-      </a>
     </section>
   );
 };
