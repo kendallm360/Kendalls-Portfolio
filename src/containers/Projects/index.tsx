@@ -18,15 +18,25 @@ const Projects = () => {
   });
 
   return (
-    <section
-      className="ProjectWrapper"
-      // style={{ marginBottom: "10vh" }}
-    >
+    <section className="ProjectWrapper">
       <h2 className="SectionHeader">
         <span className="TextWrapper">
           <span className="SectionNumbers">03.</span> What Has He built?
         </span>
       </h2>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={800}>
+        <div className="ViewSwitch">
+          <h2 className="Professional">Professional</h2>
+          <label className="Switch">
+            <input
+              type="Checkbox"
+              // onChange={handleChange}
+            />
+            <span className="Slider Round"></span>
+          </label>
+          <h2 className="Personality">Personality</h2>
+        </div>
+      </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp">
         <div className="Projects">{latestProjectsMapped}</div>
       </ScrollAnimation>
