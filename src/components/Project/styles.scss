@@ -134,6 +134,7 @@
 
   .ProjectLinkIcon {
     cursor: pointer;
+    transition: transform 1s ease-in-out;
 
     //Desktop
     @media screen and (min-width: 1351px) {
@@ -155,5 +156,13 @@
       height: 2rem;
       width: 2rem;
     }
+  }
+
+  .ProjectLinkIcon:hover {
+    transform: rotatey(360deg);
+  }
+
+  .ProjectLinkIcon:active {
+    transform: scale(1.3);
   }
 }
