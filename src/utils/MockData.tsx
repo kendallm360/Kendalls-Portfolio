@@ -207,15 +207,15 @@ export const funFacts = [
   },
   {
     id: 2,
-    fact: "I Love Listening To Music",
+    fact: "Love Listening To Music",
     image: "https://media.giphy.com/media/l0HlFTlbKx9KMZC5q/giphy.gif",
     imageAlt: "Man jamming out on the job whilst remaining productive",
   },
   {
     id: 3,
     fact: "I Never Run Out Of Cranberry Juice",
-    image: "https://media.giphy.com/media/1ZZ8M9SCBP0s6HNweK/giphy.gif",
-    imageAlt: "A semi-literal ocean spray of cranberry juice",
+    image: "https://media.giphy.com/media/7sLtuxs1yWFd498IOS/giphy.gif",
+    imageAlt: "A cranberry juice bath celebration",
   },
   {
     id: 4,

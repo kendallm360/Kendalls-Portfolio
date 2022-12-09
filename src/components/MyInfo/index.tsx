@@ -22,8 +22,9 @@ const MyInfo = () => {
             Hi, my name is <span className="Name">Kendall</span>
           </h2>
           <h3 className="Summary">
-            I am a Navy veteran turned front end software engineer with 10 years
-            of experience working with diverse teams on{" "}
+            I am a Navy veteran turned front end software engineer with over a{" "}
+            <span className="KeyWord">decade</span> of experience working with
+            diverse teams on{" "}
             <span className="KeyWord">time-sensitive projects</span>.
           </h3>
         </div>
