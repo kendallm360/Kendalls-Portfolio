@@ -29,7 +29,12 @@ const Talents = () => {
     <ScrollAnimation initiallyVisible animateOnce animateIn="fadeInDown">
       <div className="PersonalityContent">
         <h2 className="Fact">{talent.title}</h2>
-        <img className="FactGraphic" src={talent.image} alt={talent.imageAlt} />
+        <img
+          className="FactGraphic"
+          src={talent.image}
+          alt={talent.imageAlt}
+          onClick={handleClick}
+        />
         <button className="NewFact" onClick={handleClick}>
           What Else?
         </button>
