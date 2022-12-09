@@ -4,7 +4,7 @@ import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
 import Load from "../../components/Load";
 import MyInfo from "../../components/MyInfo";
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/navBar";
 import Skills from "../../components/Skills";
 import Projects from "../Projects";
 import "./_base.scss";
