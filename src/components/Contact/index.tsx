@@ -9,6 +9,19 @@ const Contact = () => {
           <span className="SectionNumbers">04.</span> What's Next?
         </span>
       </h2>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={800}>
+        <div className="ViewSwitch">
+          <h2 className="Professional">Employers?</h2>
+          <label className="Switch">
+            <input
+              type="Checkbox"
+              // onChange={handleChange}
+            />
+            <span className="Slider Round"></span>
+          </label>
+          <h2 className="Personality">Buddies?</h2>
+        </div>
+      </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="zoomIn">
         <h3 className="Beg">Get In Touch</h3>
         <p className="ActionItem">
