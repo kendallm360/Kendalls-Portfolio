@@ -26,12 +26,16 @@ function App() {
   }, []);
 
   //DRY up all the code below because this is super ugly
+  const handleNav = () => {
+    navRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const handleAboutMe = () => {
-    contactRef.current?.scrollIntoView({ behavior: "smooth" });
+    aboutRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleSkills = () => {
-    contactRef.current?.scrollIntoView({ behavior: "smooth" });
+    skillsRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleProject = () => {
@@ -51,7 +55,13 @@ function App() {
       ) : (
         <section className="App">
           <div className="NavBarWrapper" ref={navRef}>
-            <NavBar />
+            <NavBar
+              handleNav={handleNav}
+              handleAboutMe={handleAboutMe}
+              handleSkills={handleSkills}
+              handleProject={handleProject}
+              handleContact={handleContact}
+            />
           </div>
 
           <div className="MyInfoWrapper">
@@ -74,7 +84,7 @@ function App() {
             <Contact />
           </div>
 
-          <div className="">
+          <div className="FooterWrapper">
             <Footer />
           </div>
         </section>
