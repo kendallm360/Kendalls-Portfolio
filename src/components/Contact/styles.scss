@@ -23,6 +23,10 @@
   }
 }
 
+.Knees {
+  font-size: 8px;
+}
+
 .ActionItem {
   margin: 0 3vw 5%;
   text-align: center;
@@ -81,4 +85,13 @@
       width: 6rem;
     }
   }
+}
+
+.EmailMe:hover {
+  transform: scale(1.13);
+}
+
+.EmailMe:active {
+  background-color: base.$accent-color;
+  color: base.$background-color;
 }

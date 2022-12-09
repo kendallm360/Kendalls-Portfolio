@@ -85,3 +85,12 @@
     width: 6rem;
   }
 }
+
+.NewFact:hover {
+  transform: scale(1.13);
+}
+
+.NewFact:active {
+  background-color: base.$accent-color;
+  color: base.$background-color;
+}

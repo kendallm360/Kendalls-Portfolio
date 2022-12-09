@@ -32,7 +32,7 @@ const Projects = () => {
           <span className="SectionNumbers">03.</span> What Has He Built?
         </span>
       </h2>
-      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={800}>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
         <div className="ViewSwitch">
           <h2 className="Professional">Professional</h2>
           <label className="Switch">

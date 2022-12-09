@@ -195,31 +195,31 @@ export const latestProjects = [
 export const funFacts = [
   {
     id: 0,
-    fact: "Really Bad At Super Smash Bros",
+    fact: "Im Really Bad At Super Smash Bros",
     image: "https://media.giphy.com/media/28hH1I85TCZosy5zus/giphy.gif",
     imageAlt: "Mario vs Pikachu Super Smash Brothers",
   },
   {
     id: 1,
-    fact: "Loves Komodo Dragons",
+    fact: "I Love Komodo Dragons",
     image: "https://media.giphy.com/media/3oEjI9ygZAmuVO6AJW/giphy.gif",
     imageAlt: "Komodo Dragons hugging each other",
   },
   {
     id: 2,
-    fact: "Super Duper Friendly",
-    image: "https://media.giphy.com/media/3rWu72aEF4BWQAA25N/giphy.gif",
-    imageAlt: "Friendly character from the TV show the Good Place",
+    fact: "I Love Listening To Music",
+    image: "https://media.giphy.com/media/l0HlFTlbKx9KMZC5q/giphy.gif",
+    imageAlt: "Man jamming out on the job whilst remaining productive",
   },
   {
     id: 3,
-    fact: "Never Runs Out Of Cranberry Juice",
+    fact: "I Never Run Out Of Cranberry Juice",
     image: "https://media.giphy.com/media/1ZZ8M9SCBP0s6HNweK/giphy.gif",
     imageAlt: "A semi-literal ocean spray of cranberry juice",
   },
   {
     id: 4,
-    fact: "Wants The Best For You",
+    fact: "I Want The Best For You",
     image: "https://media.giphy.com/media/1iTX9tGRTTTVZb7q/giphy.gif",
     imageAlt: "Passionately cheering (America's Got Talent clip)",
   },
@@ -231,7 +231,7 @@ export const funFacts = [
   },
   {
     id: 6,
-    fact: "Hates Bullying",
+    fact: "I Hate Bullying",
     image:
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
