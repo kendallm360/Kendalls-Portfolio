@@ -37,7 +37,7 @@ const Contact = () => {
           </h3>
           <p className="ActionItem">
             Are you looking to hire new talent? Well lucky for you I am still
-            available for employment. If you ARE NOT hiring visit my youtube
+            available for employment. If you ARE NOT hiring visit my Youtube
             below.
           </p>
           <div className="ButtonWrapper">

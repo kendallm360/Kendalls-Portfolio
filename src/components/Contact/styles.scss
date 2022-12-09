@@ -86,3 +86,12 @@
     }
   }
 }
+
+.EmailMe:hover {
+  transform: scale(1.13);
+}
+
+.EmailMe:active {
+  background-color: base.$accent-color;
+  color: base.$background-color;
+}
