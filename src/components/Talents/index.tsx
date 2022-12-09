@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import { alternateSkills } from "../../utils/MockData";
 
 const Talents = () => {
@@ -26,20 +25,18 @@ const Talents = () => {
     );
   };
   return (
-    <ScrollAnimation initiallyVisible animateOnce animateIn="fadeInDown">
-      <div className="PersonalityContent">
-        <h2 className="Fact">{talent.title}</h2>
-        <img
-          className="FactGraphic"
-          src={talent.image}
-          alt={talent.imageAlt}
-          onClick={handleClick}
-        />
-        <button className="NewFact" onClick={handleClick}>
-          What Else?
-        </button>
-      </div>
-    </ScrollAnimation>
+    <div className="PersonalityContent">
+      <h2 className="Fact">{talent.title}</h2>
+      <img
+        className="FactGraphic"
+        src={talent.image}
+        alt={talent.imageAlt}
+        onClick={handleClick}
+      />
+      <button className="NewFact" onClick={handleClick}>
+        What Else?
+      </button>
+    </div>
   );
 };
 export default Talents;

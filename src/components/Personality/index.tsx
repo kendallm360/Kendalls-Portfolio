@@ -1,7 +1,6 @@
 import "../Personality/styles.scss";
 import { funFacts } from "../../utils/MockData";
 import { useEffect, useState } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 
 const Personality = () => {
   const [fact, setFact] = useState<{
@@ -26,20 +25,18 @@ const Personality = () => {
   };
 
   return (
-    <ScrollAnimation initiallyVisible animateOnce animateIn="fadeInDown">
-      <div className="PersonalityContent">
-        <h2 className="Fact">{fact.fact}</h2>
-        <img
-          className="FactGraphic"
-          src={fact.image}
-          alt={fact.imageAlt}
-          onClick={handleClick}
-        />
-        <button className="NewFact" onClick={handleClick}>
-          What Else?
-        </button>
-      </div>
-    </ScrollAnimation>
+    <div className="PersonalityContent">
+      <h2 className="Fact">{fact.fact}</h2>
+      <img
+        className="FactGraphic"
+        src={fact.image}
+        alt={fact.imageAlt}
+        onClick={handleClick}
+      />
+      <button className="NewFact" onClick={handleClick}>
+        What Else?
+      </button>
+    </div>
   );
 };
 export default Personality;
