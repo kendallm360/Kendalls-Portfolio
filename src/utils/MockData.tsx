@@ -260,8 +260,8 @@ export const alternateSkills = [
   {
     id: 3,
     title: "Investing in Innovation 🚀",
-    image: "https://media.giphy.com/media/phCrvd7QmQf7zc2EXU/giphy.gif",
-    imageAlt: "Mountain man taking advice to buy the dip",
+    image: "https://media.giphy.com/media/524L7nbZSgvdv4woq0/giphy.gif",
+    imageAlt: "Kyle Massey joining the investment game",
   },
   {
     id: 4,
@@ -287,14 +287,13 @@ export const myBuilds = [
   {
     id: 0,
     description:
-      "I supervised the build of this cell phone tower in Oneonta, New York. Unfortunately, I helped build many more towers in extremely cold places....despite being from Texas 😭",
+      "I supervised the build of this cell phone tower in Oneonta, New York. Unfortunately, I helped build many more towers in extremely cold places 😭",
     image: towerBuild,
     imageAlt: "350 foot tower that Kendall helped build",
   },
   {
     id: 1,
-    description:
-      "I am helping build a better future for my family. This build will never be complete as it is always under construction 💪🏾",
+    description: "I am helping build a better future for my family.",
     image: firstHome,
     imageAlt: "Kendall buying my first home",
   },

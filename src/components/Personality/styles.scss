@@ -9,7 +9,7 @@
 }
 
 .Fact {
-  color: base.$text-color;
+  color: base.$accent-color;
 
   //Desktop
   @media screen and (min-width: 1351px) {
@@ -31,6 +31,7 @@
 
 .FactGraphic {
   border-radius: 1rem;
+  cursor: pointer;
   height: 25em;
   margin-bottom: 2%;
 
