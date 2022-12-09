@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import AboutMe from "../../components/AboutMe";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
@@ -10,6 +10,12 @@ import Projects from "../Projects";
 import "./_base.scss";
 
 function App() {
+  const navRef = useRef<any>(null);
+  const aboutRef = useRef<any>(null);
+  const skillsRef = useRef<any>(null);
+  const projectRef = useRef<any>(null);
+  const contactRef = useRef<any>(null);
+
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -18,6 +24,24 @@ function App() {
       setLoading(false);
     }, 3000);
   }, []);
+
+  //DRY up all the code below because this is super ugly
+  const handleAboutMe = () => {
+    contactRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleSkills = () => {
+    contactRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleProject = () => {
+    projectRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleContact = () => {
+    contactRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       {loading ? (
@@ -25,15 +49,35 @@ function App() {
           <Load />
         </div>
       ) : (
-        <div className="App">
-          <NavBar />
-          <MyInfo />
-          <AboutMe />
-          <Skills />
-          <Projects />
-          <Contact />
-          <Footer />
-        </div>
+        <section className="App">
+          <div className="NavBarWrapper" ref={navRef}>
+            <NavBar />
+          </div>
+
+          <div className="MyInfoWrapper">
+            <MyInfo />
+          </div>
+
+          <div className="AboutMeWrapper" ref={aboutRef}>
+            <AboutMe />
+          </div>
+
+          <div className="SkillsWrapper" ref={skillsRef}>
+            <Skills />
+          </div>
+
+          <div className="ProjectsWrapper" ref={projectRef}>
+            <Projects />
+          </div>
+
+          <div className="ContactWrapper" ref={contactRef}>
+            <Contact />
+          </div>
+
+          <div className="">
+            <Footer />
+          </div>
+        </section>
       )}
     </>
   );
