@@ -12,6 +12,15 @@
   padding: 2.5%;
 }
 
+.Project:hover {
+  .ProjectInfo {
+    opacity: 1;
+  }
+  .ProjectLogo {
+    opacity: 0.1;
+  }
+}
+
 .ProjectLogo {
   position: absolute;
   overflow: hidden;
@@ -19,8 +28,13 @@
   top: 0;
   border-radius: 1rem;
   height: 100%;
-  opacity: 0.1;
   width: 100%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  //Mobile
+  @media screen and (max-width: 767px) {
+    opacity: 0.2;
+  }
 }
 
 .ProjectInfo {
@@ -29,6 +43,13 @@
   flex-direction: column;
   align-content: center;
   align-items: start;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+
+  //Mobile
+  @media screen and (max-width: 767px) {
+    opacity: 1;
+  }
 
   .ProjectTitle {
     color: base.$accent-color;
@@ -122,6 +143,7 @@
 
   .ProjectLinkIcon {
     cursor: pointer;
+    transition: transform 1s ease-in-out;
 
     //Desktop
     @media screen and (min-width: 1351px) {
@@ -143,5 +165,13 @@
       height: 2rem;
       width: 2rem;
     }
+  }
+
+  .ProjectLinkIcon:hover {
+    transform: rotatey(360deg);
+  }
+
+  .ProjectLinkIcon:active {
+    transform: scale(1.3);
   }
 }

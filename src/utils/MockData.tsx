@@ -22,8 +22,10 @@ import sass from "../images/skill_logos/sass.png";
 import smartTechLogo from "../images/smartTechSS.png";
 import styledComponents from "../images/skill_logos/styled-components.png";
 import typescript from "../images/skill_logos/typescript.png";
-import logoKendall from "../images/logoKendall.png";
+import portfolioSS from "../images/portfolioSS.png";
 import bjj from "../images/bjj.jpg";
+import firstHome from "../images/firstHome.jpg";
+import towerBuild from "../images/tower.jpg";
 
 export const mySkills = [
   {
@@ -181,7 +183,7 @@ export const latestProjects = [
   {
     id: 2,
     name: "My Portfolio (this site)",
-    logo: logoKendall,
+    logo: portfolioSS,
     description:
       "This portfolio because everyone needs one of those. In past projects styling was something that I did not spend much time as I was more concerned with learning the fundamentals of JavaScript and React. Now that I have become more comfortable with the code I have fallen in love with CSS. I used this project to both learn Sass and showcase some of my styling abilities. Checkout the repo for this site below.",
     topTechnologies: ["React", "SASS"],
@@ -193,43 +195,43 @@ export const latestProjects = [
 export const funFacts = [
   {
     id: 0,
-    fact: "I suck at Super Smash Bros",
+    fact: "Really Bad At Super Smash Bros",
     image: "https://media.giphy.com/media/28hH1I85TCZosy5zus/giphy.gif",
     imageAlt: "Mario vs Pikachu Super Smash Brothers",
   },
   {
     id: 1,
-    fact: "I love Komodo Dragons",
+    fact: "Loves Komodo Dragons",
     image: "https://media.giphy.com/media/3oEjI9ygZAmuVO6AJW/giphy.gif",
     imageAlt: "Komodo Dragons hugging each other",
   },
   {
     id: 2,
-    fact: "I'm super duper friendly",
-    image: "https://media.giphy.com/media/uVOlHikaWeY1OC0a7L/giphy.gif",
-    imageAlt: "Friendly Patrick Mahomes",
+    fact: "Super Duper Friendly",
+    image: "https://media.giphy.com/media/3rWu72aEF4BWQAA25N/giphy.gif",
+    imageAlt: "Friendly character from the TV show the Good Place",
   },
   {
     id: 3,
-    fact: "I never run out of cranberry juice",
+    fact: "Never Runs Out Of Cranberry Juice",
     image: "https://media.giphy.com/media/1ZZ8M9SCBP0s6HNweK/giphy.gif",
     imageAlt: "A semi-literal ocean spray of cranberry juice",
   },
   {
     id: 4,
-    fact: "I want the best for you",
+    fact: "Wants The Best For You",
     image: "https://media.giphy.com/media/1iTX9tGRTTTVZb7q/giphy.gif",
     imageAlt: "Passionately cheering (America's Got Talent clip)",
   },
   {
     id: 5,
-    fact: "Cupcakes are not safe around me",
+    fact: "Cupcakes Are Not Safe Around Me",
     image: "https://media.giphy.com/media/QmEUZ8J1MRghVq1GRs/giphy.gif",
     imageAlt: "A Chad bro loving cupcakes",
   },
   {
     id: 6,
-    fact: "I hate bullying",
+    fact: "Hates Bullying",
     image:
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
@@ -258,8 +260,8 @@ export const alternateSkills = [
   {
     id: 3,
     title: "Investing in Innovation 🚀",
-    image: "https://media.giphy.com/media/OSdMzlfJL4lPc33vKt/giphy.gif",
-    imageAlt: "Someone begging you to buy the dip",
+    image: "https://media.giphy.com/media/524L7nbZSgvdv4woq0/giphy.gif",
+    imageAlt: "Kyle Massey joining the investment game",
   },
   {
     id: 4,
@@ -279,4 +281,20 @@ export const alternateSkills = [
   //   image: "",
   //   imageAlt: "",
   // }
+];
+
+export const myBuilds = [
+  {
+    id: 0,
+    description:
+      "I supervised the build of this cell phone tower in Oneonta, New York. Unfortunately, I helped build many more towers in extremely cold places 😭",
+    image: towerBuild,
+    imageAlt: "350 foot tower that Kendall helped build",
+  },
+  {
+    id: 1,
+    description: "I am helping build a better future for my family.",
+    image: firstHome,
+    imageAlt: "Kendall buying my first home",
+  },
 ];

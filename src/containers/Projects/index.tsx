@@ -1,8 +1,16 @@
+import { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import MyBuilds from "../../components/MyBuilds";
 import Project from "../../components/Project";
 import { latestProjects } from "../../utils/MockData";
 import "../Projects/styles.scss";
 const Projects = () => {
+  const [checked, setChecked] = useState(false);
+
+  const handleChange = () => {
+    setChecked(!checked);
+  };
+
   const latestProjectsMapped = latestProjects.map((project) => {
     return (
       <Project
@@ -18,25 +26,36 @@ const Projects = () => {
   });
 
   return (
-    <section
-      className="ProjectWrapper"
-      // style={{ marginBottom: "10vh" }}
-    >
+    <section className="ProjectWrapper">
       <h2 className="SectionHeader">
         <span className="TextWrapper">
-          <span className="SectionNumbers">03.</span> What Has He built?
+          <span className="SectionNumbers">03.</span> What Has He Built?
         </span>
       </h2>
-      <ScrollAnimation animateOnce animateIn="fadeInUp">
-        <div className="Projects">{latestProjectsMapped}</div>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={800}>
+        <div className="ViewSwitch">
+          <h2 className="Professional">Professional</h2>
+          <label className="Switch">
+            <input type="Checkbox" onChange={handleChange} />
+            <span className="Slider Round"></span>
+          </label>
+          <h2 className="Personality">Personality</h2>
+        </div>
       </ScrollAnimation>
-      <a
-        className="AppsLink"
-        href="https://github.com/kendallm360?tab=repositories"
-        // style={{ color: "white", marginLeft: "3.5vw" }}
-      >
-        All Projects
-      </a>
+      {checked ? (
+        <MyBuilds />
+      ) : (
+        <>
+          <div className="Projects">{latestProjectsMapped}</div>
+          <a
+            className="AppsLink"
+            href="https://github.com/kendallm360?tab=repositories"
+            // style={{ color: "white", marginLeft: "3.5vw" }}
+          >
+            All Projects
+          </a>
+        </>
+      )}
     </section>
   );
 };
