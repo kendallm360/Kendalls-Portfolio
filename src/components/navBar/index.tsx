@@ -3,9 +3,11 @@ import "./styles.scss";
 const NavBar = () => {
   return (
     <div className="NavBar">
-      {/* materialUI speed dial */}
       <img className="Logo" src={logo} alt="Kendall's custom logo" />
-      <button>Contact me</button>
+      <h2 className="Navigation">About</h2>
+      <h2 className="Navigation">Skills</h2>
+      <h2 className="Navigation">Projects</h2>
+      <h2 className="Navigation">Contact</h2>
     </div>
   );
 };
