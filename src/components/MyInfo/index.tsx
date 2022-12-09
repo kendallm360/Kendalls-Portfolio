@@ -1,8 +1,14 @@
 import "./styles.scss";
 import fairPicture from "../../images/kendall_fair.png";
 import ScrollAnimation from "react-animate-on-scroll";
+const sitch = require("../../sounds/kimPossible.mp3");
 
 const MyInfo = () => {
+  const handleClick = () => {
+    const kimRingtone = new Audio(sitch);
+    kimRingtone.play();
+  };
+
   return (
     <ScrollAnimation
       initiallyVisible={true}
@@ -16,12 +22,13 @@ const MyInfo = () => {
             Hi, my name is <span className="Name">Kendall</span>
           </h2>
           <h3 className="Summary">
-            I am a Navy veteran turned front end software engineer with 10 years
-            of experience working with diverse teams on{" "}
+            I am a Navy veteran turned front end software engineer with over a{" "}
+            <span className="KeyWord">decade</span> of experience working with
+            diverse teams on{" "}
             <span className="KeyWord">time-sensitive projects</span>.
           </h3>
         </div>
-        <div className="Graphic">
+        <div className="Graphic" onClick={handleClick}>
           <img
             className="KendallImage"
             src={fairPicture}
