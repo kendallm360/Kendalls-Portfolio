@@ -17,7 +17,7 @@ const Contact = () => {
           <span className="SectionNumbers">04.</span> What's Next?
         </span>
       </h2>
-      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={800}>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
         <div className="ViewSwitch">
           <h2 className="Professional">Employers?</h2>
           <label className="Switch">
@@ -37,9 +37,8 @@ const Contact = () => {
           </h3>
           <p className="ActionItem">
             Are you looking to hire new talent? Well lucky for you I am still
-            available for employment. Feel free to contact me below about
-            opportunities. I also welcome anyone who would like to build with me
-            to reach out as well 🧡
+            available for employment. If you ARE NOT hiring visit my youtube
+            below.
           </p>
           <div className="ButtonWrapper">
             <a href="mailto:mcgreekendall@gmail.com">
