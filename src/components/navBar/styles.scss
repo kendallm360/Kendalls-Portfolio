@@ -1,3 +1,5 @@
+@use "../../containers/app/base" as base;
+
 .NavBar {
   display: flex;
   flex-direction: row;
@@ -48,6 +50,7 @@
 .Navigation {
   font-weight: 300;
   margin-left: 3vw;
+  cursor: pointer;
 
   //Desktop
   @media screen and (min-width: 1351px) {
@@ -65,4 +68,13 @@
   @media screen and (max-width: 767px) {
     font-size: 22px;
   }
+}
+
+.Navigation:hover {
+  color: base.$accent-color;
+  transform: scale(1.1);
+}
+
+.Navigation:visited {
+  text-decoration: underline;
 }
