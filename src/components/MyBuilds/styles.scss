@@ -1,4 +1,5 @@
 @use "../../containers/App/base" as base;
+@use "../../components/Project/styles.scss" as project;
 
 .Build {
   display: flex;
@@ -57,26 +58,14 @@
 }
 
 .BuildDescription {
+  @include project.descriptionTheme;
   position: absolute;
   transition: opacity 0.3s ease-in-out;
   color: base.$text-color;
-  font-weight: 700;
   margin: 5%;
   opacity: 0;
   text-align: center;
 
-  //Desktop
-  @media screen and (min-width: 1351px) {
-    font-size: 22px;
-  }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    font-size: 20px;
-  }
-  //Tablet
-  @media screen and (max-width: 950px) {
-    font-size: 18px;
-  }
   //Mobile
   @media screen and (max-width: 767px) {
     font-size: 13px;

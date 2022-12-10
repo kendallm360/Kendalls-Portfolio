@@ -21,6 +21,27 @@
   }
 }
 
+@mixin descriptionTheme {
+  font-weight: 700;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 22px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 20px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 18px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
 .Project {
   position: relative;
   display: flex;
@@ -77,24 +98,7 @@
   }
 
   .ProjectDescription {
-    font-weight: 700;
-
-    //Desktop
-    @media screen and (min-width: 1351px) {
-      font-size: 22px;
-    }
-    //Laptop
-    @media screen and (max-width: 1350px) {
-      font-size: 20px;
-    }
-    //Tablet
-    @media screen and (max-width: 950px) {
-      font-size: 18px;
-    }
-    //Mobile
-    @media screen and (max-width: 767px) {
-      font-size: 16px;
-    }
+    @include descriptionTheme;
   }
 
   .TopTechnologies {
