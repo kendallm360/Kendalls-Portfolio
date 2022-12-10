@@ -67,15 +67,14 @@ const AboutMe = () => {
             <p className="Overview">
               My time in the Navy as an Arabic Linguist highlighted the
               importance of being a{" "}
-              <span className="Keyword">great team player </span>and having
-              strong social skills. Consistently being{" "}
+              <span className="Keyword">team player </span>and having strong
+              social skills. Consistently being{" "}
               <span className="Keyword">flexible, positive</span>, and willing
               to adapt to changes made coworkers/superiors love working with me.
               I am{" "}
               <span className="Keyword">
-                both easy to coach and a natural leader
+                both easy to coach and a natural leader.
               </span>{" "}
-              so I am a good culture fit for many companies.
             </p>
           </details>
         </div>
