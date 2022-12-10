@@ -10,6 +10,7 @@
 
 .Fact {
   color: base.$accent-color;
+  margin-top: 0%;
 
   //Desktop
   @media screen and (min-width: 1351px) {
@@ -32,24 +33,24 @@
 .FactGraphic {
   border-radius: 1rem;
   cursor: pointer;
-  height: 25em;
+  height: 30%;
   margin-bottom: 2%;
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    width: 60em;
+    width: 70%;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
-    width: 55em;
+    width: 75%;
   }
   //Tablet
   @media screen and (max-width: 950px) {
-    width: 40em;
+    width: 80%;
   }
   //Mobile
   @media screen and (max-width: 767px) {
-    width: 20em;
+    width: 90%;
   }
 }
 
