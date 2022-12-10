@@ -38,9 +38,7 @@ const Contact = () => {
         <Buddies />
       ) : (
         <>
-          <h3 className="Beg">
-            Hire Me<span className="Knees">...please</span>
-          </h3>
+          <h3 className="Beg">Hire Me</h3>
           <p className="ActionItem">
             Are you looking to hire new talent? Well lucky for you I am still
             available for employment. If you ARE NOT hiring visit my Youtube

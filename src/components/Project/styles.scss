@@ -1,5 +1,63 @@
 @use "../../containers/App/base" as base;
 
+@mixin subheaderTheme() {
+  color: base.$accent-color;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 32px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 28px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 24px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 22px;
+  }
+}
+
+@mixin descriptionTheme {
+  font-weight: 700;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 22px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 20px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 18px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+@mixin backgroundImage {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  //Mobile
+  @media screen and (max-width: 767px) {
+    opacity: 0.1;
+  }
+}
+
 .Project {
   position: relative;
   display: flex;
@@ -22,19 +80,7 @@
 }
 
 .ProjectLogo {
-  position: absolute;
-  overflow: hidden;
-  left: 0;
-  top: 0;
-  border-radius: 1rem;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-  //Mobile
-  @media screen and (max-width: 767px) {
-    opacity: 0.2;
-  }
+  @include backgroundImage;
 }
 
 .ProjectInfo {
@@ -52,45 +98,11 @@
   }
 
   .ProjectTitle {
-    color: base.$accent-color;
-
-    //Desktop
-    @media screen and (min-width: 1351px) {
-      font-size: 32px;
-    }
-    //Laptop
-    @media screen and (max-width: 1350px) {
-      font-size: 28px;
-    }
-    //Tablet
-    @media screen and (max-width: 950px) {
-      font-size: 24px;
-    }
-    //Mobile
-    @media screen and (max-width: 767px) {
-      font-size: 22px;
-    }
+    @include subheaderTheme;
   }
 
   .ProjectDescription {
-    font-weight: 700;
-
-    //Desktop
-    @media screen and (min-width: 1351px) {
-      font-size: 22px;
-    }
-    //Laptop
-    @media screen and (max-width: 1350px) {
-      font-size: 20px;
-    }
-    //Tablet
-    @media screen and (max-width: 950px) {
-      font-size: 18px;
-    }
-    //Mobile
-    @media screen and (max-width: 767px) {
-      font-size: 16px;
-    }
+    @include descriptionTheme;
   }
 
   .TopTechnologies {

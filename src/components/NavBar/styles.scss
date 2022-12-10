@@ -47,11 +47,33 @@
   }
 }
 
+.Resume {
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    height: 4rem;
+    width: 4rem;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    height: 3rem;
+    width: 3rem;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+}
+
 .Navigation {
   font-weight: 300;
   margin-left: 3vw;
   cursor: pointer;
-  text-decoration: underline;
 
   //Desktop
   @media screen and (min-width: 1351px) {
@@ -67,15 +89,12 @@
   }
   //Mobile
   @media screen and (max-width: 767px) {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
 .Navigation:hover {
   color: base.$accent-color;
-  transform: scale(1.1);
-}
-
-.Navigation:visited {
   text-decoration: underline;
+  transform: scale(1.1);
 }

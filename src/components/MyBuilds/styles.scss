@@ -1,4 +1,5 @@
 @use "../../containers/App/base" as base;
+@use "../../components/Project/styles.scss" as project;
 
 .Build {
   display: flex;
@@ -25,7 +26,9 @@
   justify-content: flex-end;
   //Mobile
   @media screen and (max-width: 767px) {
+    height: 40vh;
     margin-bottom: 10%;
+    width: 95%;
   }
 }
 
@@ -39,42 +42,18 @@
 }
 
 .BuildImage {
-  position: absolute;
-  overflow: hidden;
-  left: 0;
-  top: 0;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 1rem;
-  height: 100%;
-  width: 100%;
-  //Mobile
-  @media screen and (max-width: 767px) {
-    opacity: 0.2;
-  }
+  @include project.backgroundImage;
 }
 
 .BuildDescription {
+  @include project.descriptionTheme;
   position: absolute;
   transition: opacity 0.3s ease-in-out;
   color: base.$text-color;
-  font-weight: 700;
   margin: 5%;
   opacity: 0;
   text-align: center;
 
-  //Desktop
-  @media screen and (min-width: 1351px) {
-    font-size: 22px;
-  }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    font-size: 20px;
-  }
-  //Tablet
-  @media screen and (max-width: 950px) {
-    font-size: 18px;
-  }
   //Mobile
   @media screen and (max-width: 767px) {
     font-size: 13px;

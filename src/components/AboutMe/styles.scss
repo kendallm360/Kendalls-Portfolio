@@ -228,6 +228,10 @@ input:checked + .Slider:before {
   }
 }
 
+summary {
+  cursor: pointer;
+}
+
 .Qualities {
   margin-bottom: 5vh;
 

@@ -22,7 +22,7 @@ import sass from "../images/skill_logos/sass.png";
 import smartTechLogo from "../images/smartTechSS.png";
 import styledComponents from "../images/skill_logos/styled-components.png";
 import typescript from "../images/skill_logos/typescript.png";
-import portfolioSS from "../images/portfolioSS.png";
+import portfolioSS from "../images/SSportfolio.png";
 import bjj from "../images/bjj.jpg";
 import firstHome from "../images/firstHome.jpg";
 import towerBuild from "../images/tower.jpg";
@@ -188,7 +188,7 @@ export const latestProjects = [
       "This portfolio because everyone needs one of those. In past projects styling was something that I did not spend much time as I was more concerned with learning the fundamentals of JavaScript and React. Now that I have become more comfortable with the code I have fallen in love with CSS. I used this project to both learn Sass and showcase some of my styling abilities. Checkout the repo for this site below.",
     topTechnologies: ["React", "SASS"],
     repoLink: "https://github.com/kendallm360/Kendalls-Portfolio",
-    deployedLink: "",
+    deployedLink: "https://kendalls-portfolio.vercel.app/",
   },
 ];
 

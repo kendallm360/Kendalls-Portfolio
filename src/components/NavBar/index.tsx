@@ -1,4 +1,5 @@
 import logo from "../../images/letter-k.png";
+import cv from "../../images/cv.png";
 import "./styles.scss";
 
 interface IProps {
@@ -36,6 +37,9 @@ const NavBar = ({
       <h2 className="Navigation" onClick={handleContact}>
         Contact
       </h2>
+      <a href="https://docs.google.com/document/d/10p8vbhVEhb1rwRIqL2OnzSgUt4gnPb0M0MXDGgRPf2M/edit?usp=sharing">
+        <img className="Resume Logo" src={cv} alt="Resume Icon" />
+      </a>
     </div>
   );
 };

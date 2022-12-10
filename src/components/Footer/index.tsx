@@ -1,10 +1,20 @@
 import githubIcon from "../../images/githubO.png";
 import linkedinIcon from "../../images/linkedinO.png";
+import cv from "../../images/cv.png";
 import youtubeIcon from "../../images/youtubeO.png";
+import upArrow from "../../images/arrow.png";
 import "../Footer/styles.scss";
-const Footer = () => {
+const Footer = ({ handleNav }: any) => {
   return (
     <footer className="Footer">
+      <button className="ScrollToTop">
+        <img
+          className="UpArrow"
+          src={upArrow}
+          alt="Up arrow"
+          onClick={handleNav}
+        />
+      </button>
       <h4 className="Credits">Designed & Built by Kendall McGree</h4>
       <div className="SocialLinks">
         <a href="https://github.com/kendallm360">
@@ -12,6 +22,9 @@ const Footer = () => {
         </a>
         <a href="https://www.linkedin.com/in/kendall-mcgree/">
           <img className="FooterIcons" src={linkedinIcon} alt="Linkedin Icon" />
+        </a>
+        <a href="https://docs.google.com/document/d/10p8vbhVEhb1rwRIqL2OnzSgUt4gnPb0M0MXDGgRPf2M/edit?usp=sharing">
+          <img className="FooterIcons" src={cv} alt="Resume Icon" />
         </a>
         <a
           title="I sincerely apologize about this 😂"
