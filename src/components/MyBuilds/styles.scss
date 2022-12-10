@@ -42,19 +42,7 @@
 }
 
 .BuildImage {
-  position: absolute;
-  overflow: hidden;
-  left: 0;
-  top: 0;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 1rem;
-  height: 100%;
-  width: 100%;
-  //Mobile
-  @media screen and (max-width: 767px) {
-    opacity: 0.2;
-  }
+  @include project.backgroundImage;
 }
 
 .BuildDescription {
