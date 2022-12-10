@@ -1,7 +1,7 @@
 import githubIcon from "../../images/githubO.png";
 import linkedinIcon from "../../images/linkedinO.png";
 import youtubeIcon from "../../images/youtubeO.png";
-import upArrow from "../../images/up-arrow.png";
+import upArrow from "../../images/arrow.png";
 import "../Footer/styles.scss";
 const Footer = ({ handleNav }: any) => {
   return (
