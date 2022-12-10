@@ -4,6 +4,7 @@ import MyBuilds from "../../components/MyBuilds";
 import Project from "../../components/Project";
 import { latestProjects } from "../../utils/MockData";
 import "../Projects/styles.scss";
+
 const Projects = () => {
   const [checked, setChecked] = useState(false);
 
@@ -50,9 +51,8 @@ const Projects = () => {
           <a
             className="AppsLink"
             href="https://github.com/kendallm360?tab=repositories"
-            // style={{ color: "white", marginLeft: "3.5vw" }}
           >
-            All Projects
+            Older Projects
           </a>
         </>
       )}

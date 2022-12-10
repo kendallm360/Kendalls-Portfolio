@@ -51,7 +51,6 @@
   font-weight: 300;
   margin-left: 3vw;
   cursor: pointer;
-  text-decoration: underline;
 
   //Desktop
   @media screen and (min-width: 1351px) {
@@ -73,9 +72,6 @@
 
 .Navigation:hover {
   color: base.$accent-color;
-  transform: scale(1.1);
-}
-
-.Navigation:visited {
   text-decoration: underline;
+  transform: scale(1.1);
 }
