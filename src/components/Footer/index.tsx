@@ -6,8 +6,13 @@ import "../Footer/styles.scss";
 const Footer = ({ handleNav }: any) => {
   return (
     <footer className="Footer">
-      <button className="ScrollToTop" onClick={handleNav}>
-        <img src={upArrow} alt="Up arrow" />
+      <button className="ScrollToTop">
+        <img
+          className="UpArrow"
+          src={upArrow}
+          alt="Up arrow"
+          onClick={handleNav}
+        />
       </button>
       <h4 className="Credits">Designed & Built by Kendall McGree</h4>
       <div className="SocialLinks">
