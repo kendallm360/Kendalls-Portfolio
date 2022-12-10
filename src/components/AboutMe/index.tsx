@@ -50,29 +50,34 @@ const AboutMe = () => {
               <span className="Keyword">professional</span> relationships
             </li>
           </ul>
-          <p className="Overview">
-            Although, I am transitioning into software engineering I come with a{" "}
-            <span className="Keyword">multitude of transferable skills</span>{" "}
-            from previous industries.
-          </p>
-          <p className="Overview">
-            During my career at the NSA being extremely{" "}
-            <span className="Keyword">organized and meticulous </span>
-            was imperative in order to be successful. All of my achievements as
-            an Intelligence Analyst stemmed from these qualities and a genuine{" "}
-            <span className="Keyword">love for learning</span>.
-          </p>
-          <p className="Overview">
-            My time in the Navy as an Arabic Linguist highlighted the importance
-            of being a <span className="Keyword">great team player </span>and
-            having strong social skills. Consistently being{" "}
-            <span className="Keyword">flexible, positive</span>, and willing to
-            adapt to changes made coworkers/superiors love working with me. I am{" "}
-            <span className="Keyword">
-              both easy to coach and a natural leader
-            </span>{" "}
-            so I am a good culture fit for many companies.
-          </p>
+          <details>
+            <summary className="Overview">
+              Although, I am transitioning into software engineering I come with
+              a{" "}
+              <span className="Keyword">multitude of transferable skills</span>{" "}
+              from previous industries.
+            </summary>
+            <p className="Overview">
+              During my career at the NSA being extremely{" "}
+              <span className="Keyword">organized and meticulous </span>
+              was imperative in order to be successful. All of my achievements
+              as an Intelligence Analyst stemmed from these qualities and a
+              genuine <span className="Keyword">love for learning</span>.
+            </p>
+            <p className="Overview">
+              My time in the Navy as an Arabic Linguist highlighted the
+              importance of being a{" "}
+              <span className="Keyword">great team player </span>and having
+              strong social skills. Consistently being{" "}
+              <span className="Keyword">flexible, positive</span>, and willing
+              to adapt to changes made coworkers/superiors love working with me.
+              I am{" "}
+              <span className="Keyword">
+                both easy to coach and a natural leader
+              </span>{" "}
+              so I am a good culture fit for many companies.
+            </p>
+          </details>
         </div>
       )}
     </section>
