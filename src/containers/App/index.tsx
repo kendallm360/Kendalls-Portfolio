@@ -85,7 +85,7 @@ function App() {
           </div>
 
           <div className="FooterWrapper">
-            <Footer />
+            <Footer handleNav={handleNav} />
           </div>
         </section>
       )}

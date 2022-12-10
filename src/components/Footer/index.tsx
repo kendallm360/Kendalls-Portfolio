@@ -1,10 +1,14 @@
 import githubIcon from "../../images/githubO.png";
 import linkedinIcon from "../../images/linkedinO.png";
 import youtubeIcon from "../../images/youtubeO.png";
+import upArrow from "../../images/up-arrow.png";
 import "../Footer/styles.scss";
-const Footer = () => {
+const Footer = ({ handleNav }: any) => {
   return (
     <footer className="Footer">
+      <button className="ScrollToTop" onClick={handleNav}>
+        <img src={upArrow} alt="Up arrow" />
+      </button>
       <h4 className="Credits">Designed & Built by Kendall McGree</h4>
       <div className="SocialLinks">
         <a href="https://github.com/kendallm360">
