@@ -73,6 +73,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  border-radius: 39% 61% 44% 56% / 100% 0% 100% 0%;
   cursor: pointer;
   animation: floating 6s ease-in-out infinite;
   @keyframes floating {
