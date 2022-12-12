@@ -10,3 +10,9 @@ $font-stack: "Montserrat", sans-serif;
   color: $text-color;
   font-family: $font-stack;
 }
+
+.LoadingWrapper,
+.App {
+  max-width: 1850px;
+  margin: 0 auto;
+}
