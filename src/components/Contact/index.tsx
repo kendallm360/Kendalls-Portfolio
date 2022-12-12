@@ -2,16 +2,15 @@ import { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Buddies from "../Buddies";
 import "../Contact/styles.scss";
-const goldenGirls = require("../../sounds/goldenGirls.mp3");
+// const goldenGirls = require("../../sounds/goldenGirls.mp3");
 
 const Contact = () => {
   const [checked, setChecked] = useState(false);
 
-  const handleClick = () => {
-    const friends = new Audio(goldenGirls);
-
-    !checked && friends.play();
-  };
+  // const handleClick = () => {
+  //   const friends = new Audio(goldenGirls);
+  //   !checked && friends.play();
+  // };
 
   const handleChange = () => {
     setChecked(!checked);
@@ -25,7 +24,10 @@ const Contact = () => {
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
-        <div className="ViewSwitch" onClick={handleClick}>
+        <div
+          className="ViewSwitch"
+          // onClick={handleClick}
+        >
           <h2 className="Professional">Employers?</h2>
           <label className="Switch">
             <input type="Checkbox" onChange={handleChange} />
