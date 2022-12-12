@@ -17,24 +17,24 @@
 .FactGraphic {
   border-radius: 1rem;
   cursor: pointer;
-  height: 45vh;
+  height: 28rem;
   margin-bottom: 2%;
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    width: 55vw;
+    width: 57rem;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
-    width: 55vw;
+    width: 57rem;
   }
   //Tablet
   @media screen and (max-width: 950px) {
-    width: 70vw;
+    width: 42rem;
   }
   //Mobile
   @media screen and (max-width: 767px) {
-    width: 90vw;
+    width: 19rem;
   }
 }
 

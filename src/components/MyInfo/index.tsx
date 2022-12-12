@@ -18,9 +18,9 @@ const MyInfo = () => {
     >
       <section className="MyInfo">
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <h2 className="Intro">
+          <h1 className="Intro">
             Hi, my name is <span className="Name">Kendall</span>
-          </h2>
+          </h1>
           <h3 className="Summary">
             I am a Navy veteran turned front end software engineer with over a{" "}
             decade of experience working on
