@@ -71,17 +71,20 @@
 }
 
 .Navigation {
+  background-color: transparent;
+  border: transparent;
+  color: base.$text-color;
   font-weight: 300;
   margin-left: 3vw;
   cursor: pointer;
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    font-size: 36px;
+    font-size: 30px;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
-    font-size: 30px;
+    font-size: 28px;
   }
   //Tablet
   @media screen and (max-width: 950px) {
