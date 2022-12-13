@@ -9,7 +9,6 @@
     <li><a href="#application-in-action">Application in Action</a></li>
     <li><a href="#technologies-used">Technologies Used</a></li>
     <li><a href="#tools-used">Tools Used</a></li>
-    <li><a href="#accessibility">Accessibility</a></li>
     <li><a href="#organizational-resources">Organizational Resources</a></li>
     <li><a href="#future-additions">Future Additions</a></li>
     <li><a href="#contributor">Contributor</a></li>
@@ -17,11 +16,11 @@
 </details>
 
 ## About the project
-  In past projects styling was something that I did not spend much time as I was more concerned with learning the fundamentals of JavaScript and React. Now that I have become more comfortable with the code I have fallen in love with CSS. I used this project to both learn Sass and showcase some of my styling abilities. I made sure I thoroughly understood Sass' preprocessing, variables, nesting, and modules using them all consistently throughout.
+  In past projects styling was something that I did not spend much time as I was more concerned with learning the fundamentals of JavaScript and React. Now that I have become more comfortable with the code I have fallen in love with CSS. I used this project to both learn Sass and showcase some of my styling abilities. I made sure I thoroughly understood Sass' preprocessing, variables, nesting, mixins and modules using them all consistently throughout.
 
 
 ## Deployed Application
-(Kendall's Portfolio)[]
+(Kendall's Portfolio)[https://kendalls-portfolio.vercel.app/]
 
 ## User Stories
 - As a user I should be able to see a list of all projects
@@ -60,12 +59,6 @@
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 
-
-
-## Accessibility
-- [Lighthouse Scores]()
-- [Taba11y Demos]()
-
 ## Organizational Resources
  - [Project Board](https://github.com/users/kendallm360/projects/5/views/1)
  - [Figma](https://www.figma.com/file/wZHZNmMyqvjeiijssnlPFS/portfolio?node-id=0%3A1&t=LuVbw1j7W9u1iUxn-0)
@@ -74,8 +67,8 @@
 
 ## Future Additions
 - Express backend for mock data
-
-
+- Smooth transitions on rerenders
+- Sound toggle button for commented out sounds
 
 ## Contributor
   Kendall McGree
