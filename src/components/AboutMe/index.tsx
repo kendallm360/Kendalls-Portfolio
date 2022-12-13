@@ -19,8 +19,8 @@ const AboutMe = () => {
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
         <div className="ViewSwitch">
           <h2 className="Professional">Professional</h2>
-          <label className="Switch">
-            <input type="Checkbox" onChange={handleChange} />
+          <label htmlFor="Switch About" className="Switch">
+            <input id="Switch About" type="Checkbox" onChange={handleChange} />
             <span className="Slider Round"></span>
           </label>
           <h2 className="Personality">Personality</h2>

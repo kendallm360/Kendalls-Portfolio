@@ -21,11 +21,11 @@ const MyInfo = () => {
           <h1 className="Intro">
             Hi, my name is <span className="Name">Kendall</span>
           </h1>
-          <h3 className="Summary">
+          <h2 className="Summary">
             I am a Navy veteran turned front end software engineer with over a{" "}
             decade of experience working on
             <span className="KeyWord"> time-sensitive projects</span>.
-          </h3>
+          </h2>
         </div>
         <div
           className="Graphic"

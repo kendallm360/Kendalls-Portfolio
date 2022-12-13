@@ -19,24 +19,26 @@ const NavBar = ({
 }: IProps) => {
   return (
     <div className="NavBar">
-      <img
-        className="Logo"
-        src={logo}
-        alt="Kendall's custom logo"
-        onClick={handleNav}
-      />
-      <h2 className="Navigation" onClick={handleAboutMe}>
+      <a>
+        <img
+          className="Logo"
+          src={logo}
+          alt="Kendall's custom logo"
+          onClick={handleNav}
+        />
+      </a>
+      <button className="Navigation" onClick={handleAboutMe}>
         About
-      </h2>
-      <h2 className="Navigation" onClick={handleSkills}>
+      </button>
+      <button className="Navigation" onClick={handleSkills}>
         Skills
-      </h2>
-      <h2 className="Navigation" onClick={handleProject}>
+      </button>
+      <button className="Navigation" onClick={handleProject}>
         Projects
-      </h2>
-      <h2 className="Navigation" onClick={handleContact}>
+      </button>
+      <button className="Navigation" onClick={handleContact}>
         Contact
-      </h2>
+      </button>
       <a href="https://docs.google.com/document/d/10p8vbhVEhb1rwRIqL2OnzSgUt4gnPb0M0MXDGgRPf2M/edit?usp=sharing">
         <img className="Resume Logo" src={cv} alt="Resume Icon" />
       </a>

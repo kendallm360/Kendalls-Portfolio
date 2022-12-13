@@ -29,8 +29,12 @@ const Contact = () => {
           // onClick={handleClick}
         >
           <h2 className="Professional">Employers?</h2>
-          <label className="Switch">
-            <input type="Checkbox" onChange={handleChange} />
+          <label htmlFor="Switch Contact" className="Switch">
+            <input
+              id="Switch Contact"
+              type="Checkbox"
+              onChange={handleChange}
+            />
             <span className="Slider Round"></span>
           </label>
           <h2 className="Personality">Buddies?</h2>
