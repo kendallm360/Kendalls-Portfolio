@@ -26,8 +26,8 @@ import portfolioSS from "../images/SSportfolio.png";
 import bjj from "../images/bjj.jpg";
 import firstHome from "../images/firstHome.jpg";
 import towerBuild from "../images/tower.jpg";
-import rancid from "../images/rancid.png";
-import cocktail from "../images/cocktail.png";
+import rancid from "../images/rancid2.png";
+import cocktail from "../images/cocktail2.png";
 
 export const mySkills = [
   {
@@ -187,7 +187,7 @@ export const latestProjects = [
     logo: portfolioSS,
     description:
       "This portfolio because everyone needs one of those. In past projects styling was something that I did not spend much time on as I was more concerned with learning the fundamentals of JavaScript and React. Now that I have become more comfortable with the code I have fallen in love with CSS. I used this project to both learn Sass and showcase some of my styling abilities. Checkout the repo for this site below.",
-    topTechnologies: ["React", "SASS"],
+    topTechnologies: ["SASS", "React"],
     repoLink: "https://github.com/kendallm360/Kendalls-Portfolio",
     deployedLink: "https://kendalls-portfolio.vercel.app/",
   },
@@ -195,8 +195,9 @@ export const latestProjects = [
     id: 3,
     name: "CockTail Lounge",
     logo: cocktail,
-    description: "",
-    topTechnologies: ["React", "TypeScript"],
+    description:
+      "A group project used to self-teach TypeScript in a collaborative environment. We also used the project to demonstrate a deep understanding of API consumption and E2E testing. The application gives the user the option to choose a cocktail from available categories or be suggested 4 different drinks at random.",
+    topTechnologies: ["TypeScript", "React"],
     repoLink: "https://github.com/kendallm360/cocktail-lounge",
     deployedLink: "https://cocktail-lounge-jqhnunkrf-kendallm360.vercel.app/",
   },
@@ -204,8 +205,9 @@ export const latestProjects = [
     id: 4,
     name: "Rancid Tomatillos",
     logo: rancid,
-    description: "",
-    topTechnologies: ["React", "JavaScript"],
+    description:
+      "A paired project which was my first application using React.js. Heavily inspired by IMDB but better...if you ask me. This is one of my older applications but is dear to me because it was a major turning point for my appreciation of frontend engineering.",
+    topTechnologies: ["React", "Cypress"],
     repoLink: "https://github.com/kendallm360/rancid-tomatillos",
     deployedLink: "https://rancid-tomatillos-xi.vercel.app/",
   },
@@ -226,7 +228,7 @@ export const funFacts = [
   },
   {
     id: 2,
-    fact: "Love Listening To Music",
+    fact: "Music Gets Me Going",
     image: "https://media.giphy.com/media/l0HlFTlbKx9KMZC5q/giphy.gif",
     imageAlt: "Man jamming out on the job whilst remaining productive",
   },
@@ -254,6 +256,12 @@ export const funFacts = [
     image:
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
+  },
+  {
+    id: 7,
+    fact: "I Love Hiking",
+    image: "https://media.giphy.com/media/3oxRmGNqKwCzJ0AwPC/giphy.gif",
+    imageAlt: "Man falling into stream while hiking. #fail",
   },
 ];
 
