@@ -1,4 +1,4 @@
-# Kendalls-Portfolio
+# Kendall's Portfolio
 
 <details>
   <summary>Table of Contents</summary>
