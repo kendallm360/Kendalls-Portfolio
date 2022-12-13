@@ -21,7 +21,7 @@
 
 
 ## Deployed Application
-[Kendall's Portfolio[(https://kendalls-portfolio.vercel.app/)
+[Kendall's Portfolio](https://kendalls-portfolio.vercel.app/)
 
 ## User Stories
 - As a user I should be able to see a list of all projects
@@ -37,13 +37,13 @@
 ### Loading the application:
 ![demo1](https://media.giphy.com/media/Oax4Lda66Jfla5rhAX/giphy.gif)
 
-### Toggling between the different About Me sections:
+### Toggling between the different about me sections:
 ![demo2](https://media.giphy.com/media/7JOXYKHrxrOCPEZmNd/giphy.gif)
 
-### Toggling between the different Project sections:
+### Toggling between the different project sections:
 ![demo4](https://media.giphy.com/media/FXE2ZnaH9qH6fl9wqZ/giphy.gif)
 
-### Site Navigation:
+### Site navigation:
 ![demo4](https://media.giphy.com/media/f6POTtes9D3hCVc0lz/giphy.gif)
 
 
