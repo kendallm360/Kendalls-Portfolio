@@ -68,6 +68,12 @@
   border-radius: 1rem;
   margin: 0 3vw 5%;
   padding: 2.5%;
+  height: 50vh;
+  width: 40vw;
+  @media screen and (max-width: 951px) {
+    height: 50vh;
+    width: 75vw;
+  }
 }
 
 .Project:hover {
