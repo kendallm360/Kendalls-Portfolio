@@ -9,6 +9,7 @@
     <li><a href="#application-in-action">Application in Action</a></li>
     <li><a href="#technologies-used">Technologies Used</a></li>
     <li><a href="#tools-used">Tools Used</a></li>
+    <li><a href="#accessibility">Accessibility</a></li>
     <li><a href="#organizational-resources">Organizational Resources</a></li>
     <li><a href="#future-additions">Future Additions</a></li>
     <li><a href="#contributor">Contributor</a></li>
@@ -20,7 +21,7 @@
 
 
 ## Deployed Application
-(Kendall's Portfolio)[https://kendalls-portfolio.vercel.app/]
+[Kendall's Portfolio[(https://kendalls-portfolio.vercel.app/)
 
 ## User Stories
 - As a user I should be able to see a list of all projects
@@ -33,8 +34,18 @@
 
 ## Application in Action
 
-### Choosing a category of devices from the options populated on page load:
-![]()
+### Loading the application:
+![demo1](https://media.giphy.com/media/Oax4Lda66Jfla5rhAX/giphy.gif)
+
+### Toggling between the different About Me sections:
+![demo2](https://media.giphy.com/media/7JOXYKHrxrOCPEZmNd/giphy.gif)
+
+### Toggling between the different Project sections:
+![demo4](https://media.giphy.com/media/FXE2ZnaH9qH6fl9wqZ/giphy.gif)
+
+### Site Navigation:
+![demo4](https://media.giphy.com/media/f6POTtes9D3hCVc0lz/giphy.gif)
+
 
 ## Technologies Used
 
@@ -58,6 +69,10 @@
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
+## Accessibility
+
+ - [Lighthouse Score](https://docs.google.com/document/d/19YRitTPzhTCN8Y1Dr9P7Zs5toK-sICHwfSbGbF-je00/edit?usp=sharing)
+ - [Taba11y](https://docs.google.com/document/d/1_LB0MNF5sP1Cx50qmCayI4O7wD06deI6IqDgKwuHBG0/edit?usp=sharing)
 
 ## Organizational Resources
  - [Project Board](https://github.com/users/kendallm360/projects/5/views/1)
