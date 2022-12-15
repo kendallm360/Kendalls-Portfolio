@@ -1,7 +1,8 @@
 @use "../../containers/App/base" as base;
+@use "../../containers/Projects/styles.scss" as link;
 
 .AboutMe {
-  margin-bottom: 10vh;
+  margin-bottom: 8vh;
   margin-top: 3vh;
 }
 
@@ -12,15 +13,15 @@
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    font-size: 42px;
+    font-size: 32px;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
-    font-size: 38px;
+    font-size: 30px;
   }
   //Tablet
   @media screen and (max-width: 950px) {
-    font-size: 32px;
+    font-size: 28px;
   }
   //Mobile
   @media screen and (max-width: 767px) {
@@ -48,6 +49,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5vh;
+
   //Larger
   @media screen and (min-width: 1561px) {
     margin-left: 70vw;
@@ -72,28 +74,29 @@
   //Tablet
   @media screen and (max-width: 950px) {
     margin-left: 50vw;
-    width: 43vw;
+    width: 40vw;
   }
   //Mobile
   @media screen and (max-width: 767px) {
-    margin-left: 5%;
-    width: 45vw;
     flex-direction: column;
     align-content: center;
+    width: 45vw;
+    margin-left: 5%;
   }
 }
 
 .Switch {
   position: relative;
   display: inline-block;
+
   // custom breakpoints
   @media screen and (min-width: 1160px) {
-    width: 60px;
-    height: 34px;
+    width: 50px;
+    height: 23px;
   }
   @media screen and (max-width: 1159px) {
     width: 50px;
-    height: 28px;
+    height: 22px;
   }
   @media screen and (max-width: 767px) {
     width: 46px;
@@ -115,8 +118,6 @@
   right: 0;
   bottom: 0;
   background-color: base.$accent-color;
-  // border-radius: 0.2rem;
-  // -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -126,34 +127,31 @@
   background-color: base.$text-color;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+
   //custom breakpoint
   @media screen and (min-width: 1160px) {
-    height: 26px;
-    width: 26px;
+    height: 18px;
+    width: 18px;
     left: 4px;
-    bottom: 4px;
+    bottom: 2px;
   }
   @media screen and (max-width: 1159px) {
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     left: 3px;
-    bottom: 4px;
+    bottom: 2px;
   }
   @media screen and (max-width: 767px) {
-    height: 18px;
+    height: 16px;
     width: 16px;
-    left: 1px;
-    bottom: 1.5px;
+    left: 2px;
+    bottom: 2px;
   }
 }
 
 input:checked + .Slider {
   background-color: base.$text-color;
 }
-
-// input:focus + .Slider {
-//   box-shadow: 0 0 1px #2196f3;
-// }
 
 input:checked + .Slider:before {
   -webkit-transform: translateX(26px);
@@ -172,14 +170,7 @@ input:checked + .Slider:before {
 
 .Personality,
 .Professional {
-  //Tablet
-  @media screen and (max-width: 950px) {
-    font-size: 20px;
-  }
-  //Mobile
-  @media screen and (max-width: 767px) {
-    font-size: 18px;
-  }
+  @include link.linkTextTheme;
 }
 
 .Professional {
@@ -187,40 +178,66 @@ input:checked + .Slider:before {
   @media screen and (max-width: 767px) {
     margin-bottom: 0%;
     margin-left: -45%;
-    // text-align: end;
   }
 }
 
 .Personality {
   color: base.$accent-color;
+
   //Mobile
   @media screen and (max-width: 767px) {
     margin-left: 50%;
     margin-top: 0%;
-
-    // text-align: end;
   }
 }
 
-.Overview {
-  font-weight: 400;
-  margin: 0 5vw 2vh;
+.Qualities {
+  margin-bottom: 5vh;
 
-  //Desktop
-  @media screen and (min-width: 1351px) {
-    font-size: 26px;
+  .SubHeader {
+    color: base.$accent-color;
+    margin-left: 3%;
+
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      font-size: 26px;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      font-size: 24px;
+    }
+    //Tablet
+    @media screen and (max-width: 950px) {
+      font-size: 22px;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      font-size: 20px;
+    }
   }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    font-size: 23px;
-  }
-  //Tablet
-  @media screen and (max-width: 950px) {
-    font-size: 20px;
-  }
-  //Mobile
-  @media screen and (max-width: 767px) {
-    font-size: 18px;
+
+  .Quality {
+    margin-top: 1rem;
+
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      font-size: 24px;
+      margin-left: 5%;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      font-size: 22px;
+      margin-left: 5%;
+    }
+    //Tablet
+    @media screen and (max-width: 950px) {
+      font-size: 20px;
+      margin-left: 5%;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 
   .Keyword {
@@ -232,52 +249,25 @@ summary {
   cursor: pointer;
 }
 
-.Qualities {
-  margin-bottom: 5vh;
+.Overview {
+  font-weight: 400;
+  margin: 0 5vw 2vh;
 
-  .SubHeader {
-    //Desktop
-    @media screen and (min-width: 1351px) {
-      margin-left: 3%;
-      font-size: 30px;
-    }
-    //Laptop
-    @media screen and (max-width: 1350px) {
-      font-size: 26px;
-    }
-    //Tablet
-    color: base.$accent-color;
-    @media screen and (max-width: 950px) {
-      font-size: 24px;
-    }
-    //Mobile
-    @media screen and (max-width: 767px) {
-      font-size: 22px;
-    }
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 22px;
   }
-
-  .Quality {
-    margin-top: 1rem;
-
-    //Desktop
-    @media screen and (min-width: 1351px) {
-      font-size: 27px;
-      margin-left: 5%;
-    }
-    //Laptop
-    @media screen and (max-width: 1350px) {
-      font-size: 24px;
-      margin-left: 5%;
-    }
-    //Tablet
-    @media screen and (max-width: 950px) {
-      font-size: 21px;
-      margin-left: 5%;
-    }
-    //Mobile
-    @media screen and (max-width: 767px) {
-      font-size: 19px;
-    }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 20px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 18px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
   }
 
   .Keyword {

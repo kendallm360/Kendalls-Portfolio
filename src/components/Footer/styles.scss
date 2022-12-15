@@ -1,63 +1,9 @@
 @use "../../containers/App/base" as base;
 
 .Footer {
-  margin-top: 4%;
+  margin-top: 1.5vh;
 }
 
-.SocialLinks {
-  display: flex;
-  justify-content: space-evenly;
-
-  .FooterIcons {
-    opacity: 0.6;
-
-    //Desktop
-    @media screen and (min-width: 1351px) {
-      height: 2.4rem;
-      width: 2.4rem;
-    }
-    //Laptop
-    @media screen and (max-width: 1350px) {
-      height: 2.2rem;
-      width: 2.2rem;
-    }
-    //Tablet
-    @media screen and (max-width: 950px) {
-      height: 1.8rem;
-      width: 1.8rem;
-    }
-    //Mobile
-    @media screen and (max-width: 767px) {
-      height: 1.5rem;
-      width: 1.5rem;
-    }
-  }
-}
-
-.Credits {
-  color: base.$accent-color;
-  font-weight: 100;
-  margin: 1%;
-  opacity: 0.6;
-  text-align: center;
-
-  //Desktop
-  @media screen and (min-width: 1351px) {
-    font-size: 24px;
-  }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    font-size: 20px;
-  }
-  //Tablet
-  @media screen and (max-width: 950px) {
-    font-size: 16px;
-  }
-  //Mobile
-  @media screen and (max-width: 767px) {
-    font-size: 12px;
-  }
-}
 .ScrollToTop {
   display: flex;
   justify-content: center;
@@ -85,18 +31,18 @@
   cursor: pointer;
   //Desktop
   @media screen and (min-width: 1351px) {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
   }
   //Tablet
   @media screen and (max-width: 950px) {
-    height: 3rem;
-    width: 3rem;
+    height: 2.3rem;
+    width: 2.3rem;
   }
   //Mobile
   @media screen and (max-width: 767px) {
@@ -107,10 +53,65 @@
 
 .UpArrow:hover {
   border-radius: 50%;
-  border: solid white 1px;
+  border: solid base.$accent-color 1px;
 }
 
 .UpArrow:active {
   border-radius: 50%;
-  border: solid base.$accent-color 1px;
+  border: solid base.$text-color 1px;
+}
+
+.SocialLinks {
+  display: flex;
+  justify-content: space-evenly;
+
+  .FooterIcons {
+    opacity: 0.6;
+
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      height: 2.6rem;
+      width: 2.6rem;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      height: 2.1rem;
+      width: 2.1rem;
+    }
+    //Tablet
+    @media screen and (max-width: 950px) {
+      height: 1.9rem;
+      width: 1.9rem;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      height: 1.6rem;
+      width: 1.6rem;
+    }
+  }
+}
+
+.Credits {
+  color: base.$accent-color;
+  font-weight: 100;
+  margin: 1%;
+  opacity: 0.6;
+  text-align: center;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 20px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 18px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 16px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
 }

@@ -17,7 +17,10 @@ const MyInfo = () => {
       duration={1.5}
     >
       <section className="MyInfo">
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div
+          className="InfoText"
+          style={{ display: "flex", flexDirection: "column" }}
+        >
           <h1 className="Intro">
             Hi, my name is <span className="Name">Kendall</span>
           </h1>

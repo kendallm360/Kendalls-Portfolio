@@ -5,74 +5,76 @@
   margin-top: 5vh;
   margin-bottom: 10vh;
 
-  //Laptop
+  //Laptops and up
   @media screen and (min-width: 951px) {
     display: flex;
     flex-direction: row;
   }
-}
-
-.Intro {
-  color: base.$accent-color;
-  font-weight: 300;
-  margin: 0 3vw;
-  text-align: start;
-
-  //Desktop
-  @media screen and (min-width: 1351px) {
-    font-size: 64px;
-  }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    font-size: 56px;
-  }
-  //Tablet
+  //Tablets and smaller
   @media screen and (max-width: 950px) {
-    font-size: 46px;
-  }
-  //Mobile
-  @media screen and (max-width: 767px) {
-    font-size: 40px;
-  }
-
-  .Name {
-    color: white;
-    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
-.Summary {
-  font-weight: 300;
-  margin-left: 3vw;
+.InfoText {
+  width: 50vw;
 
-  //Desktop
-  @media screen and (min-width: 1351px) {
-    font-size: 36px;
-  }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    font-size: 30px;
-  }
-  //Tablet
+  //Tablets and smaller
   @media screen and (max-width: 950px) {
-    font-size: 26px;
-  }
-  //Mobile
-  @media screen and (max-width: 767px) {
-    font-size: 24px;
+    width: 90vw;
   }
 
-  .KeyWord {
+  .Intro {
     color: base.$accent-color;
-    font-weight: 500;
-    margin-left: 0;
+    font-weight: 300;
+    margin: 0 3vw;
+    text-align: start;
+
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      font-size: 60px;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      font-size: 54px;
+    }
+    //Tablet
+    @media screen and (max-width: 950px) {
+      font-size: 46px;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      font-size: 38px;
+    }
+
+    .Name {
+      color: white;
+      font-weight: 600;
+    }
+  }
+
+  .Summary {
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 3vw;
+
+    //Mobile
+    @media screen and (max-width: 767px) {
+      font-size: 20px;
+    }
+
+    .KeyWord {
+      color: base.$accent-color;
+      font-weight: 500;
+      margin-left: 0;
+    }
   }
 }
 
 .Graphic {
   position: relative;
-  display: flex;
-  justify-content: center;
   border-radius: 39% 61% 44% 56% / 100% 0% 100% 0%;
   cursor: pointer;
   animation: floating 6s ease-in-out infinite;
@@ -88,6 +90,11 @@
     }
   }
 
+  //Laptops and up
+  @media screen and (min-width: 1350px) {
+    margin-left: 5vw;
+  }
+
   .KendallImage {
     transition: border-radius 500ms ease-in-out;
     background-color: base.$accent-color;
@@ -96,26 +103,27 @@
 
     //Desktop
     @media screen and (min-width: 1351px) {
-      height: 50vh;
-      width: 50vw;
-      margin: 25% 5% 0% 0%;
+      height: 40vh;
+      width: 40vw;
+      margin-top: 45%;
     }
     //Laptop
     @media screen and (max-width: 1350px) {
-      height: 45vh;
-      width: 50vw;
-      margin: 55% 5% 0% 0%;
+      height: 40vh;
+      width: 40vw;
+      margin-top: 65%;
     }
     //Tablet
     @media screen and (max-width: 950px) {
       height: 45vh;
-      width: 70%;
-      margin-top: 10%;
+      width: 55vw;
+      margin-top: 35%;
     }
     //Mobile
     @media screen and (max-width: 767px) {
-      height: 40vh;
-      width: 80%;
+      height: 45vh;
+      width: 70vw;
+      margin-top: 35%;
     }
   }
 

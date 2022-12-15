@@ -5,27 +5,6 @@
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    font-size: 32px;
-  }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    font-size: 28px;
-  }
-  //Tablet
-  @media screen and (max-width: 950px) {
-    font-size: 24px;
-  }
-  //Mobile
-  @media screen and (max-width: 767px) {
-    font-size: 22px;
-  }
-}
-
-@mixin descriptionTheme {
-  font-weight: 700;
-
-  //Desktop
-  @media screen and (min-width: 1351px) {
     font-size: 22px;
   }
   //Laptop
@@ -39,6 +18,27 @@
   //Mobile
   @media screen and (max-width: 767px) {
     font-size: 16px;
+  }
+}
+
+@mixin descriptionTheme {
+  font-weight: 700;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 18px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 16px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 15px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
   }
 }
 
@@ -66,13 +66,15 @@
   align-items: center;
   border: solid 1px base.$accent-color;
   border-radius: 1rem;
-  margin: 0 3vw 5%;
   padding: 2.5%;
-  height: 50vh;
-  width: 40vw;
+  height: 35vh;
+  width: 35vw;
+
+  //Tablets and smaller
   @media screen and (max-width: 951px) {
-    height: 50vh;
-    width: 75vw;
+    height: 35vh;
+    width: 60vw;
+    margin-bottom: -2vh;
   }
 }
 
@@ -103,33 +105,13 @@
     opacity: 1;
   }
 
-  .ProjectTitle {
+  .ProjectTitle,
+  .TopTechnologies {
     @include subheaderTheme;
   }
 
   .ProjectDescription {
     @include descriptionTheme;
-  }
-
-  .TopTechnologies {
-    color: base.$accent-color;
-
-    //Desktop
-    @media screen and (min-width: 1351px) {
-      font-size: 26px;
-    }
-    //Laptop
-    @media screen and (max-width: 1350px) {
-      font-size: 22px;
-    }
-    //Tablet
-    @media screen and (max-width: 950px) {
-      font-size: 20px;
-    }
-    //Mobile
-    @media screen and (max-width: 767px) {
-      font-size: 18px;
-    }
   }
 
   .Divider {
@@ -144,7 +126,7 @@
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    width: 20%;
+    width: 18%;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
@@ -165,23 +147,23 @@
 
     //Desktop
     @media screen and (min-width: 1351px) {
-      height: 3rem;
-      width: 3rem;
+      height: 2rem;
+      width: 2rem;
     }
     //Laptop
     @media screen and (max-width: 1350px) {
-      height: 2.5rem;
-      width: 2.5rem;
+      height: 1.8rem;
+      width: 1.8rem;
     }
     //Tablet
     @media screen and (max-width: 950px) {
-      height: 2rem;
-      width: 2rem;
+      height: 1.7rem;
+      width: 1.7rem;
     }
     //Mobile
     @media screen and (max-width: 767px) {
-      height: 2rem;
-      width: 2rem;
+      height: 1.6rem;
+      width: 1.6rem;
     }
   }
 

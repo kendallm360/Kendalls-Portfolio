@@ -7,19 +7,19 @@
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    font-size: 44px;
+    font-size: 32px;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
-    font-size: 40px;
+    font-size: 30px;
   }
   //Tablet
   @media screen and (max-width: 950px) {
-    font-size: 34px;
+    font-size: 28px;
   }
   //Mobile
   @media screen and (max-width: 767px) {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 
@@ -29,15 +29,15 @@
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    font-size: 28px;
+    font-size: 22px;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
-    font-size: 26px;
+    font-size: 20px;
   }
   //Tablet
   @media screen and (max-width: 950px) {
-    font-size: 20px;
+    font-size: 18px;
   }
   //Mobile
   @media screen and (max-width: 767px) {
@@ -58,26 +58,26 @@
 
     //Desktop
     @media screen and (min-width: 1351px) {
-      height: 3.5rem;
-      font-size: 24px;
-      width: 12rem;
+      height: 2.5rem;
+      font-size: 22px;
+      width: 10rem;
     }
     //Laptop
     @media screen and (max-width: 1350px) {
-      height: 3rem;
+      height: 2rem;
       font-size: 20px;
-      width: 10rem;
+      width: 9rem;
     }
     //Tablet
     @media screen and (max-width: 950px) {
-      height: 2.5rem;
-      font-size: 16px;
+      height: 2rem;
+      font-size: 18px;
       width: 8rem;
     }
     //Mobile
     @media screen and (max-width: 767px) {
       height: 1.5rem;
-      font-size: 12px;
+      font-size: 16px;
       width: 6rem;
     }
   }
