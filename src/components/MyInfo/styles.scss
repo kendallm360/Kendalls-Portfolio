@@ -92,7 +92,7 @@
 
   //Laptops and up
   @media screen and (min-width: 1350px) {
-    margin-left: 5vw;
+    margin-left: 10vw;
   }
 
   .KendallImage {
@@ -103,14 +103,14 @@
 
     //Desktop
     @media screen and (min-width: 1351px) {
-      height: 40vh;
-      width: 40vw;
-      margin-top: 45%;
+      height: 35vh;
+      width: 30vw;
+      margin-top: 50%;
     }
     //Laptop
     @media screen and (max-width: 1350px) {
-      height: 40vh;
-      width: 40vw;
+      height: 35vh;
+      width: 35vw;
       margin-top: 65%;
     }
     //Tablet
