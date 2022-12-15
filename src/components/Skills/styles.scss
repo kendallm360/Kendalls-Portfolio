@@ -7,31 +7,21 @@
 
 .MySkills {
   display: grid;
+  width: 85vw;
+  margin-left: 7.5vw;
 
-  //Desktop
-  @media screen and (min-width: 1351px) {
+  //Laptops and up
+  @media screen and (min-width: 951px) {
     grid-template-columns: repeat(4, 1fr);
-    margin: 0 2vw;
   }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 2vw;
-  }
-  //Tablet
+  //Tablets and smaller
   @media screen and (max-width: 950px) {
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 2vw;
-  }
-  //Mobile
-  @media screen and (max-width: 767px) {
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 2vw;
   }
 
   .Skill {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border: solid 1px base.$accent-color;
     border-radius: 0.8rem;
