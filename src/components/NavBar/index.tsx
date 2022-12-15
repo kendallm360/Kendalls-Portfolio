@@ -39,7 +39,7 @@ const NavBar = ({
       <button className="Navigation" onClick={handleContact}>
         Contact
       </button>
-      <a href="https://docs.google.com/document/d/10p8vbhVEhb1rwRIqL2OnzSgUt4gnPb0M0MXDGgRPf2M/edit?usp=sharing">
+      <a href="https://docs.google.com/document/d/1fa9H_jyn6aB8_55Ah5vWY2jegCmUL8TdootxsNjJxz4/edit?usp=sharing">
         <img className="Resume Logo" src={cv} alt="Resume Icon" />
       </a>
     </div>

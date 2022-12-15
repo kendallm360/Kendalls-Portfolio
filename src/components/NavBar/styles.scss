@@ -20,8 +20,8 @@
   }
   //Mobile
   @media screen and (max-width: 767px) {
-    justify-content: space-between;
-    padding: 1% 8%;
+    justify-content: space-evenly;
+    padding: 1% 10%;
   }
 }
 
@@ -44,8 +44,8 @@
   }
   //Mobile
   @media screen and (max-width: 767px) {
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 1.4rem;
+    width: 1.4rem;
   }
 }
 
