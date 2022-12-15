@@ -13,15 +13,15 @@
 
   //Desktop
   @media screen and (min-width: 1351px) {
-    font-size: 36px;
+    font-size: 32px;
   }
   //Laptop
   @media screen and (max-width: 1350px) {
-    font-size: 34px;
+    font-size: 30px;
   }
   //Tablet
   @media screen and (max-width: 950px) {
-    font-size: 32px;
+    font-size: 28px;
   }
   //Mobile
   @media screen and (max-width: 767px) {
@@ -49,6 +49,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5vh;
+
   //Larger
   @media screen and (min-width: 1561px) {
     margin-left: 70vw;
@@ -73,23 +74,24 @@
   //Tablet
   @media screen and (max-width: 950px) {
     margin-left: 50vw;
-    width: 43vw;
+    width: 40vw;
   }
   //Mobile
   @media screen and (max-width: 767px) {
-    margin-left: 5%;
-    width: 45vw;
     flex-direction: column;
     align-content: center;
+    width: 45vw;
+    margin-left: 5%;
   }
 }
 
 .Switch {
   position: relative;
   display: inline-block;
+
   // custom breakpoints
   @media screen and (min-width: 1160px) {
-    width: 60px;
+    width: 50px;
     height: 23px;
   }
   @media screen and (max-width: 1159px) {
