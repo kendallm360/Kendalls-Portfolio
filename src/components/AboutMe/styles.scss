@@ -1,7 +1,8 @@
 @use "../../containers/App/base" as base;
+@use "../../containers/Projects/styles.scss" as link;
 
 .AboutMe {
-  margin-bottom: 10vh;
+  margin-bottom: 8vh;
   margin-top: 3vh;
 }
 
@@ -89,11 +90,11 @@
   // custom breakpoints
   @media screen and (min-width: 1160px) {
     width: 60px;
-    height: 28px;
+    height: 23px;
   }
   @media screen and (max-width: 1159px) {
     width: 50px;
-    height: 28px;
+    height: 22px;
   }
   @media screen and (max-width: 767px) {
     width: 46px;
@@ -124,24 +125,25 @@
   background-color: base.$text-color;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+
   //custom breakpoint
   @media screen and (min-width: 1160px) {
-    height: 22px;
-    width: 22px;
+    height: 18px;
+    width: 18px;
     left: 4px;
-    bottom: 4px;
+    bottom: 2px;
   }
   @media screen and (max-width: 1159px) {
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     left: 3px;
-    bottom: 4px;
+    bottom: 2px;
   }
   @media screen and (max-width: 767px) {
-    height: 18px;
+    height: 16px;
     width: 16px;
-    left: 1px;
-    bottom: 1.5px;
+    left: 2px;
+    bottom: 2px;
   }
 }
 
@@ -166,21 +168,7 @@ input:checked + .Slider:before {
 
 .Personality,
 .Professional {
-  @media screen and (min-width: 1351px) {
-    font-size: 22px;
-  }
-  //Laptop
-  @media screen and (max-width: 1350px) {
-    font-size: 22px;
-  }
-  //Tablet
-  @media screen and (max-width: 950px) {
-    font-size: 20px;
-  }
-  //Mobile
-  @media screen and (max-width: 767px) {
-    font-size: 18px;
-  }
+  @include link.linkTextTheme;
 }
 
 .Professional {
@@ -207,6 +195,7 @@ input:checked + .Slider:before {
   .SubHeader {
     color: base.$accent-color;
     margin-left: 3%;
+
     //Desktop
     @media screen and (min-width: 1351px) {
       font-size: 26px;
