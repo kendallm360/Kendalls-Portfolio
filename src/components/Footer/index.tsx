@@ -23,7 +23,7 @@ const Footer = ({ handleNav }: any) => {
         <a href="https://www.linkedin.com/in/kendall-mcgree/">
           <img className="FooterIcons" src={linkedinIcon} alt="Linkedin Icon" />
         </a>
-        <a href="https://docs.google.com/document/d/10p8vbhVEhb1rwRIqL2OnzSgUt4gnPb0M0MXDGgRPf2M/edit?usp=sharing">
+        <a href="https://docs.google.com/document/d/1hc0UREv_1wmlDpsB-BiTsVSENJmo_iO0ENFPTrwkFVw/edit?usp=sharing">
           <img className="FooterIcons" src={cv} alt="Resume Icon" />
         </a>
         <a
