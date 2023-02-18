@@ -28,7 +28,7 @@ const Contact = () => {
           className="ViewSwitch"
           // onClick={handleClick}
         >
-          <h2 className="Professional">Employers?</h2>
+          <h2 className="Professional">Employers</h2>
           <label htmlFor="Switch Contact" className="Switch">
             <input
               id="Switch Contact"
@@ -46,15 +46,15 @@ const Contact = () => {
         <>
           <h3 className="Beg">Hire Me</h3>
           <p className="ActionItem">
-            Are you looking to hire new talent? Well lucky for you I am still
-            available for employment. If you ARE NOT hiring visit my Youtube
-            below.
+            I have accepted an offer and am no longer looking for opportunities.
           </p>
-          <div className="ButtonWrapper">
+          {/* <div className="ButtonWrapper">
             <a href="mailto:mcgreekendall@gmail.com">
-              <button className="EmailMe">Hire</button>
+              <button className="EmailMe">
+                Hire
+              </button>
             </a>
-          </div>
+          </div> */}
         </>
       )}
     </section>

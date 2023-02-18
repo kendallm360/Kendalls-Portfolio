@@ -252,14 +252,14 @@ export const funFacts = [
   },
   {
     id: 6,
-    fact: "I Hate Bullying",
+    fact: "Bullying Sucks",
     image:
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
   },
   {
     id: 7,
-    fact: "I Love Hiking",
+    fact: "Im An Avid Hiker",
     image: "https://media.giphy.com/media/3oxRmGNqKwCzJ0AwPC/giphy.gif",
     imageAlt: "Man falling into stream while hiking. #fail",
   },

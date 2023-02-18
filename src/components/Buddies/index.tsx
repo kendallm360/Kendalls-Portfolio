@@ -1,7 +1,9 @@
 const Buddies = () => {
   return (
     <>
-      <h3 className="Coffee Beg">Coffee Chat Anyone?</h3>
+      <h3 className="Coffee Beg" style={{ textDecoration: "none" }}>
+        Coffee Chat Anyone?
+      </h3>
       <p className="ActionItem">
         Whether you want to vent about the job search, collaborate on a project,
         or make a suggestion/critique I beg you to reach out to me. It gets
