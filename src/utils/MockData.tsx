@@ -26,7 +26,7 @@ import portfolioSS from "../images/SSportfolio.png";
 import bjj from "../images/bjj.jpg";
 import firstHome from "../images/firstHome.jpg";
 import towerBuild from "../images/tower.jpg";
-import rancid from "../images/rancid2.png";
+import msc from "../images/mscSS.png";
 import cocktail from "../images/cocktail2.png";
 
 export const mySkills = [
@@ -173,13 +173,13 @@ export const mySkills = [
 export const latestProjects = [
   {
     id: 1,
-    name: "Smart Tech",
-    logo: smartTechLogo,
+    name: "Movie Social Club",
+    logo: msc,
     description:
-      "An e-commerce website built to showcase all I've learned so far studying frontend engineering. The application is responsive across multiple breakpoints, E2E tested, fully accessible, and was continuously integrated & deployed. Global state management and user error handling was utilized throughout.",
-    topTechnologies: ["React", "TypeScript"],
-    repoLink: "https://github.com/kendallm360/smart-tech",
-    deployedLink: "https://smart-tech-c9yjukahg-kendallm360.vercel.app/",
+      "A solo fullstack website. I used this project to showcase all that I have self taught in terms of Next.js, Prisma, MongoDB, Axios, and Zustand. The app allows users to gain insight on current movies, see curated movie suggestions, leave reviews, and manage watch and favorite lists.",
+    topTechnologies: ["Next.js", "TypeScript"],
+    repoLink: "https://github.com/Movie-Social/movie-social",
+    deployedLink: "https://movie-social-club.vercel.app/auth",
   },
   {
     id: 2,
@@ -193,6 +193,16 @@ export const latestProjects = [
   },
   {
     id: 3,
+    name: "Smart Tech",
+    logo: smartTechLogo,
+    description:
+      "An e-commerce website built to showcase all I've learned so far studying frontend engineering. The application is responsive across multiple breakpoints, E2E tested, fully accessible, and was continuously integrated & deployed. Global state management and user error handling was utilized throughout.",
+    topTechnologies: ["React", "TypeScript"],
+    repoLink: "https://github.com/kendallm360/smart-tech",
+    deployedLink: "https://smart-tech-c9yjukahg-kendallm360.vercel.app/",
+  },
+  {
+    id: 4,
     name: "CockTail Lounge",
     logo: cocktail,
     description:
@@ -200,16 +210,6 @@ export const latestProjects = [
     topTechnologies: ["TypeScript", "React"],
     repoLink: "https://github.com/kendallm360/cocktail-lounge",
     deployedLink: "https://cocktail-lounge-jqhnunkrf-kendallm360.vercel.app/",
-  },
-  {
-    id: 4,
-    name: "Rancid Tomatillos",
-    logo: rancid,
-    description:
-      "A paired project which was my first application using React.js. Heavily inspired by IMDB but better...if you ask me. This is one of my older applications but is dear to me because it was a major turning point for my appreciation of frontend engineering.",
-    topTechnologies: ["React", "Cypress"],
-    repoLink: "https://github.com/kendallm360/rancid-tomatillos",
-    deployedLink: "https://rancid-tomatillos-xi.vercel.app/",
   },
 ];
 
@@ -252,14 +252,14 @@ export const funFacts = [
   },
   {
     id: 6,
-    fact: "Bullying Sucks",
+    fact: "I Am Against Bullying",
     image:
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
   },
   {
     id: 7,
-    fact: "Im An Avid Hiker",
+    fact: "Avid Hiker",
     image: "https://media.giphy.com/media/3oxRmGNqKwCzJ0AwPC/giphy.gif",
     imageAlt: "Man falling into stream while hiking. #fail",
   },
@@ -302,12 +302,6 @@ export const alternateSkills = [
     image: "https://media.giphy.com/media/LRrHCZYvcKukTi3ayH/giphy.gif",
     imageAlt: "Ed seasoning the food from the movie Good Burger",
   },
-  // {
-  //   id: 6,
-  //   title: "",
-  //   image: "",
-  //   imageAlt: "",
-  // }
 ];
 
 export const myBuilds = [
