@@ -2,15 +2,10 @@ import { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Buddies from "../Buddies";
 import "../Contact/styles.scss";
-// const goldenGirls = require("../../sounds/goldenGirls.mp3");
+import githubIcon from "../../images/githubO.png";
 
 const Contact = () => {
   const [checked, setChecked] = useState(false);
-
-  // const handleClick = () => {
-  //   const friends = new Audio(goldenGirls);
-  //   !checked && friends.play();
-  // };
 
   const handleChange = () => {
     setChecked(!checked);
@@ -46,15 +41,15 @@ const Contact = () => {
         <>
           <h3 className="Beg">Hire Me</h3>
           <p className="ActionItem">
-            I have accepted an offer and am no longer looking for opportunities.
+            If you are in the market for a hardworking frontend junior software
+            engineer then I am your guy. I am also familiar with the backend and
+            love learning, see my github commit history for proof
           </p>
-          {/* <div className="ButtonWrapper">
+          <div className="ButtonWrapper">
             <a href="mailto:mcgreekendall@gmail.com">
-              <button className="EmailMe">
-                Hire
-              </button>
+              <button className="EmailMe">Hire</button>
             </a>
-          </div> */}
+          </div>
         </>
       )}
     </section>

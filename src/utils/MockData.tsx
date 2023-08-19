@@ -2,6 +2,8 @@ import css3 from "../images/skill_logos/css-3.png";
 import chai from "../images/skill_logos/chai.png";
 import circle from "../images/skill_logos/circleO.png";
 import cypress from "../images/skill_logos/cypress.jpeg";
+import zustand from "../images/skill_logos/zustand.jpeg";
+import nextauth from "../images/skill_logos/nextauth.jpeg";
 import dribbble from "../images/skill_logos/dribbble3.png";
 import eslint from "../images/skill_logos/eslint.png";
 import figma from "../images/skill_logos/figma3.png";
@@ -19,6 +21,11 @@ import postman from "../images/skill_logos/postman2.png";
 import react from "../images/skill_logos/physics.png";
 import router from "../images/skill_logos/react-router.png";
 import sass from "../images/skill_logos/sass.png";
+import tailwind from "../images/skill_logos/tailwind.png";
+import jwt from "../images/skill_logos/jwt.png";
+import vercel from "../images/skill_logos/vercel.png";
+import axios from "../images/skill_logos/axios.png";
+import mongodb from "../images/skill_logos/mongodb.png";
 import smartTechLogo from "../images/smartTechSS.png";
 import styledComponents from "../images/skill_logos/styled-components.png";
 import typescript from "../images/skill_logos/typescript.png";
@@ -26,160 +33,202 @@ import portfolioSS from "../images/SSportfolio.png";
 import bjj from "../images/bjj.jpg";
 import firstHome from "../images/firstHome.jpg";
 import towerBuild from "../images/tower.jpg";
-import rancid from "../images/rancid2.png";
+import msc from "../images/mscSS.png";
 import cocktail from "../images/cocktail2.png";
 
 export const mySkills = [
   {
+    id: 0,
+    name: "Next.js",
+    alt: "Next logo",
+    logo: next,
+  },
+  {
     id: 1,
     name: "TypeScript",
-    alt: "logo",
+    alt: "TS logo",
     logo: typescript,
   },
   {
     id: 2,
     name: "React",
-    alt: "logo",
+    alt: "React logo",
     logo: react,
   },
   {
     id: 3,
     name: "JavaScript",
-    alt: "logo",
+    alt: "JS logo",
     logo: js,
   },
   {
     id: 4,
     name: "HTML5",
-    alt: "logo",
+    alt: "HTML logo",
     logo: html5,
+  },
+  {
+    id: 5,
+    name: "Tailwind CSS",
+    alt: "Tailwind logo",
+    logo: tailwind,
   },
   {
     id: 6,
     name: "SASS",
-    alt: "logo",
+    alt: "SASS logo",
     logo: sass,
   },
   {
-    id: 5,
+    id: 7,
     name: "CSS3",
-    alt: "logo",
+    alt: "CSS3 logo",
     logo: css3,
   },
   {
-    id: 14,
+    id: 8,
     name: "Styled Components",
-    alt: "logo",
+    alt: "Styled Components logo",
     logo: styledComponents,
   },
   {
-    id: 7,
+    id: 9,
     name: "Cypress",
-    alt: "logo",
+    alt: "Cypress logo",
     logo: cypress,
   },
   {
     id: 10,
     name: "Jest",
-    alt: "logo",
+    alt: "Jest logo",
     logo: jest,
   },
   {
-    id: 8,
+    id: 11,
     name: "Mocha",
-    alt: "logo",
+    alt: "Mocha logo",
     logo: mocha,
   },
   {
-    id: 9,
+    id: 12,
     name: "Chai",
-    alt: "logo",
+    alt: "Chai logo",
     logo: chai,
   },
   {
     id: 13,
-    name: "React Router",
-    alt: "logo",
-    logo: router,
+    name: "JWT",
+    alt: "JWT logo",
+    logo: jwt,
   },
   {
-    id: 16,
-    name: "Github",
-    alt: "logo",
-    logo: github,
+    id: 14,
+    name: "Axios",
+    alt: "axios logo",
+    logo: axios,
   },
   {
     id: 15,
-    name: "Circle Ci",
-    alt: "logo",
-    logo: circle,
+    name: "Zustand",
+    alt: "zustand logo",
+    logo: zustand,
   },
   {
-    id: 11,
-    name: "Next.js",
-    alt: "logo",
-    logo: next,
-  },
-  {
-    id: 18,
-    name: "ESLint",
-    alt: "logo",
-    logo: eslint,
+    id: 16,
+    name: "NextAuth",
+    alt: "NextAuth logo",
+    logo: nextauth,
   },
   {
     id: 17,
-    name: "Git",
-    alt: "logo",
-    logo: git,
+    name: "MongoDB",
+    alt: "MongoDB logo",
+    logo: mongodb,
   },
   {
-    id: 20,
-    name: "Dribbble",
-    alt: "logo",
-    logo: dribbble,
-  },
-  {
-    id: 21,
-    name: "Figma",
-    alt: "logo",
-    logo: figma,
-  },
-  {
-    id: 22,
-    name: "Postman",
-    alt: "logo",
-    logo: postman,
-  },
-  {
-    id: 23,
-    name: "NPM",
-    alt: "logo",
-    logo: npm,
-  },
-  {
-    id: 12,
-    name: "Markdown",
-    alt: "logo",
-    logo: markdown,
+    id: 18,
+    name: "React Router",
+    alt: "Router logo",
+    logo: router,
   },
   {
     id: 19,
+    name: "Github",
+    alt: "Github logo",
+    logo: github,
+  },
+  {
+    id: 20,
+    name: "Circle Ci",
+    alt: "Circle logo",
+    logo: circle,
+  },
+  {
+    id: 21,
+    name: "ESLint",
+    alt: "ESLint logo",
+    logo: eslint,
+  },
+  {
+    id: 22,
+    name: "Git",
+    alt: "GIT logo",
+    logo: git,
+  },
+  {
+    id: 23,
+    name: "Dribbble",
+    alt: "dribble logo",
+    logo: dribbble,
+  },
+  {
+    id: 24,
+    name: "Figma",
+    alt: "figma logo",
+    logo: figma,
+  },
+  {
+    id: 25,
+    name: "Postman",
+    alt: "Postman logo",
+    logo: postman,
+  },
+  {
+    id: 26,
+    name: "NPM",
+    alt: "NPM logo",
+    logo: npm,
+  },
+  {
+    id: 27,
+    name: "Markdown",
+    alt: "Markdown logo",
+    logo: markdown,
+  },
+  {
+    id: 28,
     name: "Heroku",
-    alt: "logo",
+    alt: "Heroku logo",
     logo: heroku,
+  },
+  {
+    id: 29,
+    name: "Vercel",
+    alt: "Vercel logo",
+    logo: vercel,
   },
 ];
 
 export const latestProjects = [
   {
     id: 1,
-    name: "Smart Tech",
-    logo: smartTechLogo,
+    name: "Movie Social Club",
+    logo: msc,
     description:
-      "An e-commerce website built to showcase all I've learned so far studying frontend engineering. The application is responsive across multiple breakpoints, E2E tested, fully accessible, and was continuously integrated & deployed. Global state management and user error handling was utilized throughout.",
-    topTechnologies: ["React", "TypeScript"],
-    repoLink: "https://github.com/kendallm360/smart-tech",
-    deployedLink: "https://smart-tech-c9yjukahg-kendallm360.vercel.app/",
+      "A solo fullstack website. I used this project to showcase all that I have self taught in terms of Next.js, Prisma, MongoDB, Axios, and Zustand. The app allows users to gain insight on current movies, see curated movie suggestions, leave reviews, and manage watch and favorite lists.",
+    topTechnologies: ["Next.js", "TypeScript"],
+    repoLink: "https://github.com/Movie-Social/movie-social",
+    deployedLink: "https://movie-social-club.vercel.app/auth",
   },
   {
     id: 2,
@@ -193,6 +242,16 @@ export const latestProjects = [
   },
   {
     id: 3,
+    name: "Smart Tech",
+    logo: smartTechLogo,
+    description:
+      "An e-commerce website built to showcase all I've learned so far studying frontend engineering. The application is responsive across multiple breakpoints, E2E tested, fully accessible, and was continuously integrated & deployed. Global state management and user error handling was utilized throughout.",
+    topTechnologies: ["React", "TypeScript"],
+    repoLink: "https://github.com/kendallm360/smart-tech",
+    deployedLink: "https://smart-tech-c9yjukahg-kendallm360.vercel.app/",
+  },
+  {
+    id: 4,
     name: "CockTail Lounge",
     logo: cocktail,
     description:
@@ -200,16 +259,6 @@ export const latestProjects = [
     topTechnologies: ["TypeScript", "React"],
     repoLink: "https://github.com/kendallm360/cocktail-lounge",
     deployedLink: "https://cocktail-lounge-jqhnunkrf-kendallm360.vercel.app/",
-  },
-  {
-    id: 4,
-    name: "Rancid Tomatillos",
-    logo: rancid,
-    description:
-      "A paired project which was my first application using React.js. Heavily inspired by IMDB but better...if you ask me. This is one of my older applications but is dear to me because it was a major turning point for my appreciation of frontend engineering.",
-    topTechnologies: ["React", "Cypress"],
-    repoLink: "https://github.com/kendallm360/rancid-tomatillos",
-    deployedLink: "https://rancid-tomatillos-xi.vercel.app/",
   },
 ];
 
@@ -252,14 +301,14 @@ export const funFacts = [
   },
   {
     id: 6,
-    fact: "Bullying Sucks",
+    fact: "I Am Against Bullying",
     image:
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
   },
   {
     id: 7,
-    fact: "Im An Avid Hiker",
+    fact: "Avid Hiker",
     image: "https://media.giphy.com/media/3oxRmGNqKwCzJ0AwPC/giphy.gif",
     imageAlt: "Man falling into stream while hiking. #fail",
   },
@@ -302,12 +351,6 @@ export const alternateSkills = [
     image: "https://media.giphy.com/media/LRrHCZYvcKukTi3ayH/giphy.gif",
     imageAlt: "Ed seasoning the food from the movie Good Burger",
   },
-  // {
-  //   id: 6,
-  //   title: "",
-  //   image: "",
-  //   imageAlt: "",
-  // }
 ];
 
 export const myBuilds = [
