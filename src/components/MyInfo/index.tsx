@@ -1,5 +1,5 @@
 import "./styles.scss";
-import fairPicture from "../../images/kendall_fair.png";
+import suitedAndBooted from "../../images/kendallSuit.png";
 import ScrollAnimation from "react-animate-on-scroll";
 // const sitch = require("../../sounds/kimPossible.mp3");
 
@@ -25,8 +25,8 @@ const MyInfo = () => {
             Hi, my name is <span className="Name">Kendall</span>
           </h1>
           <h2 className="Summary">
-            I am a Navy veteran turned front end software engineer with over a{" "}
-            decade of experience working on
+            I am a Navy veteran turned front-end software engineer bringing over
+            a decade of experience working on
             <span className="KeyWord"> time-sensitive projects</span>.
           </h2>
         </div>
@@ -36,7 +36,7 @@ const MyInfo = () => {
         >
           <img
             className="KendallImage"
-            src={fairPicture}
+            src={suitedAndBooted}
             alt="Kendall McGree (creator)"
           />
         </div>
