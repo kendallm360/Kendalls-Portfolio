@@ -41,9 +41,10 @@ const Contact = () => {
         <>
           <h3 className="Beg">Hire Me</h3>
           <p className="ActionItem">
-            If you are in the market for a hardworking frontend junior software
-            engineer then I am your guy. I am also familiar with the backend and
-            love learning, see my github commit history for proof
+            Are you searching for a dedicated and team-oriented junior software
+            engineer who thrives on challenges? Look no further. My passion for
+            learning extends beyond the front-end, making me a well-rounded
+            addition to the team.
           </p>
           <div className="ButtonWrapper">
             <a href="mailto:mcgreekendall@gmail.com">
