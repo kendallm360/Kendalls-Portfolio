@@ -40,6 +40,7 @@
 }
 
 .NewFact {
+  transition: ease-in-out 300ms;
   background-color: base.$background-color;
   border: solid 1px base.$accent-color;
   border-radius: 0.2rem;
@@ -74,9 +75,11 @@
 
 .NewFact:hover {
   transform: scale(1.13);
+  transition: ease-in-out 300ms;
 }
 
 .NewFact:active {
+  transition: ease-in-out 300ms;
   background-color: base.$accent-color;
   color: base.$background-color;
 }

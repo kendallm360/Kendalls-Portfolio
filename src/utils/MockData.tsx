@@ -265,7 +265,7 @@ export const latestProjects = [
 export const funFacts = [
   {
     id: 0,
-    fact: "Im Really Bad At Super Smash Bros",
+    fact: "I Suck At Super Smash Bros",
     image: "https://media.giphy.com/media/28hH1I85TCZosy5zus/giphy.gif",
     imageAlt: "Mario vs Pikachu Super Smash Brothers",
   },
@@ -301,14 +301,14 @@ export const funFacts = [
   },
   {
     id: 6,
-    fact: "I Am Against Bullying",
+    fact: "I Hate Bullying",
     image:
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
   },
   {
     id: 7,
-    fact: "Avid Hiker",
+    fact: "I'm an avid Hiker",
     image: "https://media.giphy.com/media/3oxRmGNqKwCzJ0AwPC/giphy.gif",
     imageAlt: "Man falling into stream while hiking. #fail",
   },
@@ -341,13 +341,13 @@ export const alternateSkills = [
   },
   {
     id: 4,
-    title: "Basketball (defense only)",
+    title: "Basketball (defense only) 🏀",
     image: "https://media.giphy.com/media/vzE7csLWN3uRW/giphy.gif",
     imageAlt: "Mean man blocking a child's layup",
   },
   {
     id: 5,
-    title: "Cooking",
+    title: "Cooking 👨🏾‍🍳",
     image: "https://media.giphy.com/media/LRrHCZYvcKukTi3ayH/giphy.gif",
     imageAlt: "Ed seasoning the food from the movie Good Burger",
   },
@@ -365,6 +365,6 @@ export const myBuilds = [
     id: 1,
     description: "Building a better future for my family.",
     image: firstHome,
-    imageAlt: "Kendall buying my first home",
+    imageAlt: "Kendall buying his first home",
   },
 ];
