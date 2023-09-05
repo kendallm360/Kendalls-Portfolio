@@ -56,7 +56,7 @@ const Projects = () => {
             className="AppsLink"
             href="https://github.com/kendallm360?tab=repositories"
           >
-            Older Projects
+            Older Applications
           </a>
         </>
       )}

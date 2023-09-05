@@ -100,6 +100,7 @@
     background-color: base.$accent-color;
     border: solid 1px base.$accent-color;
     border-radius: 39% 61% 44% 56% / 100% 0% 100% 0%;
+    transition: ease-in-out 600ms;
 
     //Desktop
     @media screen and (min-width: 1351px) {
@@ -130,5 +131,6 @@
   .KendallImage:hover {
     background-color: white;
     border-radius: 64% 36% 53% 47% / 0% 100% 0% 100%;
+    transition: ease-in-out 600ms;
   }
 }

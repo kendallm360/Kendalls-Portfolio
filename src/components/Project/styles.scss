@@ -64,11 +64,12 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  height: 35vh;
+  width: 35vw;
+  transition: ease-in-out 600ms;
   border: solid 1px base.$accent-color;
   border-radius: 1rem;
   padding: 2.5%;
-  height: 35vh;
-  width: 35vw;
 
   //Tablets and smaller
   @media screen and (max-width: 951px) {
@@ -80,10 +81,12 @@
 
 .Project:hover {
   .ProjectInfo {
+    transition: ease-in-out 600ms;
     opacity: 1;
   }
   .ProjectLogo {
     opacity: 0.1;
+    transition: ease-in-out 600ms;
   }
 }
 
