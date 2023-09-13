@@ -30,7 +30,7 @@ const Projects = () => {
     <section className="ProjectWrapper">
       <h2 className="SectionHeader">
         <span className="TextWrapper">
-          <span className="SectionNumbers">03.</span> What Has He Built?
+          <span className="SectionNumbers">03.</span> What I've Built?
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
