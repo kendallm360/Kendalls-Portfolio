@@ -72,12 +72,12 @@ function App() {
             <AboutMe />
           </div>
 
-          <div className="SkillsWrapper" ref={skillsRef}>
-            <Skills />
-          </div>
-
           <div className="ProjectsWrapper" ref={projectRef}>
             <Projects />
+          </div>
+
+          <div className="SkillsWrapper" ref={skillsRef}>
+            <Skills />
           </div>
 
           <div className="ContactWrapper" ref={contactRef}>

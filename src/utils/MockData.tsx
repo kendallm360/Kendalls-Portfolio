@@ -1,40 +1,44 @@
 import css3 from "../images/skill_logos/css-3.png";
+/*
 import chai from "../images/skill_logos/chai.png";
 import circle from "../images/skill_logos/circleO.png";
 import cypress from "../images/skill_logos/cypress.jpeg";
 import zustand from "../images/skill_logos/zustand.jpeg";
 import nextauth from "../images/skill_logos/nextauth.jpeg";
+*/
 import dribbble from "../images/skill_logos/dribbble3.png";
 import eslint from "../images/skill_logos/eslint.png";
 import figma from "../images/skill_logos/figma3.png";
 import git from "../images/skill_logos/git2.png";
 import github from "../images/skill_logos/githubO.png";
-import heroku from "../images/skill_logos/heroku.png";
+//import heroku from "../images/skill_logos/heroku.png";
 import html5 from "../images/skill_logos/html-5.png";
-import jest from "../images/skill_logos/jest.png";
+//import jest from "../images/skill_logos/jest.png";
 import js from "../images/skill_logos/js.png";
-import markdown from "../images/skill_logos/mdO.png";
-import mocha from "../images/skill_logos/mocha2.png";
+//import markdown from "../images/skill_logos/mdO.png";
+//import mocha from "../images/skill_logos/mocha2.png";
 import next from "../images/skill_logos/nextO.png";
 import npm from "../images/skill_logos/npm2.png";
 import postman from "../images/skill_logos/postman2.png";
 import react from "../images/skill_logos/physics.png";
-import router from "../images/skill_logos/react-router.png";
+//import router from "../images/skill_logos/react-router.png";
 import sass from "../images/skill_logos/sass.png";
-import tailwind from "../images/skill_logos/tailwind.png";
+//import tailwind from "../images/skill_logos/tailwind.png";
 import jwt from "../images/skill_logos/jwt.png";
 import vercel from "../images/skill_logos/vercel.png";
-import axios from "../images/skill_logos/axios.png";
+//import axios from "../images/skill_logos/axios.png";
 import mongodb from "../images/skill_logos/mongodb.png";
+/*
 import smartTechLogo from "../images/smartTechSS.png";
 import styledComponents from "../images/skill_logos/styled-components.png";
+*/
 import typescript from "../images/skill_logos/typescript.png";
 import portfolioSS from "../images/SSportfolio.png";
 import bjj from "../images/bjj.jpg";
 import firstHome from "../images/firstHome.jpg";
 import towerBuild from "../images/tower.jpg";
 import msc from "../images/mscSS.png";
-import cocktail from "../images/cocktail2.png";
+//import cocktail from "../images/cocktail2.png";
 
 export const mySkills = [
   {
@@ -67,12 +71,14 @@ export const mySkills = [
     alt: "HTML logo",
     logo: html5,
   },
+  /*
   {
     id: 5,
     name: "Tailwind CSS",
     alt: "Tailwind logo",
     logo: tailwind,
   },
+  */
   {
     id: 6,
     name: "SASS",
@@ -85,6 +91,7 @@ export const mySkills = [
     alt: "CSS3 logo",
     logo: css3,
   },
+  /*
   {
     id: 8,
     name: "Styled Components",
@@ -115,12 +122,14 @@ export const mySkills = [
     alt: "Chai logo",
     logo: chai,
   },
+  */
   {
     id: 13,
     name: "JWT",
     alt: "JWT logo",
     logo: jwt,
   },
+  /*
   {
     id: 14,
     name: "Axios",
@@ -139,30 +148,35 @@ export const mySkills = [
     alt: "NextAuth logo",
     logo: nextauth,
   },
+  */
   {
     id: 17,
     name: "MongoDB",
     alt: "MongoDB logo",
     logo: mongodb,
   },
+  /*
   {
     id: 18,
     name: "React Router",
     alt: "Router logo",
     logo: router,
   },
+  */
   {
     id: 19,
     name: "Github",
     alt: "Github logo",
     logo: github,
   },
+  /*
   {
     id: 20,
     name: "Circle Ci",
     alt: "Circle logo",
     logo: circle,
   },
+  */
   {
     id: 21,
     name: "ESLint",
@@ -199,6 +213,7 @@ export const mySkills = [
     alt: "NPM logo",
     logo: npm,
   },
+  /*
   {
     id: 27,
     name: "Markdown",
@@ -211,6 +226,7 @@ export const mySkills = [
     alt: "Heroku logo",
     logo: heroku,
   },
+  */
   {
     id: 29,
     name: "Vercel",
@@ -224,6 +240,8 @@ export const latestProjects = [
     id: 1,
     name: "Movie Social Club",
     logo: msc,
+    //ADD THIS SOMEWHERE BELOW
+    //CURRENTLY UNDER CONSTRUCTION. EXPECTED RELAUNCH FEBRUARY 1, 2025:
     description:
       "A solo fullstack website. I used this project to showcase all that I have self taught in terms of Next.js, Prisma, MongoDB, Axios, and Zustand. The app allows users to gain insight on current movies, see curated movie suggestions, leave reviews, and manage watch and favorite lists.",
     topTechnologies: ["Next.js", "TypeScript"],
@@ -240,6 +258,7 @@ export const latestProjects = [
     repoLink: "https://github.com/kendallm360/Kendalls-Portfolio",
     deployedLink: "https://kendalls-portfolio.vercel.app/",
   },
+  /*
   {
     id: 3,
     name: "Smart Tech",
@@ -260,6 +279,7 @@ export const latestProjects = [
     repoLink: "https://github.com/kendallm360/cocktail-lounge",
     deployedLink: "https://cocktail-lounge-jqhnunkrf-kendallm360.vercel.app/",
   },
+  */
 ];
 
 export const funFacts = [
