@@ -53,7 +53,11 @@ const Experiences = () => {
       ) : (
         <>
           <div className="Experiences">{latestExperiencesMapped}</div>
-          <a className="ResumeLink" href="??????">
+          <a
+            className="ResumeLink"
+            href="https://docs.google.com/document/d/1c8lBtkg1IFbXX0_SOSWfMeyi4hEb2m8h5YR2WtNHm8Y/edit?tab=t.0"
+            target="_blank"
+          >
             Full Resume
           </a>
         </>
