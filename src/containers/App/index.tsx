@@ -7,8 +7,7 @@ import MyInfo from "../../components/MyInfo";
 import NavBar from "../../components/NavBar";
 import Skills from "../../components/Skills";
 import Projects from "../Projects";
-//import Experience from "../../components/Experience";
-import Experience from "../../components/Experience";
+import Experiences from "../Experiences";
 
 import "./_base.scss";
 
@@ -46,6 +45,10 @@ function App() {
     projectRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const handleExperience = () => {
+    experienceRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const handleContact = () => {
     contactRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -77,7 +80,7 @@ function App() {
           </div>
 
           <div className="ExperienceWrapper" ref={experienceRef}>
-            <Experience />
+            <Experiences />
           </div>
 
           <div className="ProjectsWrapper" ref={projectRef}>

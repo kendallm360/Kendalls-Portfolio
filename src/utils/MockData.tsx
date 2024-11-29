@@ -393,6 +393,7 @@ export const latestExperiences = [
   {
     id: 1,
     name: "Persevere",
+    logo: "",
     header: "Persevere, Software Engineering Instructor, Lincoln, Nebraska",
     subHeader: "February 2023 - October 2023",
     resumeBullets: [
@@ -400,6 +401,7 @@ export const latestExperiences = [
       "Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals",
       "Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders",
     ],
+    certificationsAchieved: [],
     //logo: msc,
     /* 
    description:
@@ -412,6 +414,7 @@ export const latestExperiences = [
   {
     id: 2,
     name: "Fiserv",
+    logo: "",
     header: "Fiserv, Software Developer, Omaha, Nebraska",
     subHeader: "October 2023 - Present",
     resumeBullets: [
