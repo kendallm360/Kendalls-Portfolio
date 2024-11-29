@@ -41,8 +41,8 @@ const Contact = () => {
         <>
           <h3 className="Beg">Hire Me</h3>
           <p className="ActionItem">
-            Are you searching for a dedicated and team-oriented junior software
-            engineer who thrives on challenges? Look no further. My passion for
+            Are you searching for a dedicated and team-oriented software
+            developer who thrives on challenges? Look no further. My passion for
             learning extends beyond the front-end, making me a well-rounded
             addition to the team.
           </p>
