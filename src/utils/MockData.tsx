@@ -388,3 +388,41 @@ export const myBuilds = [
     imageAlt: "Kendall buying his first home",
   },
 ];
+
+export const latestExperiences = [
+  {
+    id: 1,
+    name: "Persevere",
+    header: "Persevere, Software Engineering Instructor, Lincoln, Nebraska",
+    subHeader: "February 2023 - October 2023",
+    resumeBullets: [
+      "Developed comprehensive lesson plans for a full stack (MERN) web development curriculum tailored to meet the unique needs of learners within a women's correctional facility improving their hope by 100%",
+      "Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals",
+      "Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders",
+    ],
+    //logo: msc,
+    /* 
+   description:
+      "A solo fullstack website. I used this project to showcase all that I have self taught in terms of Next.js, Prisma, MongoDB, Axios, and Zustand. The app allows users to gain insight on current movies, see curated movie suggestions, leave reviews, and manage watch and favorite lists.",
+      */
+    //topTechnologies: ["Next.js", "TypeScript"],
+    //repoLink: "https://github.com/Movie-Social/movie-social",
+    //deployedLink: "https://movie-social-club.vercel.app/auth",
+  },
+  {
+    id: 2,
+    name: "Fiserv",
+    header: "Fiserv, Software Developer, Omaha, Nebraska",
+    subHeader: "October 2023 - Present",
+    resumeBullets: [
+      "ZZZZZ - Developed comprehensive lesson plans for a full stack (MERN) web development curriculum tailored to meet the unique needs of learners within a women's correctional facility improving their hope by 100%",
+      "ZZZZZ - Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals",
+      "ZZZZZ - Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders",
+    ],
+    certificationsAchieved: [
+      "Certified Business Continuity Professional (CBCP)",
+      "Certified Salesforce Administrator",
+      "Certified Salesforce Platform Application Builder",
+    ],
+  },
+];

@@ -7,6 +7,9 @@ import MyInfo from "../../components/MyInfo";
 import NavBar from "../../components/NavBar";
 import Skills from "../../components/Skills";
 import Projects from "../Projects";
+//import Experience from "../../components/Experience";
+import Experience from "../../components/Experience";
+
 import "./_base.scss";
 
 function App() {
@@ -14,6 +17,7 @@ function App() {
   const aboutRef = useRef<any>(null);
   const skillsRef = useRef<any>(null);
   const projectRef = useRef<any>(null);
+  const experienceRef = useRef<any>(null);
   const contactRef = useRef<any>(null);
 
   const [loading, setLoading] = useState(false);
@@ -70,6 +74,10 @@ function App() {
 
           <div className="AboutMeWrapper" ref={aboutRef}>
             <AboutMe />
+          </div>
+
+          <div className="ExperienceWrapper" ref={experienceRef}>
+            <Experience />
           </div>
 
           <div className="ProjectsWrapper" ref={projectRef}>

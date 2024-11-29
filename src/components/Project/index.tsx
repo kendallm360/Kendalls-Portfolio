@@ -1,7 +1,6 @@
 import "../Project/styles.scss";
 import repo from "../../images/githubO.png";
 import website from "../../images/globe.png";
-
 type TProject = {
   name: string;
   logo: string;
