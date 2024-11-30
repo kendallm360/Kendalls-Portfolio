@@ -75,7 +75,6 @@
  - [Taba11y](https://docs.google.com/document/d/1_LB0MNF5sP1Cx50qmCayI4O7wD06deI6IqDgKwuHBG0/edit?usp=sharing)
 
 ## Organizational Resources
-` - [Project Board](https://github.com/users/kendallm360/projects/5/views/1)`
  - [Figma](https://www.figma.com/file/wZHZNmMyqvjeiijssnlPFS/portfolio?node-id=0%3A1&t=LuVbw1j7W9u1iUxn-0)
  - [MVP](https://docs.google.com/document/d/1MpRe5GGCY4oSAtV4ayqLZqfjogf7DGkR-8ah2l-2QAY/edit?usp=sharing)
  - [Design Inspiration](https://docs.google.com/document/d/1IhJdzS7vsX4ZznQbMuQIdB-h9BVM0fIx6UDO-SBtbeI/edit?usp=sharing)
