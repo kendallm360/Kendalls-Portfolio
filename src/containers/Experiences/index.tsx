@@ -5,6 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Experience from "../../components/Experience";
 import { latestExperiences } from "../../utils/MockData";
 import PersonalExperience from "../../components/PersonalExperience";
+import "../Experiences/styles.scss";
 
 const Experiences = () => {
   const [checked, setChecked] = useState(false);

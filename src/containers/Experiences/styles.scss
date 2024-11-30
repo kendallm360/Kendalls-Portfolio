@@ -1,0 +1,44 @@
+@use "../../containers/App/base" as base;
+
+@mixin linkTextTheme {
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 22px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 22px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 20px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.ExperienceWrapper {
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+}
+
+.Experiences {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+  margin-bottom: 5vh;
+  margin-top: -2vh;
+  margin-left: 5vw;
+  width: 90vw;
+
+  @media screen and (max-width: 951px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25vw;
+    width: 50vw;
+  }
+}

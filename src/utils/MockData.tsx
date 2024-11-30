@@ -39,6 +39,9 @@ import firstHome from "../images/firstHome.jpg";
 import towerBuild from "../images/tower.jpg";
 import msc from "../images/mscSS.png";
 //import cocktail from "../images/cocktail2.png";
+import fiservLogo from "../images/fiservLogo.jpg";
+import persevereLogo1 from "../images/persevereLogo1.png";
+import persevereLogo2 from "../images/persevereLogo2.png";
 
 export const mySkills = [
   {
@@ -392,8 +395,25 @@ export const myBuilds = [
 export const latestExperiences = [
   {
     id: 1,
+    name: "Fiserv",
+    logo: fiservLogo,
+    header: "Fiserv, Software Developer, Omaha, Nebraska",
+    subHeader: "October 2023 - Present",
+    resumeBullets: [
+      "ZZZZZ - Developed comprehensive lesson plans for a full stack (MERN) web development curriculum tailored to meet the unique needs of learners within a women's correctional facility improving their hope by 100%",
+      "ZZZZZ - Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals",
+      "ZZZZZ - Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders",
+    ],
+    certificationsAchieved: [
+      "Certified Business Continuity Professional (CBCP)",
+      "Certified Salesforce Administrator",
+      "Certified Salesforce Platform Application Builder",
+    ],
+  },
+  {
+    id: 2,
     name: "Persevere",
-    logo: "",
+    logo: persevereLogo1,
     header: "Persevere, Software Engineering Instructor, Lincoln, Nebraska",
     subHeader: "February 2023 - October 2023",
     resumeBullets: [
@@ -410,22 +430,5 @@ export const latestExperiences = [
     //topTechnologies: ["Next.js", "TypeScript"],
     //repoLink: "https://github.com/Movie-Social/movie-social",
     //deployedLink: "https://movie-social-club.vercel.app/auth",
-  },
-  {
-    id: 2,
-    name: "Fiserv",
-    logo: "",
-    header: "Fiserv, Software Developer, Omaha, Nebraska",
-    subHeader: "October 2023 - Present",
-    resumeBullets: [
-      "ZZZZZ - Developed comprehensive lesson plans for a full stack (MERN) web development curriculum tailored to meet the unique needs of learners within a women's correctional facility improving their hope by 100%",
-      "ZZZZZ - Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals",
-      "ZZZZZ - Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders",
-    ],
-    certificationsAchieved: [
-      "Certified Business Continuity Professional (CBCP)",
-      "Certified Salesforce Administrator",
-      "Certified Salesforce Platform Application Builder",
-    ],
   },
 ];

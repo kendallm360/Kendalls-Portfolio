@@ -18,12 +18,9 @@ const Experience = ({
   certificationsAchieved,
 }: TExperience) => {
   return (
-    <section>
-      <h1>Experience Section</h1>
-      <h3>
-        {name}, {logo}, {header}, {subHeader}, {resumeBullets},{" "}
-        {certificationsAchieved}
-      </h3>
+    <section className="Experience">
+      <img className="ExperienceLogo" src={logo} alt="broken" />
+      <div className="ExperienceInfo">testing</div>
     </section>
   );
 };
