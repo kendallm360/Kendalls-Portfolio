@@ -40,8 +40,7 @@ import towerBuild from "../images/tower.jpg";
 import msc from "../images/mscSS.png";
 //import cocktail from "../images/cocktail2.png";
 import fiservLogo from "../images/fiservLogo.jpg";
-import persevereLogo1 from "../images/persevereLogo1.png";
-import persevereLogo2 from "../images/persevereLogo2.png";
+import persevereLogo5 from "../images/persevereLogo5.png";
 
 export const mySkills = [
   {
@@ -322,6 +321,7 @@ export const funFacts = [
     image: "https://media.giphy.com/media/QmEUZ8J1MRghVq1GRs/giphy.gif",
     imageAlt: "A Chad bro loving cupcakes",
   },
+  /*
   {
     id: 6,
     fact: "I Hate Bullying",
@@ -329,6 +329,7 @@ export const funFacts = [
       "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
     imageAlt: "Bullies suck",
   },
+  */
   {
     id: 7,
     fact: "I'm an avid Hiker",
@@ -397,12 +398,19 @@ export const latestExperiences = [
     id: 1,
     name: "Fiserv",
     logo: fiservLogo,
-    header: "Fiserv, Software Developer, Omaha, Nebraska",
+    header: "Fiserv, Software Developer",
     subHeader: "October 2023 - Present",
     resumeBullets: [
-      "ZZZZZ - Developed comprehensive lesson plans for a full stack (MERN) web development curriculum tailored to meet the unique needs of learners within a women's correctional facility improving their hope by 100%",
-      "ZZZZZ - Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals",
-      "ZZZZZ - Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders",
+      "Drove initiatives that led to a 42% reduction in support tickets and faster project completion, without sacrificing product quality.",
+      "Identified and resolved long-standing API bugs within SaaS product, improving product stability for Fiserv and other clients.",
+      "Volunteered to manage access control responsibilities during a 30% manpower decrease, successfully automating processes, reducing errors, and ensuring compliance with cybersecurity policies, demonstrating leadership and adaptability in the face of increasing workloads.",
+      "Serve as the team’s go-to expert on APIs and frontend development practices, leading technical discussions and enhancing team workflows.",
+      /*
+      "Earned three globally recognized certifications and actively led internal training on APIs, fostering team learning and improving workflows, highlighting continuous self-improvement and leadership in knowledge sharing within the team.",
+      "Collaborated with the HTML subject matter expert to enhance coding practices, improving readability, functionality, and maintainability of the codebase, leading to reduced bugs and easier troubleshooting, reflecting a focus on clean and scalable code.",
+      "Identified and resolved long-standing issues in the API layer of Business Continuity in the Cloud (BCIC), improving the product for Fiserv and other Fortune 500 clients, showcasing strong debugging skills and the ability to work on high-impact technical projects.",
+      "Spearheaded efforts to enhance tool performance, resulting in a 42% decrease in support tickets and an accelerated project timeline without compromising quality, demonstrating strong problem-solving skills and efficiency in development processes.",
+      */
     ],
     certificationsAchieved: [
       "Certified Business Continuity Professional (CBCP)",
@@ -413,15 +421,17 @@ export const latestExperiences = [
   {
     id: 2,
     name: "Persevere",
-    logo: persevereLogo1,
-    header: "Persevere, Software Engineering Instructor, Lincoln, Nebraska",
+    logo: persevereLogo5,
+    header: "Persevere, Software Engineering Instructor",
     subHeader: "February 2023 - October 2023",
     resumeBullets: [
       "Developed comprehensive lesson plans for a full stack (MERN) web development curriculum tailored to meet the unique needs of learners within a women's correctional facility improving their hope by 100%",
       "Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals",
       "Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders",
     ],
-    certificationsAchieved: [],
+    certificationsAchieved: [
+      "The Curriculum I built for teaching is available upon request",
+    ],
     //logo: msc,
     /* 
    description:
