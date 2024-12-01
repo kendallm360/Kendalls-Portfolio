@@ -41,6 +41,9 @@ import msc from "../images/mscSS.png";
 //import cocktail from "../images/cocktail2.png";
 import fiservLogo from "../images/fiservLogo.jpg";
 import persevereLogo5 from "../images/persevereLogo5.png";
+import persevereLogo1 from "../images/persevereLogo1.png";
+//import towerStack from "../images/towerStack.MP4";
+import nimuc from "../images/nimuc.png";
 
 export const mySkills = [
   {
@@ -450,5 +453,28 @@ export const latestExperiences = [
     //topTechnologies: ["Next.js", "TypeScript"],
     //repoLink: "https://github.com/Movie-Social/movie-social",
     //deployedLink: "https://movie-social-club.vercel.app/auth",
+  },
+];
+
+export const personalExperiences = [
+  {
+    id: 0,
+    experience:
+      "Leading cell tower builds taught me the true meaning of hard work. 6 days a week 12+ hours a day of hard labor makes me appreciate being back at a desk",
+    //image: towerStack,
+    imageAlt: "Picture of me and my crew on the tower.",
+  },
+  {
+    id: 1,
+    fact: "Being able to instill hope in incarcerated women was a highlight of my life. Feel free to ask me why this opportunity ended early",
+    image: persevereLogo1,
+    imageAlt:
+      "A group of women who decided to change their lives for the better",
+  },
+  {
+    id: 2,
+    fact: "I achieved The National Intelligence Meritorious Unit Citation (NIMUC), which is an award of the National Intelligence Awards Program, for contributions to the United States Intelligence Community.",
+    image: nimuc,
+    imageAlt: "A prestigious NSA award that I received.",
   },
 ];

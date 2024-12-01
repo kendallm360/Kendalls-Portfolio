@@ -1,3 +1,5 @@
+import "../PersonalExperience/styles.scss";
+
 const PersonalExperience = () => {
   return (
     <>
