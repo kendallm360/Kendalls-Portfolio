@@ -287,10 +287,19 @@ export const latestProjects = [
 export const funFacts = [
   {
     id: 0,
+    fact: "Saturday = UFC",
+    image:
+      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWZ2YXV1ajRvNjJtMGRiZnFpNGN3aG15bGhhbzF4dzAxbnh3aDB1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qARUw4iCBoEnEP9rf2/giphy.webp",
+    imageAlt: "Israel Adesanya reminding you to believe in yourself",
+  },
+  /*
+  {
+    id: 0,
     fact: "I Suck At Super Smash Bros",
     image: "https://media.giphy.com/media/28hH1I85TCZosy5zus/giphy.gif",
     imageAlt: "Mario vs Pikachu Super Smash Brothers",
   },
+  */
   {
     id: 1,
     fact: "I Love Komodo Dragons",
@@ -321,20 +330,18 @@ export const funFacts = [
     image: "https://media.giphy.com/media/QmEUZ8J1MRghVq1GRs/giphy.gif",
     imageAlt: "A Chad bro loving cupcakes",
   },
-  /*
   {
     id: 6,
-    fact: "I Hate Bullying",
-    image:
-      "https://media.giphy.com/media/SwDNCeOaRmbKYOvrDH/giphy-downsized-large.gif",
-    imageAlt: "Bullies suck",
-  },
-  */
-  {
-    id: 7,
-    fact: "I'm an avid Hiker",
+    fact: "I Love Hiking",
     image: "https://media.giphy.com/media/3oxRmGNqKwCzJ0AwPC/giphy.gif",
     imageAlt: "Man falling into stream while hiking. #fail",
+  },
+  {
+    id: 7,
+    fact: "I Will Ask To Pet Your Dog",
+    image:
+      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXQyMmtpcXBkaDdxM3U2aHpkcmQzcHZtMDlmMGN3ZW5pN3Q3N3FsayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d6Pt6stxuVyLgPubXS/giphy.webp",
+    imageAlt: "JB Smoove petting a fluffy dog",
   },
 ];
 
