@@ -65,7 +65,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 35vh;
+  height: 40vh;
   width: 35vw;
   // transition: ease-in-out 600ms;
   border: solid 1px base.$accent-color;
@@ -75,7 +75,7 @@
 
   //Tablets and smaller
   @media screen and (max-width: 951px) {
-    height: 35vh;
+    height: 40vh;
     width: 70vw;
     margin-bottom: -2vh;
   }
@@ -139,6 +139,22 @@
     */
 }
 
+.IntroRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CompanyLink {
+  color: base.$text-color;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.CompanyLink:hover {
+  color: base.$accent-color;
+}
+
 /*
 .ProjectLinks {
   display: flex;
@@ -197,9 +213,3 @@
   }
 }
 */
-
-.IntroRow {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}

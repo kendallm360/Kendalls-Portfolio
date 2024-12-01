@@ -19,6 +19,7 @@ const Experiences = () => {
       <Experience
         key={experience.id}
         name={experience.name}
+        companySite={experience.companySite}
         logo={experience.logo}
         header={experience.header}
         subHeader={experience.subHeader}

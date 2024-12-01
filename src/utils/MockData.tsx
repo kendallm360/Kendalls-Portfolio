@@ -404,8 +404,9 @@ export const latestExperiences = [
   {
     id: 1,
     name: "Fiserv",
+    companySite: "https://www.fiserv.com/",
     logo: fiservLogo,
-    header: "Fiserv, Software Developer",
+    header: "Software Developer",
     subHeader: "October 2023 - Present",
     resumeBullets: [
       "Drove initiatives that led to a 42% reduction in support tickets and faster project completion, without sacrificing product quality.",
@@ -428,8 +429,9 @@ export const latestExperiences = [
   {
     id: 2,
     name: "Persevere",
+    companySite: "https://www.perseverenow.org",
     logo: persevereLogo5,
-    header: "Persevere, Software Engineering Instructor",
+    header: "Software Engineering Instructor",
     subHeader: "February 2023 - October 2023",
     resumeBullets: [
       "Developed comprehensive lesson plans for a full stack (MERN) web development curriculum tailored to meet the unique needs of learners within a women's correctional facility improving their hope by 100%",
