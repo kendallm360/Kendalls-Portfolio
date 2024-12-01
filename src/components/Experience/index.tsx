@@ -45,9 +45,6 @@ const Experience = ({
           <p className="IntroSubHeader">{subHeader}</p>
         </div>
         <div className="BodyRow">{resume}</div>
-        <div className="FooterRow">
-          <p>{certificationsAchieved}</p>
-        </div>
       </section>
     </section>
   );
