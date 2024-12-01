@@ -37,6 +37,7 @@ import portfolioSS from "../images/SSportfolio.png";
 import bjj from "../images/bjj.jpg";
 import firstHome from "../images/firstHome.jpg";
 import towerBuild from "../images/tower.jpg";
+import towerTop from "../images/towerTop.jpg";
 import msc from "../images/mscSS.png";
 //import cocktail from "../images/cocktail2.png";
 import fiservLogo from "../images/fiservLogo.jpg";
@@ -290,61 +291,53 @@ export const latestProjects = [
 export const funFacts = [
   {
     id: 0,
-    fact: "Saturday = UFC",
+    fact: "I Will Ask To Pet Your Dog",
     image:
-      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWZ2YXV1ajRvNjJtMGRiZnFpNGN3aG15bGhhbzF4dzAxbnh3aDB1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qARUw4iCBoEnEP9rf2/giphy.webp",
-    imageAlt: "Israel Adesanya reminding you to believe in yourself",
+      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXQyMmtpcXBkaDdxM3U2aHpkcmQzcHZtMDlmMGN3ZW5pN3Q3N3FsayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d6Pt6stxuVyLgPubXS/giphy.webp",
+    imageAlt: "JB Smoove petting a fluffy dog",
   },
-  /*
-  {
-    id: 0,
-    fact: "I Suck At Super Smash Bros",
-    image: "https://media.giphy.com/media/28hH1I85TCZosy5zus/giphy.gif",
-    imageAlt: "Mario vs Pikachu Super Smash Brothers",
-  },
-  */
   {
     id: 1,
-    fact: "I Love Komodo Dragons",
-    image: "https://media.giphy.com/media/3oEjI9ygZAmuVO6AJW/giphy.gif",
-    imageAlt: "Komodo Dragons hugging each other",
-  },
-  {
-    id: 2,
     fact: "Music Gets Me Going",
     image: "https://media.giphy.com/media/l0HlFTlbKx9KMZC5q/giphy.gif",
     imageAlt: "Man jamming out on the job whilst remaining productive",
   },
   {
-    id: 3,
-    fact: "I Never Run Out Of Cranberry Juice",
-    image: "https://media.giphy.com/media/7sLtuxs1yWFd498IOS/giphy.gif",
-    imageAlt: "A cranberry juice bath celebration",
-  },
-  {
-    id: 4,
+    id: 2,
     fact: "I Want The Best For You",
     image: "https://media.giphy.com/media/1iTX9tGRTTTVZb7q/giphy.gif",
     imageAlt: "Passionately cheering (America's Got Talent clip)",
   },
   {
+    id: 3,
+    fact: "Saturday = UFC",
+    image:
+      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWZ2YXV1ajRvNjJtMGRiZnFpNGN3aG15bGhhbzF4dzAxbnh3aDB1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qARUw4iCBoEnEP9rf2/giphy.webp",
+    imageAlt: "Israel Adesanya reminding you to believe in yourself",
+  },
+  {
+    id: 4,
+    fact: "I Love Komodo Dragons",
+    image: "https://media.giphy.com/media/3oEjI9ygZAmuVO6AJW/giphy.gif",
+    imageAlt: "Komodo Dragons hugging each other",
+  },
+  {
     id: 5,
+    fact: "I Never Run Out Of Cranberry Juice",
+    image: "https://media.giphy.com/media/7sLtuxs1yWFd498IOS/giphy.gif",
+    imageAlt: "A cranberry juice bath celebration",
+  },
+  {
+    id: 6,
     fact: "Cupcakes Are Not Safe Around Me",
     image: "https://media.giphy.com/media/QmEUZ8J1MRghVq1GRs/giphy.gif",
     imageAlt: "A Chad bro loving cupcakes",
   },
   {
-    id: 6,
+    id: 7,
     fact: "I Love Hiking",
     image: "https://media.giphy.com/media/3oxRmGNqKwCzJ0AwPC/giphy.gif",
     imageAlt: "Man falling into stream while hiking. #fail",
-  },
-  {
-    id: 7,
-    fact: "I Will Ask To Pet Your Dog",
-    image:
-      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXQyMmtpcXBkaDdxM3U2aHpkcmQzcHZtMDlmMGN3ZW5pN3Q3N3FsayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d6Pt6stxuVyLgPubXS/giphy.webp",
-    imageAlt: "JB Smoove petting a fluffy dog",
   },
 ];
 
@@ -460,21 +453,26 @@ export const personalExperiences = [
   {
     id: 0,
     experience:
-      "Leading cell tower builds taught me the true meaning of hard work. 6 days a week 12+ hours a day of hard labor makes me appreciate being back at a desk",
-    //image: towerStack,
+      'Supervising cell tower crews taught me the value of hard work and "leading from the front".',
+    image: towerTop,
+    awardLink: "",
     imageAlt: "Picture of me and my crew on the tower.",
   },
   {
     id: 1,
-    fact: "Being able to instill hope in incarcerated women was a highlight of my life. Feel free to ask me why this opportunity ended early",
+    experience:
+      "Instilling hope in incarcerated women was a life-changing experience. Feel free to ask me why it ended early.",
     image: persevereLogo1,
+    awardLink: "",
     imageAlt:
       "A group of women who decided to change their lives for the better",
   },
   {
     id: 2,
-    fact: "I achieved The National Intelligence Meritorious Unit Citation (NIMUC), which is an award of the National Intelligence Awards Program, for contributions to the United States Intelligence Community.",
+    experience:
+      "Still honored to have been awarded with a NIMUC during my time in the United States Intelligence Community.",
     image: nimuc,
+    awardLink: "https://inteliteams.com/nimuc",
     imageAlt: "A prestigious NSA award that I received.",
   },
 ];
