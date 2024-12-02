@@ -1,0 +1,118 @@
+@use "../../containers/App/base" as base;
+@use "../../components/Project/styles.scss" as project;
+
+@mixin linkTextTheme {
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 22px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 22px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 20px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.PersonalityContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.PersonalExperiences {
+  color: base.$text-color;
+  margin-top: 0%;
+}
+
+.NimucLink {
+  @include linkTextTheme;
+  color: base.$text-color;
+  //margin-left: 8vw;
+
+  @media screen and (max-width: 950px) {
+    margin-left: 20vw;
+  }
+}
+
+.NimucLink:hover {
+  color: base.$accent-color;
+}
+
+.PersonalExperiencesGraphic {
+  border-radius: 1rem;
+  cursor: pointer;
+  height: 28rem;
+  margin-bottom: 2%;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    width: 57rem;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    width: 57rem;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    width: 42rem;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    height: 18rem;
+    width: 18rem;
+  }
+}
+
+.NewFact {
+  transition: ease-in-out 300ms;
+  background-color: base.$background-color;
+  border: solid 1px base.$accent-color;
+  border-radius: 0.2rem;
+  color: base.$accent-color;
+  cursor: pointer;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    height: 3.5rem;
+    font-size: 24px;
+    width: 12rem;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    height: 3rem;
+    font-size: 20px;
+    width: 10rem;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    height: 2.5rem;
+    font-size: 16px;
+    width: 8rem;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    height: 1.5rem;
+    font-size: 12px;
+    width: 6rem;
+  }
+}
+
+.NewFact:hover {
+  transform: scale(1.13);
+  transition: ease-in-out 300ms;
+}
+
+.NewFact:active {
+  transition: ease-in-out 300ms;
+  background-color: base.$accent-color;
+  color: base.$background-color;
+}

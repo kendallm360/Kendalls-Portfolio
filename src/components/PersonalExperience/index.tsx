@@ -34,23 +34,28 @@ const PersonalExperience = () => {
 
   if (experience.awardLink !== "") {
     nimucInfo = (
-      <p className="Fact">
+      <p className="PersonalExperiences">
         {" "}
         Click{" "}
-        <a href={experience.awardLink} target="_blank" rel="noreferrer">
+        <a
+          className="NimucLink"
+          href={experience.awardLink}
+          target="_blank"
+          rel="noreferrer"
+        >
           here
         </a>{" "}
-        for more information about the NIMUC
+        for more information about the NIMUC.
       </p>
     );
   }
 
   return (
     <div className="PersonalityContent">
-      <h2 className="Fact">{experience.experience}</h2>
+      <h2 className="PersonalExperiences">{experience.experience}</h2>
       <h2>{nimucInfo}</h2>
       <img
-        className="FactGraphic"
+        className="PersonalExperiencesGraphic"
         src={experience.image}
         alt={experience.imageAlt}
         onClick={handleClick}
