@@ -11,6 +11,7 @@
 
 .Fact {
   @include project.subheaderTheme;
+  color: base.$text-color;
   margin-top: 0%;
 }
 

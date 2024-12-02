@@ -15,7 +15,7 @@ const Contact = () => {
     <section className="Contact">
       <h2 className="SectionHeader">
         <span className="TextWrapper">
-          <span className="SectionNumbers">04.</span> What's Next?
+          <span className="SectionNumbers">05.</span> What's Next?
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>

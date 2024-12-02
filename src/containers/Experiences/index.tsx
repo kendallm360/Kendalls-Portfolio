@@ -1,7 +1,5 @@
 import { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-// Replace with my personal/professional experiences that are not software
-//import MyBuilds from "../../components/MyBuilds";
 import Experience from "../../components/Experience";
 import { latestExperiences } from "../../utils/MockData";
 import PersonalExperience from "../../components/PersonalExperience";
@@ -39,9 +37,9 @@ const Experiences = () => {
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
         <div className="ViewSwitch">
           <h2 className="Professional">Professional</h2>
-          <label htmlFor="Switch Project" className="Switch">
+          <label htmlFor="Switch Experience" className="Switch">
             <input
-              id="Switch Project"
+              id="Switch Experience"
               type="Checkbox"
               onChange={handleChange}
             />
@@ -56,7 +54,7 @@ const Experiences = () => {
         <>
           <div className="Experiences">{latestExperiencesMapped}</div>
           <a
-            className="ResumeLink"
+            className="AppsLink"
             href="https://docs.google.com/document/d/1c8lBtkg1IFbXX0_SOSWfMeyi4hEb2m8h5YR2WtNHm8Y/edit?tab=t.0"
             target="_blank"
           >

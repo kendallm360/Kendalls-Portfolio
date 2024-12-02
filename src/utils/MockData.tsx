@@ -45,6 +45,7 @@ import persevereLogo5 from "../images/persevereLogo5.png";
 import persevereLogo1 from "../images/persevereLogo1.png";
 //import towerStack from "../images/towerStack.MP4";
 import nimuc from "../images/nimuc.png";
+import salesforce from "../images/salesforce.png";
 
 export const mySkills = [
   {
@@ -383,16 +384,15 @@ export const alternateSkills = [
 export const myBuilds = [
   {
     id: 0,
-    description:
-      "I supervised the build of this cell phone tower in Oneonta, New York. Unfortunately, I helped build many more towers in extremely cold places 😭",
-    image: towerBuild,
-    imageAlt: "350 foot tower that Kendall helped build",
-  },
-  {
-    id: 1,
     description: "Building a better future for my family.",
     image: firstHome,
     imageAlt: "Kendall buying his first home",
+  },
+  {
+    id: 1,
+    description: "Building a career in Salesforce.",
+    image: salesforce,
+    imageAlt: "Salesforce certifications that Kendall achieved.",
   },
 ];
 

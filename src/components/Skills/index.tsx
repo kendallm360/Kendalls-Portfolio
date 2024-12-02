@@ -36,7 +36,7 @@ const Skills = () => {
     <section className="Skills">
       <h2 className="SectionHeader">
         <span className="TextWrapper">
-          <span className="SectionNumbers">02.</span> What I Know?
+          <span className="SectionNumbers">04.</span> What I Know?
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
