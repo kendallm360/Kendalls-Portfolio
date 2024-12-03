@@ -46,8 +46,30 @@ import persevereLogo1 from "../images/persevereLogo1.png";
 //import towerStack from "../images/towerStack.MP4";
 import nimuc from "../images/nimuc.png";
 import salesforce from "../images/salesforce.png";
+import cbcpBadge from "../images/cbcpBadge.png";
+import sfAdmin from "../images/sfAdmin.png";
+import sfPAB from "../images/sfPAB.png";
+import sailpoint from "../images/sailpoint.png";
 
 export const mySkills = [
+  {
+    id: 0,
+    name: "Salesforce Admin Certification",
+    alt: "Salesforce Admin Certification",
+    logo: sfAdmin,
+  },
+  {
+    id: 0,
+    name: "Platform App Builder Certification",
+    alt: "Salesforce Platform App Builder Certification",
+    logo: sfPAB,
+  },
+  {
+    id: 0,
+    name: "CBCP Certification",
+    alt: "DRII CBCP Badge",
+    logo: cbcpBadge,
+  },
   {
     id: 0,
     name: "Next.js",
@@ -131,6 +153,18 @@ export const mySkills = [
   },
   */
   {
+    id: 17,
+    name: "MongoDB",
+    alt: "MongoDB logo",
+    logo: mongodb,
+  },
+  {
+    id: 17,
+    name: "Sailpoint",
+    alt: "Sailpoint logo",
+    logo: sailpoint,
+  },
+  {
     id: 13,
     name: "JWT",
     alt: "JWT logo",
@@ -155,14 +189,6 @@ export const mySkills = [
     alt: "NextAuth logo",
     logo: nextauth,
   },
-  */
-  {
-    id: 17,
-    name: "MongoDB",
-    alt: "MongoDB logo",
-    logo: mongodb,
-  },
-  /*
   {
     id: 18,
     name: "React Router",
@@ -363,9 +389,10 @@ export const alternateSkills = [
   },
   {
     id: 3,
-    title: "Investing in Innovation 🚀",
-    image: "https://media.giphy.com/media/524L7nbZSgvdv4woq0/giphy.gif",
-    imageAlt: "Kyle Massey joining the investment game",
+    title: "Leading",
+    image:
+      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3VjNDBvYzgwc2phdWpvaDU3MHN6bDIybG8xMmg5NXA5MzdvbG1oZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vIJaz7nMJhTUc/200.webp",
+    imageAlt: "Bigger duck leading a march for smaller ducks",
   },
   {
     id: 4,

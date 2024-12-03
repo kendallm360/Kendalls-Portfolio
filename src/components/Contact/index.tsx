@@ -15,7 +15,7 @@ const Contact = () => {
     <section className="Contact">
       <h2 className="SectionHeader">
         <span className="TextWrapper">
-          <span className="SectionNumbers">05.</span> What's Next?
+          <span className="SectionNumbers">05.</span> My Availability
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
@@ -39,12 +39,11 @@ const Contact = () => {
         <Buddies />
       ) : (
         <>
-          <h3 className="Beg">Hire Me</h3>
+          <h3 className="Beg">Looking to Hire?</h3>
           <p className="ActionItem">
-            Are you searching for a dedicated and team-oriented software
-            developer who thrives on challenges? Look no further. My passion for
-            learning extends beyond the front-end, making me a well-rounded
-            addition to the team.
+            While I am enjoying my current role at Fiserv and the contributions
+            I’m making, I am always open to exploring new opportunities that
+            align with my growth and career goals.
           </p>
           <div className="ButtonWrapper">
             <a href="mailto:mcgreekendall@gmail.com">
