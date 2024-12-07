@@ -49,7 +49,20 @@ const Skills = () => {
           <h2 className="Personality">Personality</h2>
         </div>
       </ScrollAnimation>
-      {checked ? <Talents /> : <div className="MySkills">{skills}</div>}
+      {checked ? (
+        <Talents />
+      ) : (
+        <>
+          <div className="MySkills">{skills}</div>
+          <a
+            className="AppsLink"
+            href="https://github.com/kendallm360"
+            target="_blank"
+          >
+            Full List
+          </a>
+        </>
+      )}
     </section>
   );
 };

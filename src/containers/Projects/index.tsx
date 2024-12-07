@@ -55,6 +55,7 @@ const Projects = () => {
           <a
             className="AppsLink"
             href="https://github.com/kendallm360?tab=repositories"
+            target="_blank"
           >
             Older Applications
           </a>

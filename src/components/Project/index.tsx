@@ -22,7 +22,9 @@ const Project = ({
     <section className="Project">
       <img className="ProjectLogo" src={logo} alt="broken" />
       <div className="ProjectInfo">
-        <h3 className="ProjectTitle">{name}</h3>
+        <a className="ProjectTitle" href={deployedLink} target="_blank">
+          {name}
+        </a>
         <p className="ProjectDescription">{description}</p>
         <p className="TopTechnologies">
           {topTechnologies[0]}
