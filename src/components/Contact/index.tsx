@@ -41,9 +41,9 @@ const Contact = () => {
         <>
           <h3 className="Beg">Looking to Hire?</h3>
           <p className="ActionItem">
-            While I am enjoying my current role at Fiserv and the contributions
-            I’m making, I am always open to exploring new opportunities that
-            align with my growth and career goals.
+            While I am enjoying my current role and the contributions I am
+            making at Fiserv, I am always open to exploring new opportunities
+            that align with my growth and career goals.
           </p>
           <div className="ButtonWrapper">
             <a href="mailto:mcgreekendall@gmail.com">

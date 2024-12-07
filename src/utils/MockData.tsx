@@ -50,6 +50,7 @@ import cbcpBadge from "../images/cbcpBadge.png";
 import sfAdmin from "../images/sfAdmin.png";
 import sfPAB from "../images/sfPAB.png";
 import sailpoint from "../images/sailpoint.png";
+import paintball from "../images/paintball.jpg";
 
 export const mySkills = [
   {
@@ -371,40 +372,46 @@ export const funFacts = [
 export const alternateSkills = [
   {
     id: 0,
+    title: "Shuffleboard",
+    image:
+      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVvd3Zlazhsa2JyNXJ0ZWY3YWNmNGJxMHJ6c2ZkaHE4ZWs4YWtwcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eF69aqtLplpLMavJk4/giphy.webp",
+    imageAlt: "Shuffleboard legend Danny Patrick jr. (I made that up)",
+  },
+  {
+    id: 1,
+    title: "Paintballing",
+    image: paintball,
+    imageAlt: "Paintballing with friends and losing",
+  },
+  {
+    id: 2,
     title: "Chess ♟️",
     image: "https://media.giphy.com/media/3o7ZetM6sGM1402sg0/giphy.gif",
     imageAlt: "Happily taking a chess piece midmatch",
   },
   {
-    id: 1,
-    title: "Movie Trivia 🎥",
-    image: "https://media.giphy.com/media/dXFSYoJMQntb3Pe6CV/giphy.gif",
-    imageAlt: "Snooty movie buff claiming to enjoy cinema",
-  },
-  {
-    id: 2,
+    id: 3,
     title: "Brazilian Jiu-Jitsu 🥋",
     image: bjj,
     imageAlt: "Me winning a jiu-jitsu match",
   },
   {
-    id: 3,
-    title: "Leading",
-    image:
-      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3VjNDBvYzgwc2phdWpvaDU3MHN6bDIybG8xMmg5NXA5MzdvbG1oZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vIJaz7nMJhTUc/200.webp",
-    imageAlt: "Bigger duck leading a march for smaller ducks",
+    id: 4,
+    title: "Cooking 👨🏾‍🍳",
+    image: "https://media.giphy.com/media/LRrHCZYvcKukTi3ayH/giphy.gif",
+    imageAlt: "Ed seasoning the food from the movie Good Burger",
   },
   {
-    id: 4,
+    id: 5,
     title: "Basketball (defense only) 🏀",
     image: "https://media.giphy.com/media/vzE7csLWN3uRW/giphy.gif",
     imageAlt: "Mean man blocking a child's layup",
   },
   {
-    id: 5,
-    title: "Cooking 👨🏾‍🍳",
-    image: "https://media.giphy.com/media/LRrHCZYvcKukTi3ayH/giphy.gif",
-    imageAlt: "Ed seasoning the food from the movie Good Burger",
+    id: 6,
+    title: "Movie Trivia 🎥",
+    image: "https://media.giphy.com/media/dXFSYoJMQntb3Pe6CV/giphy.gif",
+    imageAlt: "Snooty movie buff claiming to enjoy cinema",
   },
 ];
 
