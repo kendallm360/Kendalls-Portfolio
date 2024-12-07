@@ -8,7 +8,6 @@ import NavBar from "../../components/NavBar";
 import Skills from "../../components/Skills";
 import Projects from "../Projects";
 import Experiences from "../Experiences";
-
 import "./_base.scss";
 
 function App() {
