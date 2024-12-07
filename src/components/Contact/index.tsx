@@ -41,12 +41,15 @@ const Contact = () => {
         <>
           <h3 className="Beg">Looking to Hire?</h3>
           <p className="ActionItem">
-            While I am enjoying my current role and the contributions I am
-            making at Fiserv, I am always open to exploring new opportunities
-            that align with my growth and career goals.
+            I’m currently thriving in my role at Fiserv and proud of the
+            contributions I’m making. While I’m grateful for my position, I’m
+            open to exploring new opportunities that may better align with my
+            growth and long-term career goals. Although I’m no longer on
+            LinkedIn, I’m still easily reachable—feel free to get in touch by
+            clicking below.
           </p>
           <div className="ButtonWrapper">
-            <a href="mailto:mcgreekendall@gmail.com">
+            <a href="mailto:mcgreekendall@gmail.com" target="_blank">
               <button className="EmailMe">Hire</button>
             </a>
           </div>
