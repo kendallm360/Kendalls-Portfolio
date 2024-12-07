@@ -45,7 +45,7 @@ function App() {
     projectRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const handleExperience = () => {
+  const handleExperiences = () => {
     experienceRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -63,6 +63,7 @@ function App() {
         <section className="App">
           <div className="NavBarWrapper" ref={navRef}>
             <NavBar
+              handleExperiences={handleExperiences}
               handleNav={handleNav}
               handleAboutMe={handleAboutMe}
               handleSkills={handleSkills}

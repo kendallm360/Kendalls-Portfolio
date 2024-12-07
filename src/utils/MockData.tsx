@@ -440,15 +440,10 @@ export const latestExperiences = [
     subHeader: "October 2023 - Present",
     resumeBullets: [
       "Drove initiatives that led to a 42% reduction in support tickets and faster project completion, without sacrificing product quality.",
-      "Identified and resolved long-standing API bugs within SaaS product, improving product stability for Fiserv and other clients.",
-      "Volunteered to manage access control responsibilities during a 30% manpower decrease, successfully automating processes, reducing errors, and ensuring compliance with cybersecurity policies, demonstrating leadership and adaptability in the face of increasing workloads.",
-      "Serve as the team’s go-to source of knowledge on APIs and frontend development practices, leading technical discussions and enhancing team workflows.",
-      /*
-      "Earned three globally recognized certifications and actively led internal training on APIs, fostering team learning and improving workflows, highlighting continuous self-improvement and leadership in knowledge sharing within the team.",
-      "Collaborated with the HTML subject matter expert to enhance coding practices, improving readability, functionality, and maintainability of the codebase, leading to reduced bugs and easier troubleshooting, reflecting a focus on clean and scalable code.",
-      "Identified and resolved long-standing issues in the API layer of Business Continuity in the Cloud (BCIC), improving the product for Fiserv and other Fortune 500 clients, showcasing strong debugging skills and the ability to work on high-impact technical projects.",
-      "Spearheaded efforts to enhance tool performance, resulting in a 42% decrease in support tickets and an accelerated project timeline without compromising quality, demonstrating strong problem-solving skills and efficiency in development processes.",
-      */
+      "Identified and resolved long-standing API bugs in a SaaS product, enhancing product stability and performance for Fiserv and other Fortune 500 clients, resulting in improved user experience and client satisfaction.",
+      "Volunteered to manage access control responsibilities during a 30% manpower decrease, demonstrating leadership and adaptability under challenging conditions. Successfully automated access control processes, reducing errors and ensuring compliance with cybersecurity policies, improving overall accuracy and system security.",
+      "Serve as the team’s knowledge source on API and frontend development practices, leading technical discussions and enhancing team workflows.",
+      "My annual performance evaluation is available upon request.",
     ],
     certificationsAchieved: [
       "Certified Business Continuity Professional (CBCP)",
@@ -465,9 +460,10 @@ export const latestExperiences = [
     subHeader: "February 2023 - October 2023",
     resumeBullets: [
       "Developed comprehensive lesson plans for a full stack (MERN) web development curriculum tailored to meet the unique needs of learners within a women's correctional facility improving their hope by 100%",
-      "Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals",
-      "Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders",
-      "The curriculum I created for teaching is available upon request",
+      "Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals.",
+      "Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders.",
+      "Exhibited strong interpersonal skills and emotional intelligence while working with diverse individuals in tense situations, ensuring clear communication, conflict resolution, and a team-focused mindset.",
+      "The curriculum I created for teaching this course is available upon request.",
     ],
     certificationsAchieved: [
       "The curriculum I built for teaching is available upon request",
@@ -495,7 +491,7 @@ export const personalExperiences = [
   {
     id: 1,
     experience:
-      "Instilling hope in incarcerated women was a life-changing experience. Feel free to ask me why it ended early.",
+      "Instilling hope in incarcerated women was a life-changing experience. Feel free to ask me why this ended early.",
     image: persevereLogo1,
     awardLink: "",
     imageAlt:
