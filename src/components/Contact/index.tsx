@@ -41,10 +41,10 @@ const Contact = () => {
         <>
           <h3 className="Beg">Looking to Hire?</h3>
           <p className="ActionItem">
-            I’m currently thriving in my role at Fiserv and proud of the
-            contributions I’m making. While I’m grateful for my position, I’m
+            I’m currently thriving in my role at Fiserv and am proud of the
+            contributions I’ve made. While I’m grateful for my position, I’m
             open to exploring new opportunities that may better align with my
-            growth and long-term career goals. Although I’m no longer on
+            long-term growth and career goals. Although I’m no longer on
             LinkedIn, I’m still easily reachable—feel free to get in touch by
             clicking below.
           </p>

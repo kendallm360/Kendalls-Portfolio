@@ -55,15 +55,15 @@ import paintball from "../images/paintball.jpg";
 export const mySkills = [
   {
     id: 0,
-    name: "Salesforce Admin Certification",
-    alt: "Salesforce Admin Certification",
-    logo: sfAdmin,
+    name: "Certified Platform App Builder",
+    alt: "Salesforce Platform App Builder Certification",
+    logo: sfPAB,
   },
   {
     id: 0,
-    name: "Platform App Builder Certification",
-    alt: "Salesforce Platform App Builder Certification",
-    logo: sfPAB,
+    name: "Salesforce Certified Administrator",
+    alt: "Salesforce Admin Certification",
+    logo: sfAdmin,
   },
   {
     id: 0,
@@ -277,7 +277,7 @@ export const latestProjects = [
     //ADD THIS SOMEWHERE BELOW
     //CURRENTLY UNDER CONSTRUCTION. EXPECTED RELAUNCH FEBRUARY 1, 2025:
     description:
-      "A solo fullstack website. I used this project to showcase all that I have self taught in terms of Next.js, Prisma, MongoDB, Axios, and Zustand. The app allows users to gain insight on current movies, see curated movie suggestions, leave reviews, and manage watch and favorite lists.",
+      "A solo fullstack website. I used this project to showcase all that I have self taught in terms of Next.js, Prisma, MongoDB, Axios, and Zustand. The app allows users to gain insight on current movies, see curated movie suggestions, leave reviews, and manage watch and favorite lists. Make an account and leave a review on your favorite movie so I can add it to my watchlist.",
     topTechnologies: ["Next.js", "TypeScript"],
     repoLink: "https://github.com/Movie-Social/movie-social",
     deployedLink: "https://movie-social-club.vercel.app/auth",
@@ -500,7 +500,7 @@ export const personalExperiences = [
   {
     id: 2,
     experience:
-      "Still honored to have been awarded with a NIMUC during my time in the United States Intelligence Community.",
+      "Still honored to have been awarded with a NIMUC during my time serving the United States Intelligence Community.",
     image: nimuc,
     awardLink: "https://inteliteams.com/nimuc",
     imageAlt: "A prestigious NSA award that I received.",
