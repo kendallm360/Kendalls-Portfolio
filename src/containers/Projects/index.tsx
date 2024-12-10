@@ -30,7 +30,7 @@ const Projects = () => {
     <section className="ProjectWrapper">
       <h2 className="SectionHeader">
         <span className="TextWrapper">
-          <span className="SectionNumbers">03.</span> What I've Built?
+          <span className="SectionNumbers">03.</span> My Projects
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
@@ -55,6 +55,7 @@ const Projects = () => {
           <a
             className="AppsLink"
             href="https://github.com/kendallm360?tab=repositories"
+            target="_blank"
           >
             Older Applications
           </a>

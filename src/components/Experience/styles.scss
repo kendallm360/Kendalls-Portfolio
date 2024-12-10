@@ -1,0 +1,215 @@
+@use "../../containers/App/base" as base;
+
+@mixin subheaderTheme() {
+  color: base.$accent-color;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 22px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 20px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 18px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+@mixin descriptionTheme {
+  font-weight: 700;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 18px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 16px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 15px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
+}
+
+@mixin backgroundImage {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  //Mobile
+  @media screen and (max-width: 767px) {
+    opacity: 0.1;
+  }
+}
+
+.Experience {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 35vh;
+  width: 35vw;
+  // transition: ease-in-out 600ms;
+  border: solid 1px base.$accent-color;
+  border-radius: 1rem;
+  padding: 2.5%;
+  //opacity: 0.1;
+
+  //Tablets and smaller
+  @media screen and (max-width: 951px) {
+    height: 35vh;
+    width: 70vw;
+    margin-bottom: -2vh;
+  }
+}
+/*
+.Experience:hover {
+  .ExperienceInfo {
+    transition: ease-in-out 600ms;
+    opacity: 1;
+  }
+  .ExperienceLogo {
+    opacity: 0.1;
+    transition: ease-in-out 600ms;
+  }
+}
+  */
+
+.ExperienceLogo {
+  // @include backgroundImage;
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+}
+
+.ExperienceInfo {
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: start;
+  opacity: 1;
+  //transition: opacity 0.3s ease-in-out;
+
+  //Mobile
+  @media screen and (max-width: 767px) {
+    opacity: 1;
+  }
+
+  /*
+  .ProjectTitle,
+  .TopTechnologies {
+    @include subheaderTheme;
+  }
+
+  .ProjectDescription {
+    @include descriptionTheme;
+  }
+
+  .Divider {
+    color: base.$text-color;
+  }
+    */
+}
+
+.IntroRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CompanyLink {
+  color: base.$text-color;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.CompanyLink:hover {
+  color: base.$accent-color;
+}
+
+/*
+.ProjectLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    width: 18%;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    width: 25%;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    width: 15%;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    width: 25%;
+  }
+
+  .ProjectLinkIcon {
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+
+    //Desktop
+    @media screen and (min-width: 1351px) {
+      height: 2rem;
+      width: 2rem;
+    }
+    //Laptop
+    @media screen and (max-width: 1350px) {
+      height: 1.8rem;
+      width: 1.8rem;
+    }
+    //Tablet
+    @media screen and (max-width: 950px) {
+      height: 1.7rem;
+      width: 1.7rem;
+    }
+    //Mobile
+    @media screen and (max-width: 767px) {
+      height: 1.6rem;
+      width: 1.6rem;
+    }
+  }
+
+  .ProjectLinkIcon:hover {
+    transform: rotatey(360deg);
+  }
+
+  .ProjectLinkIcon:active {
+    transform: scale(1.3);
+  }
+}
+*/

@@ -7,6 +7,7 @@ import MyInfo from "../../components/MyInfo";
 import NavBar from "../../components/NavBar";
 import Skills from "../../components/Skills";
 import Projects from "../Projects";
+import Experiences from "../Experiences";
 import "./_base.scss";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   const aboutRef = useRef<any>(null);
   const skillsRef = useRef<any>(null);
   const projectRef = useRef<any>(null);
+  const experienceRef = useRef<any>(null);
   const contactRef = useRef<any>(null);
 
   const [loading, setLoading] = useState(false);
@@ -42,6 +44,10 @@ function App() {
     projectRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const handleExperiences = () => {
+    experienceRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const handleContact = () => {
     contactRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -56,6 +62,7 @@ function App() {
         <section className="App">
           <div className="NavBarWrapper" ref={navRef}>
             <NavBar
+              handleExperiences={handleExperiences}
               handleNav={handleNav}
               handleAboutMe={handleAboutMe}
               handleSkills={handleSkills}
@@ -72,12 +79,16 @@ function App() {
             <AboutMe />
           </div>
 
-          <div className="SkillsWrapper" ref={skillsRef}>
-            <Skills />
+          <div className="ExperienceWrapper" ref={experienceRef}>
+            <Experiences />
           </div>
 
           <div className="ProjectsWrapper" ref={projectRef}>
             <Projects />
+          </div>
+
+          <div className="SkillsWrapper" ref={skillsRef}>
+            <Skills />
           </div>
 
           <div className="ContactWrapper" ref={contactRef}>

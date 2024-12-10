@@ -36,7 +36,7 @@ const Skills = () => {
     <section className="Skills">
       <h2 className="SectionHeader">
         <span className="TextWrapper">
-          <span className="SectionNumbers">02.</span> What I Know?
+          <span className="SectionNumbers">04.</span> My Skills
         </span>
       </h2>
       <ScrollAnimation animateOnce animateIn="fadeInUp" delay={400}>
@@ -49,7 +49,20 @@ const Skills = () => {
           <h2 className="Personality">Personality</h2>
         </div>
       </ScrollAnimation>
-      {checked ? <Talents /> : <div className="MySkills">{skills}</div>}
+      {checked ? (
+        <Talents />
+      ) : (
+        <>
+          <div className="MySkills">{skills}</div>
+          <a
+            className="AppsLink"
+            href="https://github.com/kendallm360"
+            target="_blank"
+          >
+            Full List
+          </a>
+        </>
+      )}
     </section>
   );
 };

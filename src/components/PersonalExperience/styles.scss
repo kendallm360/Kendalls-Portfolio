@@ -1,6 +1,25 @@
 @use "../../containers/App/base" as base;
 @use "../../components/Project/styles.scss" as project;
 
+@mixin linkTextTheme {
+  //Desktop
+  @media screen and (min-width: 1351px) {
+    font-size: 22px;
+  }
+  //Laptop
+  @media screen and (max-width: 1350px) {
+    font-size: 22px;
+  }
+  //Tablet
+  @media screen and (max-width: 950px) {
+    font-size: 20px;
+  }
+  //Mobile
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
 .PersonalityContent {
   display: flex;
   flex-direction: column;
@@ -9,13 +28,26 @@
   align-content: center;
 }
 
-.Fact {
-  @include project.subheaderTheme;
+.PersonalExperiences {
   color: base.$text-color;
   margin-top: 0%;
 }
 
-.FactGraphic {
+.NimucLink {
+  @include linkTextTheme;
+  color: base.$text-color;
+  //margin-left: 8vw;
+
+  @media screen and (max-width: 950px) {
+    margin-left: 20vw;
+  }
+}
+
+.NimucLink:hover {
+  color: base.$accent-color;
+}
+
+.PersonalExperiencesGraphic {
   border-radius: 1rem;
   cursor: pointer;
   height: 28rem;

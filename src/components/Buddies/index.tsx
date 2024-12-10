@@ -10,7 +10,7 @@ const Buddies = () => {
         lonely on this keyboard, come help spice things up.
       </p>
       <div className="ButtonWrapper">
-        <a href="mailto:mcgreekendall@gmail.com">
+        <a href="mailto:mcgreekendall@gmail.com" target="_blank">
           <button className="Befriend EmailMe">Befriend</button>
         </a>
       </div>
