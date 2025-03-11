@@ -25,7 +25,7 @@ const MyInfo = () => {
             Hi, my name is <span className="Name">Kendall</span>
           </h1>
           <h2 className="Summary">
-            As a junior software developer, I’ve quickly become a{" "}
+            As a software developer, I’ve quickly become a{" "}
             <span className="KeyWord">key contributor</span>, driving impactful
             improvements in product quality and team efficiency.
           </h2>
