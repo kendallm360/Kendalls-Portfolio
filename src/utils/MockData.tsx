@@ -439,11 +439,11 @@ export const latestExperiences = [
     header: "Software Developer",
     subHeader: "October 2023 - Present",
     resumeBullets: [
-      "Drove initiatives that led to a 42% reduction in support tickets and faster project completion, without sacrificing product quality.",
-      "Identified and resolved long-standing API bugs in a SaaS product, enhancing product stability and performance for Fiserv and other Fortune 500 clients, resulting in improved user experience and client satisfaction.",
-      "Volunteered to manage access control responsibilities during a 30% manpower decrease, demonstrating leadership and adaptability under challenging conditions. Successfully automated access control processes, reducing errors and ensuring compliance with cybersecurity policies, improving overall accuracy and system security.",
-      "Serve as the team’s knowledge source on API and frontend development practices, leading technical discussions and enhancing team workflows.",
-      "My annual performance evaluation is available upon request.",
+      "Led initiatives to customize objects, fields, and page layouts, resulting in a 42% reduction in support tickets and faster project completion, while maintaining a high-quality user experience.",
+      "Resolved long-standing API integration issues, enhancing data flow between Fiserv and external systems, and improving system stability and the user experience for other Fortune 500 companies.",
+      "Managed user access control and role-based security during a 30% manpower reduction, automating profiles, permission sets, and sharing rules to enhance security, ensure compliance, and reduce errors.",
+      "Configured validation rules and workflow rules to ensure data integrity and enforce business logic.",
+      "Built and maintained custom reports and dashboards to track user activity and process performance.",
     ],
     certificationsAchieved: [
       "Certified Business Continuity Professional (CBCP)",
@@ -463,7 +463,6 @@ export const latestExperiences = [
       "Promoted educational equity, empowering incarcerated women with valuable skills, leading to 2% recidivism for graduates which is down from the national average of 60% recidivism for incarcerated individuals.",
       "Showcased ability to effectively communicate intricate code and complex technical concepts to non-technical stakeholders.",
       "Exhibited strong interpersonal skills and emotional intelligence while working with diverse individuals in tense situations, ensuring clear communication, conflict resolution, and a team-focused mindset.",
-      "The curriculum I created for teaching this course is available upon request.",
     ],
     certificationsAchieved: [
       "The curriculum I built for teaching is available upon request",
@@ -491,7 +490,7 @@ export const personalExperiences = [
   {
     id: 1,
     experience:
-      "Instilling hope in incarcerated women was a life-changing experience. Feel free to ask me why this ended early.",
+      "Instilling hope in incarcerated women was a life-changing experience.",
     image: persevereLogo1,
     awardLink: "",
     imageAlt:

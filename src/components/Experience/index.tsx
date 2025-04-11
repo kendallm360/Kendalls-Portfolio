@@ -22,7 +22,7 @@ const Experience = ({
   const resume = resumeBullets.map((bullet) => {
     return (
       <ul>
-        <li>{bullet}</li>
+        <li className="ResumeBullets">{bullet}</li>
       </ul>
     );
   });
