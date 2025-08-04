@@ -7,7 +7,7 @@ interface IProps {
   handleAboutMe: () => void;
   handleSkills: () => void;
   handleProject: () => void;
-  handleContact: () => void;
+  //handleContact: () => void;
   handleExperiences: () => void;
 }
 
@@ -16,7 +16,7 @@ const NavBar = ({
   handleAboutMe,
   handleSkills,
   handleProject,
-  handleContact,
+  // handleContact,
   handleExperiences,
 }: IProps) => {
   return (
@@ -40,9 +40,6 @@ const NavBar = ({
       </button>
       <button className="Navigation" onClick={handleSkills}>
         Skills
-      </button>
-      <button className="Navigation" onClick={handleContact}>
-        Contact
       </button>
       <a
         href="https://docs.google.com/document/d/1c8lBtkg1IFbXX0_SOSWfMeyi4hEb2m8h5YR2WtNHm8Y/edit?usp=sharing"
